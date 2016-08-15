@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a91bd0f_ce5ed4e9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-08-15T21:41:59Z",
+      "side": 1,
+      "message": "Is this in a commit of its own? Or is it part of the original sources? If it\u0027s a commit of its own, please add the SHA-1 here.",
+      "range": {
+        "startLine": 11,
+        "startChar": 38,
+        "endLine": 11,
+        "endChar": 62
+      },
+      "revId": "c1b7ed1dd6dbece780949afb26f0adfe0c59aec7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
