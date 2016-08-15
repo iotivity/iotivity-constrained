@@ -22,6 +22,30 @@
       "revId": "c1b7ed1dd6dbece780949afb26f0adfe0c59aec7",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_4e72c47d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-08-15T21:48:04Z",
+      "side": 1,
+      "message": "No. The hack was part of the original source. This commit got rid of it since the provisioning tool was fixed.",
+      "parentUuid": "9a91bd0f_ce5ed4e9",
+      "range": {
+        "startLine": 11,
+        "startChar": 38,
+        "endLine": 11,
+        "endChar": 62
+      },
+      "revId": "c1b7ed1dd6dbece780949afb26f0adfe0c59aec7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
