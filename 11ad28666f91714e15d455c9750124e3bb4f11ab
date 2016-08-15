@@ -22,6 +22,30 @@
       "revId": "11ad28666f91714e15d455c9750124e3bb4f11ab",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_8e58ccfb",
+        "filename": "apps/simpleserver.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-08-15T21:43:42Z",
+      "side": 1,
+      "message": "Yes. The idea was to return 2.04 code. Do you suggest that I add that detail to the commit message?",
+      "parentUuid": "9a91bd0f_0e559cc5",
+      "range": {
+        "startLine": 92,
+        "startChar": 28,
+        "endLine": 92,
+        "endChar": 35
+      },
+      "revId": "11ad28666f91714e15d455c9750124e3bb4f11ab",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
