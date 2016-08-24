@@ -1,0 +1,141 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a91bd0f_2ae3a3da",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 491,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-08-24T03:24:42Z",
+      "side": 1,
+      "message": "Hint: if your switch has a case for each enumeration, don\u0027t add a default: case.",
+      "revId": "d0e54c5e03e38adf02f2a642a7dd6d044386a3ad",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_8ad18ffd",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 498,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-08-24T03:24:42Z",
+      "side": 1,
+      "message": "Can you split the refactoring and commenting (which is good), alongside the fix to the \u0026 ? \u0026\u0026 to a separate commit before this one? It\u0027s difficult to review the actual changes due to the interface change.",
+      "revId": "d0e54c5e03e38adf02f2a642a7dd6d044386a3ad",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_cae797e3",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 499,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-08-24T03:24:42Z",
+      "side": 1,
+      "message": "To Do: refactor, void* is bad API.\n\nTo Do: stop using tabs.",
+      "range": {
+        "startLine": 498,
+        "startChar": 33,
+        "endLine": 499,
+        "endChar": 19
+      },
+      "revId": "d0e54c5e03e38adf02f2a642a7dd6d044386a3ad",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_aaced358",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 633,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-08-24T03:24:42Z",
+      "side": 1,
+      "message": "\"\u003e 0\" is wrong. The result could be negative and would still be right. \n\nYou wanted \"!\u003d 0\", which is the same as not having this check at all.",
+      "range": {
+        "startLine": 633,
+        "startChar": 49,
+        "endLine": 633,
+        "endChar": 50
+      },
+      "revId": "d0e54c5e03e38adf02f2a642a7dd6d044386a3ad",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_4adb871b",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 662,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-08-24T03:24:42Z",
+      "side": 1,
+      "message": "Nitpick: indentation is off.",
+      "range": {
+        "startLine": 662,
+        "startChar": 0,
+        "endLine": 662,
+        "endChar": 7
+      },
+      "revId": "d0e54c5e03e38adf02f2a642a7dd6d044386a3ad",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_6ad8cb1d",
+        "filename": "api/oc_server_api.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-08-24T03:24:42Z",
+      "side": 1,
+      "message": "Whitespace change. Let\u0027s do it all in one commit.",
+      "revId": "d0e54c5e03e38adf02f2a642a7dd6d044386a3ad",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_0adedf11",
+        "filename": "include/oc_core_res.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-08-24T03:24:42Z",
+      "side": 1,
+      "message": "This function will need refactoring soon. Too many parameters. It should be one structure.",
+      "revId": "d0e54c5e03e38adf02f2a642a7dd6d044386a3ad",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
