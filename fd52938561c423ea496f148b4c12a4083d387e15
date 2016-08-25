@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_f517dc4f",
+        "filename": "include/oc_ri.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-08-25T02:43:00Z",
+      "side": 1,
+      "message": "Don\u0027t expose the header, but copy the actual values.\n\nIn the .c file, we can do a static_assert() that the values are correct and map 1:1 to the expected values in the CoAP API.",
+      "parentUuid": "9a91bd0f_1564c020",
+      "revId": "fd52938561c423ea496f148b4c12a4083d387e15",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_35f4645a",
         "filename": "include/oc_ri.h",
         "patchSetId": 1
