@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a91bd0f_f55fdc70",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 664,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-08-25T00:29:34Z",
+      "side": 1,
+      "message": "What happens if you observe something that isn\u0027t observable?",
+      "revId": "ff4d872f508c8974f59467c9ba327366391323ca",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_d55ad882",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 679,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-08-25T00:29:34Z",
+      "side": 1,
+      "message": "This function can fail, can\u0027t it? \n\nToDo: verify whether the addition failed, if it did, reply with error to caller. The CoAP spec probably indicates what error that is.",
+      "revId": "ff4d872f508c8974f59467c9ba327366391323ca",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
