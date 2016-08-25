@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_35c224ea",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-08-25T01:47:02Z",
+      "side": 1,
+      "message": "Good point. Yes, we want this to be on ROM.",
+      "parentUuid": "9a91bd0f_f5d6fcc4",
+      "revId": "fd52938561c423ea496f148b4c12a4083d387e15",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_15efe088",
         "filename": "include/oc_ri.h",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "9a91bd0f_1564c020",
+        "filename": "include/oc_ri.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-08-25T01:47:02Z",
+      "side": 1,
+      "message": "The table in oc_ri.c currently does that mapping, so for eg. setting OC_STATUS_OK through the application API will internally translate to the integer 69 (2.05 response code). I guess I had initially made it this way to not expose the original CoAP header (which defines those values) to apps (since oc_api.h includes oc_ri.h), and to more generally keep the CoAP messaging layer as distinct as possible so it could be swapped out for something else (DDS?) internally with #ifdefs. But perhaps I was overthinking this. So, yes, we could choose to simply define all those values directly over here and get rid of the table.",
+      "parentUuid": "9a91bd0f_15efe088",
+      "revId": "fd52938561c423ea496f148b4c12a4083d387e15",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a91bd0f_35f4645a",
         "filename": "include/oc_ri.h",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2016-08-25T00:41:02Z",
       "side": 1,
       "message": "Hint: it\u0027s a good practice to *not* include the \"count of\" enumerations in the enum in the enum itself. Instead, put it in a separate enum:\n\n enum { NUM_OC_STATUS_CODES \u003d OC_STATUS_PROXYING_NOT_SUPPORTED + 1 };\n\nThat way, you can use the exhaustive-switch solution and then the compiler warns if you forgot any entry.\n\nBut you won\u0027t need the count if we drop the need for the array itself, if you use a 1:1 mapping.",
+      "revId": "fd52938561c423ea496f148b4c12a4083d387e15",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a91bd0f_3569c4f9",
+        "filename": "include/oc_ri.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-08-25T01:47:02Z",
+      "side": 1,
+      "message": "Good point. Will change that.",
+      "parentUuid": "9a91bd0f_35f4645a",
       "revId": "fd52938561c423ea496f148b4c12a4083d387e15",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
