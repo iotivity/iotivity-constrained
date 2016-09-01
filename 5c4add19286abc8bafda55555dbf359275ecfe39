@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a9dcd25_4f5dfde8",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 316,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-01T02:41:17Z",
+      "side": 0,
+      "message": "I don\u0027t understand this removal. According to RFC 7641, a resource that is being observed must include the Observe header in the response. Why are you removing the code that adds it?",
+      "range": {
+        "startLine": 314,
+        "startChar": 0,
+        "endLine": 316,
+        "endChar": 2
+      },
+      "revId": "5c4add19286abc8bafda55555dbf359275ecfe39",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
