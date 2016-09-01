@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a9dcd25_8fd54545",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-01T02:13:15Z",
+      "side": 1,
+      "message": "This can\u0027t be an #else or I misunderstood you. A build can be both client and server.\n\nIn any case, the only difference seems to be the count, so you should just merge the two branches:\n\nOC_MEMB(event_callbacks_s, oc_event_callback_t,\n#ifdef OC_SERVER\n        MAX_APP_RESOURCES +\n#endif\n#ifdef OC_CLIENT\n        MAX_NUM_CONCURRENT_REQUESTS +\n#endif\n        NUM_OC_CORE_RESOURCES);",
+      "revId": "0cb29e4473414203769cd70258a52c1d1083149a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a9dcd25_4fcf3db1",
+        "filename": "deps/tinydtls/dtls_config.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-01T02:13:15Z",
+      "side": 1,
+      "message": "This is not WITH_OCF, since it\u0027s }} defined(WITH_OCF) above",
+      "revId": "0cb29e4473414203769cd70258a52c1d1083149a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a9dcd25_efc3a988",
+        "filename": "deps/tinydtls/dtls_config.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-01T02:13:15Z",
+      "side": 1,
+      "message": "Why is our variable named differently? I suggest naming it the same and here you\u0027d do #ifndef DTLS_PEER_MAX",
+      "revId": "0cb29e4473414203769cd70258a52c1d1083149a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a9dcd25_0fc13580",
+        "filename": "deps/tinydtls/dtls_config.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-01T02:13:15Z",
+      "side": 1,
+      "message": "Ditto.",
+      "revId": "0cb29e4473414203769cd70258a52c1d1083149a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a9dcd25_afbda104",
+        "filename": "port/linux/config.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-01T02:13:15Z",
+      "side": 1,
+      "message": "I suggest renaming this \"OC_CONF_TICKS_PER_SECOND\"",
+      "revId": "0cb29e4473414203769cd70258a52c1d1083149a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
