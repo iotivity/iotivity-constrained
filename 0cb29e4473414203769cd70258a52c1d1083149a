@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1a9dcd25_6f88f922",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-01T05:22:55Z",
+      "side": 1,
+      "message": "You\u0027re right. It was a minor oversight on my part. I\u0027ll just keep the same count for both.",
+      "parentUuid": "1a9dcd25_8fd54545",
+      "revId": "0cb29e4473414203769cd70258a52c1d1083149a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a9dcd25_4fcf3db1",
         "filename": "deps/tinydtls/dtls_config.h",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "1a9dcd25_0f79352f",
+        "filename": "deps/tinydtls/dtls_config.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-01T05:22:55Z",
+      "side": 1,
+      "message": "Line 40 checks if it is either Contiki or OCF, line 41 checks if its Contiki, in which case lines 42-46 apply, if not its OCF.",
+      "parentUuid": "1a9dcd25_4fcf3db1",
+      "revId": "0cb29e4473414203769cd70258a52c1d1083149a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a9dcd25_efc3a988",
         "filename": "deps/tinydtls/dtls_config.h",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2016-09-01T02:13:15Z",
       "side": 1,
       "message": "Why is our variable named differently? I suggest naming it the same and here you\u0027d do #ifndef DTLS_PEER_MAX",
+      "revId": "0cb29e4473414203769cd70258a52c1d1083149a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a9dcd25_afc36137",
+        "filename": "deps/tinydtls/dtls_config.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-01T05:22:55Z",
+      "side": 1,
+      "message": "Because TinyDTLS\u0027s Contiki port separately chooses the number of concurrent sessions and the # of concurrent handshakes. Whereas for IoTivity-Constrained I\u0027ve set them both \u003d to the number of sessions, which is configurable using the single MAX_DTLS_PEERS. Might revisit this if necessary before upstreaming the tinyDTLS changes.",
+      "parentUuid": "1a9dcd25_efc3a988",
       "revId": "0cb29e4473414203769cd70258a52c1d1083149a",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -81,6 +135,24 @@
       "writtenOn": "2016-09-01T02:13:15Z",
       "side": 1,
       "message": "I suggest renaming this \"OC_CONF_TICKS_PER_SECOND\"",
+      "revId": "0cb29e4473414203769cd70258a52c1d1083149a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a9dcd25_4f873d10",
+        "filename": "port/linux/config.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-01T05:22:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a9dcd25_afbda104",
       "revId": "0cb29e4473414203769cd70258a52c1d1083149a",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
