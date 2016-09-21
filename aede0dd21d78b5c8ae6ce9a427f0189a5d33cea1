@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7095c5_1fabab8a",
+        "filename": "include/oc_api.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-21T18:32:28Z",
+      "side": 1,
+      "message": "Please rename to user_data for consistency with the other APIs.",
+      "revId": "aede0dd21d78b5c8ae6ce9a427f0189a5d33cea1",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
