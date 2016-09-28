@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7095c5_38fec06c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-28T17:56:59Z",
+      "side": 1,
+      "message": "Incomplete message?",
+      "revId": "f89b9e852f6a444c4b2c6f7c048141d8234df26a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_58037473",
+        "filename": "deps/tinydtls/ecc/ecc.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 344,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-28T17:56:59Z",
+      "side": 1,
+      "message": "Not random. If p_left is not zero, you should call oc_random_rand() again. Otherwise, you\u0027re reusing the last random value again.",
+      "revId": "f89b9e852f6a444c4b2c6f7c048141d8234df26a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
