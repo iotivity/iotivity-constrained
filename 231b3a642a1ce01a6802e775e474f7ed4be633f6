@@ -16,6 +16,24 @@
       "revId": "231b3a642a1ce01a6802e775e474f7ed4be633f6",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_784af884",
+        "filename": "deps/tinydtls/prng.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-28T20:30:37Z",
+      "side": 0,
+      "message": "Yes, I\u0027ll just merge this commit and the previous commit.",
+      "parentUuid": "da7095c5_183c1c2f",
+      "revId": "231b3a642a1ce01a6802e775e474f7ed4be633f6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
