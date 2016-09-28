@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da7095c5_d81c64c4",
+        "filename": "api/oc_main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-28T18:29:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7095c5_b875f033",
+      "revId": "1816134884a4c26411e3ad34efb1e9efe829a854",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7095c5_9894ac38",
         "filename": "api/oc_main.c",
         "patchSetId": 1
@@ -30,6 +48,30 @@
       "writtenOn": "2016-09-28T17:37:44Z",
       "side": 1,
       "message": "const oc_handler_t *",
+      "range": {
+        "startLine": 39,
+        "startChar": 13,
+        "endLine": 39,
+        "endChar": 27
+      },
+      "revId": "1816134884a4c26411e3ad34efb1e9efe829a854",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_787998fb",
+        "filename": "api/oc_main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-28T18:29:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7095c5_9894ac38",
       "range": {
         "startLine": 39,
         "startChar": 13,
@@ -76,6 +118,24 @@
     },
     {
       "key": {
+        "uuid": "da7095c5_987eece3",
+        "filename": "apps/client_linux.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-28T18:29:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7095c5_788f5824",
+      "revId": "1816134884a4c26411e3ad34efb1e9efe829a854",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7095c5_589e1458",
         "filename": "apps/client_zephyr.c",
         "patchSetId": 1
@@ -87,6 +147,24 @@
       "writtenOn": "2016-09-28T17:37:44Z",
       "side": 1,
       "message": "static",
+      "revId": "1816134884a4c26411e3ad34efb1e9efe829a854",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_588854e7",
+        "filename": "apps/client_zephyr.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-28T18:29:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7095c5_589e1458",
       "revId": "1816134884a4c26411e3ad34efb1e9efe829a854",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -116,6 +194,30 @@
     },
     {
       "key": {
+        "uuid": "da7095c5_f86cc838",
+        "filename": "apps/client_zephyr.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-28T18:29:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7095c5_3899e06e",
+      "range": {
+        "startLine": 140,
+        "startChar": 2,
+        "endLine": 140,
+        "endChar": 8
+      },
+      "revId": "1816134884a4c26411e3ad34efb1e9efe829a854",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7095c5_f8a28899",
         "filename": "apps/sensor_interrupt_server_zephyr.c",
         "patchSetId": 1
@@ -133,6 +235,24 @@
     },
     {
       "key": {
+        "uuid": "da7095c5_186adc1a",
+        "filename": "apps/sensor_interrupt_server_zephyr.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-28T18:29:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7095c5_f8a28899",
+      "revId": "1816134884a4c26411e3ad34efb1e9efe829a854",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7095c5_18a09c8f",
         "filename": "include/oc_signal_event_loop.h",
         "patchSetId": 1
@@ -144,6 +264,24 @@
       "writtenOn": "2016-09-28T17:37:44Z",
       "side": 1,
       "message": "This file has just become private API. Should the function here be moved to a header clearly marked internal?",
+      "revId": "1816134884a4c26411e3ad34efb1e9efe829a854",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_d84544b4",
+        "filename": "include/oc_signal_event_loop.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-28T18:29:42Z",
+      "side": 1,
+      "message": "Thats correct. The function is implemented in oc_main but is invoked by a couple of other internal modules. I suppose I could in a later commit move it to a directory include/internal if that helps clarify it.",
+      "parentUuid": "da7095c5_18a09c8f",
       "revId": "1816134884a4c26411e3ad34efb1e9efe829a854",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
