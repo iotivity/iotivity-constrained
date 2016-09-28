@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da7095c5_b8573026",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-28T20:30:16Z",
+      "side": 1,
+      "message": "I think I\u0027ll keep the modulo.",
+      "parentUuid": "da7095c5_98bb4cc4",
+      "range": {
+        "startLine": 266,
+        "startChar": 16,
+        "endLine": 266,
+        "endChar": 53
+      },
+      "revId": "99af40f2280958caf21fecaee9a370bedbc0ae80",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7095c5_d8c0e42c",
         "filename": "port/linux/random.c",
         "patchSetId": 1
@@ -42,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "da7095c5_38448073",
+        "filename": "port/linux/random.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-28T20:30:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7095c5_d8c0e42c",
+      "revId": "99af40f2280958caf21fecaee9a370bedbc0ae80",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7095c5_b8dad015",
         "filename": "port/zephyr/src/random.c",
         "patchSetId": 1
@@ -53,6 +95,24 @@
       "writtenOn": "2016-09-28T17:50:53Z",
       "side": 1,
       "message": "This is not random at all. It\u0027s completely predictable.\n\nPlease add a big \"FIXME\".",
+      "revId": "99af40f2280958caf21fecaee9a370bedbc0ae80",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_984fcc92",
+        "filename": "port/zephyr/src/random.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-09-28T20:30:16Z",
+      "side": 1,
+      "message": "Yes, last I checked there wasn\u0027t an implementation in Zephyr. I will add a FIXME message.",
+      "parentUuid": "da7095c5_b8dad015",
       "revId": "99af40f2280958caf21fecaee9a370bedbc0ae80",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
