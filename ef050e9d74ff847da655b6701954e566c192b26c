@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7095c5_bb6baa84",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-29T00:09:23Z",
+      "side": 1,
+      "message": "Well, the modulo is completely superfluous. It won\u0027t add absolutely any value to your code and will always be optimised out of existence. It\u0027s actually better to have a plain assignment than to do this modulo.\n\nThe cast, however, may solve a cast warning (not default in GCC): when casting from an unsigned int to uint16_t, the compiler could complain.",
+      "revId": "ef050e9d74ff847da655b6701954e566c192b26c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
