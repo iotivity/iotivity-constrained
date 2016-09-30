@@ -1,0 +1,146 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7095c5_67b011f5",
+        "filename": "port/riot/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-30T21:26:51Z",
+      "side": 1,
+      "message": "See the discussion on the mailing list. I\u0027d rather you inverted the default for this and the other ports:\n\n ifneq ($(SECURE),0)",
+      "revId": "308d7316771e710f5967d0b015cc645267f2bd08",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_a78dc933",
+        "filename": "port/riot/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-30T21:26:51Z",
+      "side": 1,
+      "message": "Technically, linker flags. I don\u0027t know if there\u0027s a better variable for them.",
+      "revId": "308d7316771e710f5967d0b015cc645267f2bd08",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_6787b110",
+        "filename": "port/riot/README",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-30T21:26:51Z",
+      "side": 1,
+      "message": "Why? Is their source bad or are we tripping their warnings?",
+      "range": {
+        "startLine": 3,
+        "startChar": 37,
+        "endLine": 4,
+        "endChar": 22
+      },
+      "revId": "308d7316771e710f5967d0b015cc645267f2bd08",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_2779b92f",
+        "filename": "port/riot/clock.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-30T21:26:51Z",
+      "side": 1,
+      "message": "ceil() takes double, which the parameter isn\u0027t.",
+      "revId": "308d7316771e710f5967d0b015cc645267f2bd08",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_a794e937",
+        "filename": "port/riot/clock.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-30T21:26:51Z",
+      "side": 1,
+      "message": "Ditto.",
+      "revId": "308d7316771e710f5967d0b015cc645267f2bd08",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_e7a9817c",
+        "filename": "port/riot/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-30T21:26:51Z",
+      "side": 1,
+      "message": "static volatile bool terminate;",
+      "revId": "308d7316771e710f5967d0b015cc645267f2bd08",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_a7bb89c3",
+        "filename": "port/riot/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-30T21:26:51Z",
+      "side": 1,
+      "message": "We changed the multicast address.",
+      "revId": "308d7316771e710f5967d0b015cc645267f2bd08",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_47b06ddd",
+        "filename": "port/riot/storage.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-09-30T21:26:51Z",
+      "side": 1,
+      "message": "Add a line to mark the parameter as used:\n\n  (void)store;\n\nIt\u0027s usually useful to declare that a macro, like OC_UNUSED(x)",
+      "revId": "308d7316771e710f5967d0b015cc645267f2bd08",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
