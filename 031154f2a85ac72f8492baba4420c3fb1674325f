@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7095c5_87f8c4e6",
+        "filename": "port/riot/clock.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-10-01T23:09:41Z",
+      "side": 1,
+      "message": "What\u0027s the +1 for? Maybe you want instead to write:\n\n    (oc_clock_time_t)((xtimer_now64() + 999) / 1000)\n\nThe +999 makes it round up. To round to nearest, use +500.",
+      "revId": "031154f2a85ac72f8492baba4420c3fb1674325f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_27dd3871",
+        "filename": "port/riot/storage.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-10-01T23:09:41Z",
+      "side": 1,
+      "message": "Well, we\u0027ll need to do this to all sources, not just this function.",
+      "revId": "031154f2a85ac72f8492baba4420c3fb1674325f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
