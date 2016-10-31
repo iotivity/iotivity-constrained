@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_fc859dad",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 804,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-10-31T16:43:59Z",
+      "side": 1,
+      "message": "To be clear, I was suggesting that you revert all changes to this file (i.e. setting a delayed callback) and instead call coap_notify_observers(...) directly here as before. \nIn the absence of a specific policy for delayed execution (since the delay is currently set to 0), it might be best to avoid the overhead of allocating/freeing a timed callback.",
+      "revId": "0868e422b3826c0922d86d9140fbcf4f79cd7050",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
