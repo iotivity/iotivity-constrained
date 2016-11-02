@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_8dcc7537",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 804,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-11-02T21:08:55Z",
+      "side": 1,
+      "message": "Following our e-mail exchange, I am accepting this change since it indirectly enforces that any related observe responses always follow the PUT/POST response, which would make it correct.",
+      "revId": "5c855115cf292550a850384fac65302122421d1b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
