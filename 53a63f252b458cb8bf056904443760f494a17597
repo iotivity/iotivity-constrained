@@ -46,6 +46,30 @@
       "revId": "53a63f252b458cb8bf056904443760f494a17597",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_75319b0a",
+        "filename": "LICENSE.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2016-11-09T07:21:16Z",
+      "side": 1,
+      "message": "Just delete these lines. Each file has its copyright notice.",
+      "parentUuid": "1a76adc5_1574e7cd",
+      "range": {
+        "startLine": 1,
+        "startChar": 19,
+        "endLine": 1,
+        "endChar": 27
+      },
+      "revId": "53a63f252b458cb8bf056904443760f494a17597",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
