@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_d5d74fec",
+        "filename": "apps/simpleclient.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-11-09T00:53:10Z",
+      "side": 1,
+      "message": "The flow over here was written to match IoTivity\u0027s simpleclient sample: GET-\u003ePUT-\u003ePOST-\u003ePOST-\u003eOBSERVE. So, you should probably revert all changes to this file.",
+      "revId": "e77c7f6b6c2a840b2a8c5aa692d7f2a531e2bc6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
