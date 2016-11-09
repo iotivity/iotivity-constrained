@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a76adc5_f0d7f9eb",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-11-09T19:51:32Z",
+      "side": 1,
+      "message": "I think this is wrong the way it is. It needs to be either \n@mkdir -p $(@D) \nOR \n@mkdir -p $(dir $@)\nWhat you currently have here ends up mistakenly creating irrelevant hierarchies of directories under obj/.",
+      "revId": "082f0f60bf22d6f870a30582797950a50dada1fc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_b0098197",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-11-09T19:51:32Z",
+      "side": 1,
+      "message": "Ditto.",
+      "revId": "082f0f60bf22d6f870a30582797950a50dada1fc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a76adc5_50feed6c",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-11-09T19:51:32Z",
+      "side": 1,
+      "message": "Ditto.",
+      "revId": "082f0f60bf22d6f870a30582797950a50dada1fc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
