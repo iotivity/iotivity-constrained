@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_2e4bcb5a",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-12-16T01:07:10Z",
+      "side": 1,
+      "message": "Please take this out. strings.h is absent in some toolchains and the build fails on them. They however have an implementation of strncasecmp that is declared in string.h. This however isn\u0027t the case with Zephyr, but I suppose we could get rid of the \"implicit declaration\" warning by adding a declaration in this file such as \nextern int strncasecmp(const char *s1, const char *s2, size_t n);",
+      "revId": "66e0a77e2d69c5fde6737c8fa450da6a7d70e76c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_ee2623ba",
+        "filename": "port/zephyr/src/clock.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-12-16T01:07:10Z",
+      "side": 1,
+      "message": "Use  k_uptime_get_32() instead. It returns a 32-bit timestamp in ms.\n\nBut since IoTivity-Constrained expects time in \"clock ticks\" (per any provided definition), you will have to also modify port/zephyr/config.h to \ncontain:\n#define OC_CLOCK_CONF_TICKS_PER_SECOND (1000)\n\nThis would set the meaning of 1 tick \u003d 1 ms and the time would be tracked correctly.",
+      "revId": "66e0a77e2d69c5fde6737c8fa450da6a7d70e76c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_0e2cc798",
+        "filename": "port/zephyr/src/clock.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-12-16T01:07:10Z",
+      "side": 1,
+      "message": "Change this to \nreturn oc_clock_time() / OC_CLOCK_SECOND;\n\nOC_CLOCK_SECOND would map to (1000) as a result of the suggested change above to config.h.",
+      "revId": "66e0a77e2d69c5fde6737c8fa450da6a7d70e76c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_ce255fac",
+        "filename": "port/zephyr/src/clock.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-12-16T01:07:10Z",
+      "side": 1,
+      "message": "Run the code style script to fix the style for all the source in your patch. (if the script happens to modify other files, ignore those changes, i.e. don\u0027t push them)",
+      "revId": "66e0a77e2d69c5fde6737c8fa450da6a7d70e76c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_6e3a33cf",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-12-16T01:07:10Z",
+      "side": 1,
+      "message": "Use K_FOREVER instead of TICKS_UNLIMITED",
+      "revId": "66e0a77e2d69c5fde6737c8fa450da6a7d70e76c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_8e3757e3",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2016-12-16T01:07:10Z",
+      "side": 1,
+      "message": "Specify -CONFIG_NUM_COOP_PRIORITIES in place of the number 7 in the argument list here for all the three calls to k_thread_spawn.\nWe want these threads to follow co-operative scheduling and not be preemptible. (that used to be the nature of fibers in the nanokernel design) Cooperative threads take a negative priority value. Setting a priority \u003e\u003d0 would end up making them preemptible. \nAt the moment, I think we should assign the highest priority to these threads, as reflected by that kernel config param.",
+      "revId": "66e0a77e2d69c5fde6737c8fa450da6a7d70e76c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
