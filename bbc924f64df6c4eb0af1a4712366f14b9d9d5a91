@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_adc001e1",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-01-26T16:46:41Z",
+      "side": 1,
+      "message": "why are doing it with this header ?\nThis is an internal header and it\u0027s pretty common internal headers using \"\". From gcc documentation\n\n\"It searches for a file named file first in the directory containing the current file, then in the quote directories and then the same directories used for \u003cfile\u003e\"\n\nI\u0027m curious why are you doing it for this header and not for the others below.",
+      "revId": "bbc924f64df6c4eb0af1a4712366f14b9d9d5a91",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
