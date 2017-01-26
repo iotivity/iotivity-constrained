@@ -16,6 +16,24 @@
       "revId": "bbc924f64df6c4eb0af1a4712366f14b9d9d5a91",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_f05d7e16",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-01-26T23:13:34Z",
+      "side": 1,
+      "message": "I assume this comment was directed at me",
+      "parentUuid": "9adffdf1_adc001e1",
+      "revId": "bbc924f64df6c4eb0af1a4712366f14b9d9d5a91",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
