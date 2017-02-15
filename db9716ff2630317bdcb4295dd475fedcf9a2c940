@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_08ffa968",
+        "filename": "security/oc_cred.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-15T03:16:32Z",
+      "side": 1,
+      "message": "Actually creds-\u003ekey isn\u0027t null-terminated. But we know the length (16) since we currently only accept 128-bit keys. So, you could simply replace this with the constant 16.",
+      "range": {
+        "startLine": 79,
+        "startChar": 37,
+        "endLine": 79,
+        "endChar": 43
+      },
+      "revId": "db9716ff2630317bdcb4295dd475fedcf9a2c940",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
