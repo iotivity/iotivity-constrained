@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_8e4e41c0",
+        "filename": "api/oc_client_api.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 345,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-16T20:14:43Z",
+      "side": 1,
+      "message": "You should copy and paste this block in the ..v4 function as the uri_query is freed inside dispatch_coap_request().",
+      "revId": "1ec49a2f83fef486bc9def488c1ce2821244de34",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_ee4fcdbc",
+        "filename": "api/oc_client_api.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 356,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-16T20:14:43Z",
+      "side": 1,
+      "message": "One thing that comes to mind here is duplicates when the receiver supports both V4 and V6. We should be creating a new client_cb_t object for V4 as you currently are, but should probably copy the mid and token values from the prior V6 request\u0027s cb to this new cb for the V4 request. This would give the server an opportunity to drop one of the two requests, and respond to the other. I haven\u0027t yet added history tracking logic on the server side to catch duplicates (currently in my TODO), and thats a separate task.\nThe alloc_client_cb() function populates mid and token with random values, so you will have to do this copy after obtaining the cb handle, and before calling prepare_coap_request().",
+      "revId": "1ec49a2f83fef486bc9def488c1ce2821244de34",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_6ecbdd1e",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-16T20:14:43Z",
+      "side": 1,
+      "message": "This should probably be sm-\u003esin_port \u003d dtls_port. We should be able to reuse the assigned DTLS port (that the V6 secure socket is already bound to) with the V4 secure socket since both sockets are bound to different IP addresses.",
+      "revId": "1ec49a2f83fef486bc9def488c1ce2821244de34",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_0ed251d2",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 395,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-16T20:14:43Z",
+      "side": 1,
+      "message": "You could probably get rid of lines 395-399. They were there in the V6 initialization only to obtain the assigned DTLS port after that socket was bound. We don\u0027t do that here.",
+      "revId": "1ec49a2f83fef486bc9def488c1ce2821244de34",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
