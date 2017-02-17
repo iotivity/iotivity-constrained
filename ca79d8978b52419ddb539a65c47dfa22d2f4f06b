@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_22ac0935",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-17T21:03:22Z",
+      "side": 1,
+      "message": "We might need an all: ${all} target to build everything. Did you intentionally exclude it? When I ty this Makefile as-is (and simply run make) it builds only libiotivity-constrained-server.a.",
+      "revId": "ca79d8978b52419ddb539a65c47dfa22d2f4f06b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
