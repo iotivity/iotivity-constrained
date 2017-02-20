@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9adffdf1_45b117e0",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 469,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2017-02-20T07:51:33Z",
+      "side": 1,
+      "message": "Please follow the coding style.\nif (add_mcast_sock_to_ipv6_multicast_group(ALL_OCF_NODES_LL) \u003c 0)\n{\n    return -1;\n}",
+      "revId": "f2fde9b5ca209e24e561e9f8d51d746d9960b023",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_65b45bd1",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 471,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2017-02-20T07:51:33Z",
+      "side": 1,
+      "message": "Please follow the coding style.\n{\n    return -1\n}",
+      "revId": "f2fde9b5ca209e24e561e9f8d51d746d9960b023",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9adffdf1_05cb0f54",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 473,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2017-02-20T07:51:33Z",
+      "side": 1,
+      "message": "Please follow the coding style.\n{\n    return -1;\n}",
+      "revId": "f2fde9b5ca209e24e561e9f8d51d746d9960b023",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
