@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_2d49ad8b",
+        "filename": "port/windows/clock.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-02-27T19:45:10Z",
+      "side": 1,
+      "message": "why you simply do \nreturn (unsigned long)time(0);",
+      "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_ada6fd51",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-02-27T19:45:10Z",
+      "side": 1,
+      "message": "Is it make sense if the mutex couldn\u0027t be initialized properly ?",
+      "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_2d720de6",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-02-27T19:45:10Z",
+      "side": 1,
+      "message": "if HEXWIDTH is only used in the function bellow, after its usage please do #undef HEXWIDTH to keep it scope limited.",
+      "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_0d6dd104",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-02-27T19:45:10Z",
+      "side": 1,
+      "message": "is it used only for debug purpose ? If yes, i think it\u0027s a good idea put it under #ifdef DEBUG ... #endif",
+      "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_8d80e18c",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 313,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-02-27T19:45:10Z",
+      "side": 1,
+      "message": "I\u0027ve checked and the linux port is doing the same, but it seems don\u0027t make sense. select() is blocking the mainloop only for the send_sock, why simply don\u0027t call sendto() ?\n\nI\u0027ll check/send a patch for the linux port.",
+      "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_4d4af984",
+        "filename": "port/windows/random.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-02-27T19:45:10Z",
+      "side": 1,
+      "message": "in linux we are getting it from /dev/urandom, wouldn\u0027t be better we use rand_s() here ?",
+      "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
