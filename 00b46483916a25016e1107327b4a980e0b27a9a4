@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_6d87b562",
+        "filename": "messaging/coap/engine.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-27T05:49:30Z",
+      "side": 1,
+      "message": "Needs to be OC_DEBUG.",
+      "revId": "00b46483916a25016e1107327b4a980e0b27a9a4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_0d7cf171",
+        "filename": "messaging/coap/engine.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-27T05:49:30Z",
+      "side": 1,
+      "message": "Needs to be OC_DEBUG.",
+      "revId": "00b46483916a25016e1107327b4a980e0b27a9a4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_8d8f8175",
+        "filename": "security/oc_acl.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-27T05:49:30Z",
+      "side": 1,
+      "message": "Needs to be OC_DEBUG.",
+      "revId": "00b46483916a25016e1107327b4a980e0b27a9a4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_2df8cde4",
+        "filename": "security/oc_acl.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-27T05:49:30Z",
+      "side": 1,
+      "message": "Needs to be OC_DEBUG.",
+      "revId": "00b46483916a25016e1107327b4a980e0b27a9a4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_ad8cbd80",
+        "filename": "security/oc_acl.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-27T05:49:30Z",
+      "side": 1,
+      "message": "Needs to be OC_DEBUG.",
+      "revId": "00b46483916a25016e1107327b4a980e0b27a9a4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_4de99919",
+        "filename": "security/oc_acl.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-27T05:49:30Z",
+      "side": 1,
+      "message": "Needs to be OC_DEBUG.",
+      "revId": "00b46483916a25016e1107327b4a980e0b27a9a4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_6deed524",
+        "filename": "security/oc_acl.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 462,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-27T05:49:30Z",
+      "side": 1,
+      "message": "Needs to be OC_DEBUG.",
+      "revId": "00b46483916a25016e1107327b4a980e0b27a9a4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_0df3910b",
+        "filename": "security/oc_acl.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 473,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-02-27T05:49:30Z",
+      "side": 1,
+      "message": "Needs to be OC_DEBUG.",
+      "revId": "00b46483916a25016e1107327b4a980e0b27a9a4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
