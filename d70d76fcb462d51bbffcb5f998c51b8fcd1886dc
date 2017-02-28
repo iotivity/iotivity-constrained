@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_1083aacd",
+        "filename": "port/windows/clock.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 11359
+      },
+      "writtenOn": "2017-02-28T16:15:51Z",
+      "side": 1,
+      "message": "Agreed. The variable was for temporarily debugging purposes.",
+      "parentUuid": "5ac10518_2d49ad8b",
+      "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_ada6fd51",
         "filename": "port/windows/ipadapter.c",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2017-02-27T19:45:10Z",
       "side": 1,
       "message": "Is it make sense if the mutex couldn\u0027t be initialized properly ?",
+      "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_50c7f212",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 11359
+      },
+      "writtenOn": "2017-02-28T16:15:51Z",
+      "side": 1,
+      "message": "We could only abort() in this case, should be also done in Linux port.",
+      "parentUuid": "5ac10518_ada6fd51",
       "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_308826e7",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 11359
+      },
+      "writtenOn": "2017-02-28T16:15:51Z",
+      "side": 1,
+      "message": "Agreed.",
+      "parentUuid": "5ac10518_2d720de6",
+      "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_0d6dd104",
         "filename": "port/windows/ipadapter.c",
         "patchSetId": 2
@@ -64,6 +118,24 @@
       "writtenOn": "2017-02-27T19:45:10Z",
       "side": 1,
       "message": "is it used only for debug purpose ? If yes, i think it\u0027s a good idea put it under #ifdef DEBUG ... #endif",
+      "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_d06c4239",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 11359
+      },
+      "writtenOn": "2017-02-28T16:15:51Z",
+      "side": 1,
+      "message": "Yes, it is only for debugging purposes. I\u0027ll use #ifdefs here.",
+      "parentUuid": "5ac10518_0d6dd104",
       "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_f0693e26",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 313,
+      "author": {
+        "id": 11359
+      },
+      "writtenOn": "2017-02-28T16:15:51Z",
+      "side": 1,
+      "message": "The Window port is going along with the Linux port as much as possible. I did not spent time in improving it yet, but I will integrate all Linux changes if they make sense for Windows as well.",
+      "parentUuid": "5ac10518_8d80e18c",
+      "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_4d4af984",
         "filename": "port/windows/random.c",
         "patchSetId": 2
@@ -98,6 +188,24 @@
       "writtenOn": "2017-02-27T19:45:10Z",
       "side": 1,
       "message": "in linux we are getting it from /dev/urandom, wouldn\u0027t be better we use rand_s() here ?",
+      "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_50605235",
+        "filename": "port/windows/random.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 11359
+      },
+      "writtenOn": "2017-02-28T16:15:51Z",
+      "side": 1,
+      "message": "Agreed. I will change this to rand_s()",
+      "parentUuid": "5ac10518_4d4af984",
       "revId": "d70d76fcb462d51bbffcb5f998c51b8fcd1886dc",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
