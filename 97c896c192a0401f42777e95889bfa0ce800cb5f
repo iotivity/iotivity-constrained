@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_276d4605",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-06T03:06:35Z",
+      "side": 1,
+      "message": "next is set before it is used.",
+      "revId": "97c896c192a0401f42777e95889bfa0ce800cb5f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_4772d2e6",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-06T03:06:35Z",
+      "side": 1,
+      "message": "This is not necessary as it is only written into in a resource handler.",
+      "revId": "97c896c192a0401f42777e95889bfa0ce800cb5f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_0774cacd",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-06T03:06:35Z",
+      "side": 1,
+      "message": "This is set and used only if necessary on line 326.",
+      "revId": "97c896c192a0401f42777e95889bfa0ce800cb5f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_e7765ed8",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-06T03:06:35Z",
+      "side": 1,
+      "message": "Ditto.",
+      "revId": "97c896c192a0401f42777e95889bfa0ce800cb5f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_8768baf6",
+        "filename": "util/oc_etimer.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-06T03:06:35Z",
+      "side": 1,
+      "message": "All 3 variables are set before they\u0027re used.",
+      "revId": "97c896c192a0401f42777e95889bfa0ce800cb5f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_67634e1b",
+        "filename": "util/oc_etimer.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-06T03:06:35Z",
+      "side": 1,
+      "message": "This is set in line 244 before it is used.",
+      "revId": "97c896c192a0401f42777e95889bfa0ce800cb5f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
