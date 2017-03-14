@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_db8c5682",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-14T22:11:27Z",
+      "side": 1,
+      "message": "You could probably remove lines 144 and 145 now since you\u0027re already doing a check on line 143.",
+      "revId": "7241ed6232c4311f15708fab9648198e80ebc57c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_7be9a219",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-14T22:11:27Z",
+      "side": 1,
+      "message": "Seems like you need to add a check here. Perhaps you could copy lines 188-189 and paste them after line 275?",
+      "revId": "7241ed6232c4311f15708fab9648198e80ebc57c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_fb959288",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 285,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-14T22:11:27Z",
+      "side": 1,
+      "message": "Seems like you need to add a check here before line 285? This is because except for the map type, all other types don\u0027t have a check following their last operation.",
+      "revId": "7241ed6232c4311f15708fab9648198e80ebc57c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
