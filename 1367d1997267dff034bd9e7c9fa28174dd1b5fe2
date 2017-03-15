@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_3b9f9a05",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-03-15T22:01:24Z",
+      "side": 1,
+      "message": "I see why this ifdef is necessary, but I don\u0027t like, the code is becoming hard to follow/debug due the number of ifdefs.\nNow, this is the only way, but I\u0027m wondering whether we should have constructor/destructor in oc_memb to avoid this and the code bellow. So, oc_memb_alloc() would call the constructor that does this internal malloc.",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_5ba4e656",
+        "filename": "api/oc_buffer.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-03-15T22:01:24Z",
+      "side": 1,
+      "message": "the same thing here",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_7b820254",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-03-15T22:01:24Z",
+      "side": 1,
+      "message": "it\u0027s necessary check the whether the allocation has worked. If didn\u0027t, it is probably better abort here.",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_9b87ae61",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-03-15T22:01:24Z",
+      "side": 1,
+      "message": "it\u0027s necessary to check here too",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_fb24b2c7",
+        "filename": "apps/client_block_linux.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-03-15T22:01:24Z",
+      "side": 1,
+      "message": "those are the default values, do you think it\u0027s worth do this ?\nOther think, I\u0027m thinking that maybe it\u0027s better we have dummy implementation of these functions, when it was build without dynamic support we just log it. In this way the application will not need to deal with this #ifdef",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_1b22deb9",
+        "filename": "include/oc_buffer_settings.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-03-15T22:01:24Z",
+      "side": 1,
+      "message": "well, this functions declaration should be inside a #ifdef OC_DYNAMIC_ALLOCATION sice they are only defined when this option is set",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
