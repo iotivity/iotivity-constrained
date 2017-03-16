@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_fb47d149",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-16T00:29:11Z",
+      "side": 1,
+      "message": "hmm...not sure.. the thing is oc_memb is an independent module that allocates memory for structures. But not all those structures have internal buffers. When we statically allocate such structures, those buffers are defined inside the structures themselves where their sizes are fixed. However, when we do dynamic allocation we have the opportunity to alter those sizes at runtime, and this patch allows that flexibility.\nApplications can call oc_set_max_app_data_size() to affect the size of this buffer.",
+      "parentUuid": "5ac10518_3b9f9a05",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_5ba4e656",
         "filename": "api/oc_buffer.c",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_3b6559e1",
+        "filename": "api/oc_buffer.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-16T00:29:11Z",
+      "side": 1,
+      "message": "Same as with oc_blockwise. oc_message_t is one other structure that has an internal buffer. The size of this buffer signifies the maximum packet size that will fit into a UDP packet. This can be controlled by an application at runtime by calling oc_set_mtu_size(). Based on the MTU size, the function computes the maximum allowable block size. Then OC_PDU_SIZE becomes \u003e\u003d block_size + COAP_MAX_HEADER_SIZE (which is fixed).",
+      "parentUuid": "5ac10518_5ba4e656",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_7b820254",
         "filename": "api/oc_core_res.c",
         "patchSetId": 2
@@ -47,6 +83,24 @@
       "writtenOn": "2017-03-15T22:01:24Z",
       "side": 1,
       "message": "it\u0027s necessary check the whether the allocation has worked. If didn\u0027t, it is probably better abort here.",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_db61b5d4",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-16T00:29:11Z",
+      "side": 1,
+      "message": "Yes, we should abort here.",
+      "parentUuid": "5ac10518_7b820254",
       "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -87,6 +141,24 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_9b9b2dc9",
+        "filename": "apps/client_block_linux.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-16T00:29:11Z",
+      "side": 1,
+      "message": "No, those are not defaults. They are runtime settings. This application asserts that the max ever app payload size will be 2048, and MTU size is 300. So, block size will be set to 256, and any payload exceeding this size will be sent block-wise. Thats the logic. If we had set 800 instead of 300, it would fix the block size at 512. \nWhen we do this statically, the #define OC_BLOCK_WISE_SET_MTU () setting in config.h specifies this. But when we do this dynamically, this can vary as required using those APIs. Those APIs don\u0027t exist on the static build, hence they\u0027re inside #ifdef since these are the examples that exercise it. \nIf we don\u0027t call these APIs, MAX_APP_DATA_SIZE is set to 2048, BLOCK SIZE is set to 1024 and MTU SIZE is set to 1024 + MAX_HEADER_SIZE. These defaults are set in oc_main.c where these APIs are defined.\nBy the way, MAX_APP_DATA_SIZE is the buffer size that is used by the cbor encoder.",
+      "parentUuid": "5ac10518_fb24b2c7",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_1b22deb9",
         "filename": "include/oc_buffer_settings.h",
         "patchSetId": 2
@@ -98,6 +170,24 @@
       "writtenOn": "2017-03-15T22:01:24Z",
       "side": 1,
       "message": "well, this functions declaration should be inside a #ifdef OC_DYNAMIC_ALLOCATION sice they are only defined when this option is set",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_bba069f5",
+        "filename": "include/oc_buffer_settings.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-16T00:29:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5ac10518_1b22deb9",
       "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
