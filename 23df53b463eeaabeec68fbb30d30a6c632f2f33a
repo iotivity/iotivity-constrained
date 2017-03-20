@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_7ecf4fb1",
+        "filename": "port/zephyr/prj.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2017-03-20T11:42:13Z",
+      "side": 1,
+      "message": "isnt it a separate change ?",
+      "revId": "23df53b463eeaabeec68fbb30d30a6c632f2f33a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
