@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_9e2c7b4c",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-20T18:02:11Z",
+      "side": 1,
+      "message": "Definitely - we can think about what, if, how to refactor things in oc_memb or elsewhere to reduce the no. of #ifdefs on account of this feature. The initial goal here was to add dynamic support by working around the existing setup for constrained builds as far as possible, and that goal was achieved. And I have run all the samples through valgrind to ensure there are no memory leaks in the dynamic build.",
+      "parentUuid": "5ac10518_1e72cb7c",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_5ba4e656",
         "filename": "api/oc_buffer.c",
         "patchSetId": 2
