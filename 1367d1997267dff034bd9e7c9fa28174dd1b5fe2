@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "5ac10518_1e72cb7c",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 211
+      },
+      "writtenOn": "2017-03-20T17:38:59Z",
+      "side": 1,
+      "message": "I see your point and what you said is correct, I understood why you are doing it, my concern is the number of IFDEF spread around the code, I think we can remove most of them.\nFor the static allocation nothing will change, but for the dynamic we can automatically create these internal buffers (if they have pre-defined initial sizes).\n\nTough it will require more changes, probably in oc_memb and OC_MEMB().\n\nIt\u0027s just something for we keep in mind.",
+      "parentUuid": "5ac10518_fb47d149",
+      "revId": "1367d1997267dff034bd9e7c9fa28174dd1b5fe2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_5ba4e656",
         "filename": "api/oc_buffer.c",
         "patchSetId": 2
