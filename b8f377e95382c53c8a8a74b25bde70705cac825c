@@ -51,6 +51,24 @@
       "revId": "b8f377e95382c53c8a8a74b25bde70705cac825c",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_a10598c3",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-21T18:12:30Z",
+      "side": 1,
+      "message": "\u003e My understanding returning 10, 20, or 30 is not helpful. I think 3 is a \n\u003e reasonable value: the number of notifications we sent. \n\nNo, the value that is actually useful over here is if the resource has 0 observers. It is used on the server side only to tear down any pending periodic callbacks to coap_notify_observers(). Any value \u003e\u003d1 when there are observers is fine to return. So, your change is probably fine. The code was previously just returning num_observers for that resource instead which would produce the same result.\n\n\u003e What prompted me to do this was the case where we pass \n\u003e resource\u003d\u003dNULL and endpoint!\u003dNULL.\n\nYes, this is precisely the issue I spoke about in my other comment. This needs to be fixed and I will post a fix for it. Even when we have the payload and endpoint (which is the case for a separate response), we need to know which resource it is sending from. Once fixed, we will never have a case of resource \u003d\u003d NULL and endpoint !\u003d NULL.",
+      "parentUuid": "5ac10518_c16304b0",
+      "revId": "b8f377e95382c53c8a8a74b25bde70705cac825c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
