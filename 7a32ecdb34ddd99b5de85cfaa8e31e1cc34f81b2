@@ -16,6 +16,24 @@
       "revId": "7a32ecdb34ddd99b5de85cfaa8e31e1cc34f81b2",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_e1e64044",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 354
+      },
+      "writtenOn": "2017-03-21T16:23:31Z",
+      "side": 1,
+      "message": "Thanks for spotting the typo. Indeed is better. Will do that.",
+      "parentUuid": "5ac10518_21dd2871",
+      "revId": "7a32ecdb34ddd99b5de85cfaa8e31e1cc34f81b2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
