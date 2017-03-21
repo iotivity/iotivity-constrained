@@ -69,6 +69,24 @@
       "revId": "b8f377e95382c53c8a8a74b25bde70705cac825c",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_81141cf6",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 354
+      },
+      "writtenOn": "2017-03-21T18:23:26Z",
+      "side": 1,
+      "message": "Thanks for clarification. If \"resource !\u003d NULL\" is invalid, then my example above can be ignored, as there\u0027s always only one resource involved. ;-)\n\nI still suggest you define the return value as the number of separated notifications that were sent, which will be \"num_observers\" when endpoint \u003d\u003d NULL, or some value between 0 and \"num_observers\" when endpoint !\u003d NULL. Or, if you don\u0027t care about the counting, just return whether notifications were sent or not.",
+      "parentUuid": "5ac10518_a10598c3",
+      "revId": "b8f377e95382c53c8a8a74b25bde70705cac825c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
