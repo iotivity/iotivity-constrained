@@ -33,6 +33,24 @@
       "revId": "b8f377e95382c53c8a8a74b25bde70705cac825c",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_c16304b0",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 354
+      },
+      "writtenOn": "2017-03-21T17:38:30Z",
+      "side": 1,
+      "message": "What prompted me to do this was the case where we pass resource\u003d\u003dNULL and endpoint!\u003dNULL.\n\nIn this scenario, imagine that this specific endpoint is observing three different resources (each one observed by other 9, 19, and 29 endpoints). The numbers are exaggerated here to make easier understand.\n\n- /res/1 has num_observers \u003d 10\n- /res/2 has num_observers \u003d 20\n- /res/3 has num_observers \u003d 30\n\nWhat value we should return?\n\nMy understanding returning 10, 20, or 30 is not helpful. I think 3 is a reasonable value: the number of notifications we sent. Another option is return 1 (number of different endpoints we talked to).",
+      "parentUuid": "5ac10518_c13c6496",
+      "revId": "b8f377e95382c53c8a8a74b25bde70705cac825c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
