@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_01bb4c0f",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-21T17:27:03Z",
+      "side": 1,
+      "message": "This particular fix is correct. \nBut I just noticed another issue here, which has always been there, that even if we have supply response payload, we should also be sending the resource handle (and not NULL) in the call to coap_notify_observers() since if we match only by endpoint, that same endpoint could\u0027ve subscribed to multiple resources. This issue (and this logic) is only present when we\u0027re sending notifications from a \"slow\" resource via the separate response mechanism, and not otherwise. I\u0027ll post a fix for it.",
+      "revId": "b8f377e95382c53c8a8a74b25bde70705cac825c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_c13c6496",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-03-21T17:27:03Z",
+      "side": 1,
+      "message": "I think this isn\u0027t necessary because the resource itself keeps track of its number of observers, and all you have to do is read it here.. \nThe goal is to return the number of observers (# of clients observing this resource) to its caller so it can tear down any periodic callbacks when that number reaches 0.\nI guess your change here might not alter that behavior since any returned num_observers from inside this block will be \u003e\u003d1.",
+      "revId": "b8f377e95382c53c8a8a74b25bde70705cac825c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
