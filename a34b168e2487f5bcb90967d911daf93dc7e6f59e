@@ -2,6 +2,46 @@
   "comments": [
     {
       "key": {
+        "uuid": "5ac10518_e9029ab3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-03T23:36:56Z",
+      "side": 1,
+      "message": "Please write some more and provide the *motivation* for such a feature.",
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_e954dacb",
+        "filename": "port/zephyr/prj.conf",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-03T23:36:56Z",
+      "side": 1,
+      "message": "Please default to n",
+      "range": {
+        "startLine": 3,
+        "startChar": 16,
+        "endLine": 3,
+        "endChar": 17
+      },
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac10518_89467622",
         "filename": "port/zephyr/src/ipadapter.c",
         "patchSetId": 3
@@ -18,6 +58,219 @@
         "startChar": 0,
         "endLine": 37,
         "endChar": 37
+      },
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_a95ed2e7",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-03T23:36:56Z",
+      "side": 1,
+      "message": "Agreed. IPv6 is required, IPv4 is optional, so don\u0027t enable what isn\u0027t needed.\n\nYou could declare this as\n\n  static __attribute__((unused)) struct net_context udp_recv4;\n\nTo avoid the #ifdef and have the compiler not complain about the unused static variable, but the code must be inside #ifdef.",
+      "parentUuid": "5ac10518_89467622",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 37
+      },
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_6958eafa",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-03T23:36:56Z",
+      "side": 1,
+      "message": "Hint: simplify and reduce code duplication by doing:\n\n    else\n  #endif\n    if (family \u003d\u003d AF_INET6)",
+      "range": {
+        "startLine": 110,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 33
+      },
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_c9631eb0",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-03T23:36:56Z",
+      "side": 1,
+      "message": "AF_INET6",
+      "range": {
+        "startLine": 122,
+        "startChar": 24,
+        "endLine": 122,
+        "endChar": 31
+      },
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_a90572c3",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-03T23:36:56Z",
+      "side": 1,
+      "message": "Remove the static. This does not need to survive across invocations.\n\nI understand the IPv6 code has static. That\u0027s a mistake. Don\u0027t repeat the mistake.",
+      "range": {
+        "startLine": 243,
+        "startChar": 0,
+        "endLine": 244,
+        "endChar": 44
+      },
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_895d16ec",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-03T23:36:56Z",
+      "side": 1,
+      "message": "DHCP should not be in IoTivity code. The set up of the networking stack is not IoTivity\u0027s business. IoTivity should assume that any required IP addresses have already been assigned. Alternatively, it can watch for addresses being assigned and interfaces being brought up, then bind to them.",
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_e96b7a83",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-03T23:36:56Z",
+      "side": 1,
+      "message": "const struct sockaddr *",
+      "range": {
+        "startLine": 262,
+        "startChar": 37,
+        "endLine": 262,
+        "endChar": 54
+      },
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_c90a3ed2",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 268,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-03T23:36:56Z",
+      "side": 1,
+      "message": "Resource leak: you need to net_context_unref udp_recv4 here and in all the next error paths.",
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_690f8ae2",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 285,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-03T23:36:56Z",
+      "side": 1,
+      "message": "Resource leak: you need to net_context_unref mcast_recv4 here and in the next error paths.",
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_891436f6",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-03T23:36:56Z",
+      "side": 1,
+      "message": "Need to be fixed in another commit: drop the static.",
+      "range": {
+        "startLine": 317,
+        "startChar": 0,
+        "endLine": 318,
+        "endChar": 46
+      },
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_29f982c8",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 448,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-03T23:36:56Z",
+      "side": 1,
+      "message": "OC_IPV4",
+      "range": {
+        "startLine": 448,
+        "startChar": 7,
+        "endLine": 448,
+        "endChar": 11
       },
       "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
