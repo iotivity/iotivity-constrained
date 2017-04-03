@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_89467622",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-04-03T23:11:22Z",
+      "side": 1,
+      "message": "OCF requires IPv6.  Why is there IPv4 in here?\nAt best, everything should be inside\n#ifdef OC_IPV4\nso that normal compilation does not need to be bloated with any IPv4-only code",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 37
+      },
+      "revId": "a34b168e2487f5bcb90967d911daf93dc7e6f59e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
