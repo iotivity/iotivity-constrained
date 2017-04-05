@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac10518_349f9a61",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-05T04:47:29Z",
+      "side": 1,
+      "message": "Comment about DHCP is still valid. Remove this line.",
+      "revId": "a185932802ea89bb24e1b72e7a63af4638fbe873",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac10518_549ca669",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 17
+      },
+      "writtenOn": "2017-04-05T04:47:29Z",
+      "side": 1,
+      "message": "This does net_context_put(udp_recv4) without having succeeded in get. That\u0027s wrong.\n\nThis also does net_context_put(mcast_recv4) before the get. Also wrong.",
+      "revId": "a185932802ea89bb24e1b72e7a63af4638fbe873",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
