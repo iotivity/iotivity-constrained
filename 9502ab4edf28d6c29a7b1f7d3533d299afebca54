@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1acb0d3e_881206b3",
+        "filename": "port/zephyr/prj.conf",
+        "patchSetId": 6
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-04-18T23:50:51Z",
+      "side": 1,
+      "message": "why is DHCPV4 a yes if IPV4 is a no in line 3?",
+      "range": {
+        "startLine": 16,
+        "startChar": 18,
+        "endLine": 16,
+        "endChar": 19
+      },
+      "revId": "9502ab4edf28d6c29a7b1f7d3533d299afebca54",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_480c1e95",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-04-18T23:50:51Z",
+      "side": 1,
+      "message": "why isn\u0027t this inside the #ifdef?\nIf OC_IPV4 isn\u0027t defined, when would this be false?\nSame question on all the other occurrences in the rest of the file.",
+      "range": {
+        "startLine": 118,
+        "startChar": 10,
+        "endLine": 118,
+        "endChar": 33
+      },
+      "revId": "9502ab4edf28d6c29a7b1f7d3533d299afebca54",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_6811daab",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-04-18T23:50:51Z",
+      "side": 1,
+      "message": "bad indentation",
+      "range": {
+        "startLine": 188,
+        "startChar": 0,
+        "endLine": 188,
+        "endChar": 1
+      },
+      "revId": "9502ab4edf28d6c29a7b1f7d3533d299afebca54",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_a87ee2e2",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-04-18T23:50:51Z",
+      "side": 1,
+      "message": "all other functions in this file start with oc_",
+      "range": {
+        "startLine": 243,
+        "startChar": 0,
+        "endLine": 243,
+        "endChar": 1
+      },
+      "revId": "9502ab4edf28d6c29a7b1f7d3533d299afebca54",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
