@@ -25,6 +25,23 @@
     },
     {
       "key": {
+        "uuid": "1acb0d3e_a33125a4",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2017-04-19T03:33:59Z",
+      "side": 1,
+      "message": "I think prefix not require space..",
+      "revId": "9502ab4edf28d6c29a7b1f7d3533d299afebca54",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_480c1e95",
         "filename": "port/zephyr/src/ipadapter.c",
         "patchSetId": 6
@@ -42,6 +59,40 @@
         "endLine": 118,
         "endChar": 33
       },
+      "revId": "9502ab4edf28d6c29a7b1f7d3533d299afebca54",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_c30231b4",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2017-04-19T03:33:59Z",
+      "side": 1,
+      "message": "remove space",
+      "revId": "9502ab4edf28d6c29a7b1f7d3533d299afebca54",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_e3ff2da9",
+        "filename": "port/zephyr/src/ipadapter.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2017-04-19T03:33:59Z",
+      "side": 1,
+      "message": "remove space",
       "revId": "9502ab4edf28d6c29a7b1f7d3533d299afebca54",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
