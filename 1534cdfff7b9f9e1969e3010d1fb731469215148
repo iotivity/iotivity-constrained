@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1acb0d3e_9283da55",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 364,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T20:31:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead. Use a message like \"insufficient memory to add timed event callback\".",
+      "revId": "1534cdfff7b9f9e1969e3010d1fb731469215148",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_b2861664",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T20:31:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead. Use a message like \"insufficient memory to add periodic observe callback\".",
+      "revId": "1534cdfff7b9f9e1969e3010d1fb731469215148",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_527d726d",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1194,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T20:31:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead. Use a message like \"insufficient memory to add client callback\".",
+      "revId": "1534cdfff7b9f9e1969e3010d1fb731469215148",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_f2b49e36",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T20:31:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead. Use a message like \"insufficient memory to add new observer\".",
+      "revId": "1534cdfff7b9f9e1969e3010d1fb731469215148",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_d2b9622f",
+        "filename": "messaging/coap/separate.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T20:31:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead. Use a message like \"insufficient memory to store new request for separate response\".",
+      "revId": "1534cdfff7b9f9e1969e3010d1fb731469215148",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_12b04a42",
+        "filename": "messaging/coap/transactions.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T20:31:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead. Use a message like \"insufficient memory to create transaction\".",
+      "revId": "1534cdfff7b9f9e1969e3010d1fb731469215148",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
