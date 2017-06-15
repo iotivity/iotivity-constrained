@@ -1,0 +1,191 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1acb0d3e_97642c23",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T18:54:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead, and change message to \"block-wise buffers exhausted\".",
+      "revId": "66f911db0e240072b96a7b6be99315b36787746b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_b767e824",
+        "filename": "api/oc_collection.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T18:54:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead.",
+      "revId": "66f911db0e240072b96a7b6be99315b36787746b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_17783cc3",
+        "filename": "api/oc_discovery.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T18:54:11Z",
+      "side": 1,
+      "message": "Replace the else if with just an else and output a OC_WRN message indicating \"error parsing discovery response\".",
+      "revId": "66f911db0e240072b96a7b6be99315b36787746b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_974bcc86",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T18:54:11Z",
+      "side": 1,
+      "message": "I think you can copy-paste the above message here.",
+      "revId": "66f911db0e240072b96a7b6be99315b36787746b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_d7587458",
+        "filename": "security/oc_acl.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T18:54:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead. Use a message like \"insufficient memory to add new ACE\".",
+      "revId": "66f911db0e240072b96a7b6be99315b36787746b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_9732ec0e",
+        "filename": "security/oc_acl.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T18:54:11Z",
+      "side": 1,
+      "message": "You might want to add an else here to output an OC_WRN message saying \"insufficient memory to add new resource to ACE\".",
+      "revId": "66f911db0e240072b96a7b6be99315b36787746b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_f7533037",
+        "filename": "security/oc_cred.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T18:54:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead. Use a message like \"insufficient memory to add new credential\".",
+      "revId": "66f911db0e240072b96a7b6be99315b36787746b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_b735a8f8",
+        "filename": "security/oc_dtls.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T18:54:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead.",
+      "revId": "66f911db0e240072b96a7b6be99315b36787746b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_573c84e2",
+        "filename": "util/oc_mmem.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T18:54:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead.",
+      "revId": "66f911db0e240072b96a7b6be99315b36787746b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_773f40d7",
+        "filename": "util/oc_mmem.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T18:54:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead.",
+      "revId": "66f911db0e240072b96a7b6be99315b36787746b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_1726fcce",
+        "filename": "util/oc_mmem.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-15T18:54:11Z",
+      "side": 1,
+      "message": "Use OC_WRN instead.",
+      "revId": "66f911db0e240072b96a7b6be99315b36787746b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
