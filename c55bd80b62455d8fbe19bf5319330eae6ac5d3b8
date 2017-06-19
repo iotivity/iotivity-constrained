@@ -1,0 +1,118 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1acb0d3e_ccd46649",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-19T20:45:06Z",
+      "side": 1,
+      "message": "It is OK to define this function. But for now, set it to NUM_OC_CORE_RESOURCES - 1 + device_count",
+      "revId": "c55bd80b62455d8fbe19bf5319330eae6ac5d3b8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_acd1da58",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-19T20:45:06Z",
+      "side": 1,
+      "message": "Revert.",
+      "revId": "c55bd80b62455d8fbe19bf5319330eae6ac5d3b8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_6ccbf2a5",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-19T20:45:06Z",
+      "side": 1,
+      "message": "Change to OCF_CON",
+      "range": {
+        "startLine": 244,
+        "startChar": 6,
+        "endLine": 244,
+        "endChar": 15
+      },
+      "revId": "c55bd80b62455d8fbe19bf5319330eae6ac5d3b8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_2cc5ea8d",
+        "filename": "api/oc_discovery.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-19T20:45:06Z",
+      "side": 1,
+      "message": "Revert.",
+      "revId": "c55bd80b62455d8fbe19bf5319330eae6ac5d3b8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_8cce5eb3",
+        "filename": "api/oc_discovery.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-19T20:45:06Z",
+      "side": 1,
+      "message": "Change to OCF_CON.",
+      "range": {
+        "startLine": 121,
+        "startChar": 36,
+        "endLine": 121,
+        "endChar": 76
+      },
+      "revId": "c55bd80b62455d8fbe19bf5319330eae6ac5d3b8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_6cf452f2",
+        "filename": "include/oc_ri.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-19T20:45:06Z",
+      "side": 1,
+      "message": "I\u0027d prefer if you instead added an OCF_CON to the typedef above immediately following OCF_P, and revert back to the original code below. This is because at the moment, we don\u0027t support multiple logical devices in the security context. That needs some other changes, but once those are made, the arithmetic below will change slightly. \nPutting OCF_CON here in the manner I suggest would make it consistent with what I have in mind for when those other changes are made.\nFor now, you should end up with a working oic/con for a single logical device setup.",
+      "revId": "c55bd80b62455d8fbe19bf5319330eae6ac5d3b8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
