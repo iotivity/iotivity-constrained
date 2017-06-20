@@ -1,0 +1,163 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1acb0d3e_8fd5f0ba",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-20T20:55:52Z",
+      "side": 1,
+      "message": "Could get rid of this.",
+      "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_4f5aa851",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-20T20:55:52Z",
+      "side": 1,
+      "message": "Why aren\u0027t you using the switch-case pattern to handle BASELINE and RW? By the way, the CTT tends to have tests that check what you return based on interface; so if ?if\u003doic.if.rw returns baseline properties, that test will fail.",
+      "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_0230f7e6",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-20T20:55:52Z",
+      "side": 1,
+      "message": "Don\u0027t think you need to invoke the app callback for a GET.",
+      "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_c2518f0f",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-20T20:55:52Z",
+      "side": 1,
+      "message": "request-\u003eresource points to the resource. Invoke post_handler.user_data() here for each key_value pair. For now, we have only \"n\", but if we add more in the future, you could do those invocations inside the loop above.",
+      "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_6258db32",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-20T20:55:52Z",
+      "side": 1,
+      "message": "Could get rid of this.",
+      "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_4f50685e",
+        "filename": "api/oc_server_api.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-20T20:55:52Z",
+      "side": 1,
+      "message": "The purpose of this API is to notify the app so it can use its out-of-band persistence for oic/con properties, correct?",
+      "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_2f5f1c43",
+        "filename": "api/oc_server_api.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-20T20:55:52Z",
+      "side": 1,
+      "message": "May be rename to oc_set_con_app_cb()?",
+      "range": {
+        "startLine": 247,
+        "startChar": 0,
+        "endLine": 247,
+        "endChar": 35
+      },
+      "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_ef4ef4c0",
+        "filename": "api/oc_server_api.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-20T20:55:52Z",
+      "side": 1,
+      "message": "Why don\u0027t you define a oic/con callback type like:\ntypedef void (*oc_con_app_cb_t)(int, const char *, const char *, void*);\nwith (device_index, key, value, user_data) as parameters,\nand then have this API accept a (oc_con_app_cb_t *)?\nYou don\u0027t have to replicate the entire handler (if thats what you\u0027re currently doing) in the application.",
+      "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_6fd204d4",
+        "filename": "api/oc_server_api.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-20T20:55:52Z",
+      "side": 1,
+      "message": "You could obtain the resource handle using oc_core_get_resource_by_index(OCF_CON), and then set resource.post_handler.user_data to the callback.\nWhen we fully support multiple logical devices, oc_core_get_resource_by_index() will likely change to also accept the device index, but thats an internal API.",
+      "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
