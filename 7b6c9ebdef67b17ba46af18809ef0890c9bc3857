@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1acb0d3e_22a413a5",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-21T13:35:50Z",
+      "side": 1,
+      "message": "Need to accept baseline here, since the post is always done on the default interface (do not know, how to specify a different one). And have to set baseline as default, since the discovery is also always done on the default interface. And baseline properties would not be returned in get handler when default is RW.",
+      "revId": "7b6c9ebdef67b17ba46af18809ef0890c9bc3857",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_429fdf50",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-21T13:35:50Z",
+      "side": 1,
+      "message": "oic.wk.con properties can also have values of type array.\nSo invoking the callback in the loop above would require anyway to provide the type and somehow oc_rep_value.",
+      "revId": "7b6c9ebdef67b17ba46af18809ef0890c9bc3857",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_e2adab89",
+        "filename": "api/oc_server_api.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 239,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-21T13:35:50Z",
+      "side": 1,
+      "message": "Using your suggested approach to store as user_data does not allow any user_data to be provided to the callbacks. If this is required, I need to allocate memory to store callback and user data.",
+      "revId": "7b6c9ebdef67b17ba46af18809ef0890c9bc3857",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
