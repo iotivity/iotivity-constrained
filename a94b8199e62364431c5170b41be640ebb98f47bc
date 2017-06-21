@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "1acb0d3e_c2be6fd4",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-21T09:42:06Z",
+      "side": 1,
+      "message": "I did this switch first, but then for some reason the con resource was no longer discovered by our software. I finally found that I had to change the default interface to baseline to fix this.",
+      "parentUuid": "1acb0d3e_4f5aa851",
+      "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_0230f7e6",
         "filename": "api/oc_core_res.c",
         "patchSetId": 4
@@ -47,6 +65,24 @@
       "writtenOn": "2017-06-20T20:55:52Z",
       "side": 1,
       "message": "Don\u0027t think you need to invoke the app callback for a GET.",
+      "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_82b867e6",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-21T09:42:06Z",
+      "side": 1,
+      "message": "Would like to have support for optional attributes on the device implementation level.",
+      "parentUuid": "1acb0d3e_0230f7e6",
       "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -98,6 +134,24 @@
       "writtenOn": "2017-06-20T20:55:52Z",
       "side": 1,
       "message": "The purpose of this API is to notify the app so it can use its out-of-band persistence for oic/con properties, correct?",
+      "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_42ca7f6f",
+        "filename": "api/oc_server_api.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-21T09:42:06Z",
+      "side": 1,
+      "message": "Yes, but also to support having the device implement optional attributes on its own.",
+      "parentUuid": "1acb0d3e_4f50685e",
       "revId": "a94b8199e62364431c5170b41be640ebb98f47bc",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
