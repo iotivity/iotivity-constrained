@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "1acb0d3e_a5d1ed58",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-22T13:22:43Z",
+      "side": 1,
+      "message": "We did the oc_do_get with NULL for the query except for collections and scenes, where we used if\u003doic.if.ll.\nAfter using if\u003doic.if.baseline instead of NULL, the discovery works as expected.",
+      "parentUuid": "1acb0d3e_85807147",
+      "revId": "d1ffcc0aeab055c51e18a44cd3e3e91a90115a16",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_e2936bf8",
         "filename": "include/oc_api.h",
         "patchSetId": 6
