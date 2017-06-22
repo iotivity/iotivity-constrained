@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "1acb0d3e_25faddbd",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-22T19:43:05Z",
+      "side": 1,
+      "message": "Based on the doc in oc_api.h, It seems that the intention is to pass the entire representation to the app, and not each key_value pair separately. In that case, you should move this block out of the while loop, perhaps immediately following it.",
+      "revId": "8d7b3de7069f0f5042e59deb4bc555d4e21355e9",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_4547e91d",
         "filename": "api/oc_core_res.c",
         "patchSetId": 2
@@ -13,6 +30,70 @@
       "writtenOn": "2017-06-22T16:17:11Z",
       "side": 1,
       "message": "I think we need notify both as written in the comment.",
+      "revId": "8d7b3de7069f0f5042e59deb4bc555d4e21355e9",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_45f5a9c9",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-22T19:43:05Z",
+      "side": 1,
+      "message": "hmm.. I suppose so.. Have you verified that the notifications get delivered correctly?",
+      "parentUuid": "1acb0d3e_4547e91d",
+      "revId": "8d7b3de7069f0f5042e59deb4bc555d4e21355e9",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_05ffa1ab",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-22T19:43:05Z",
+      "side": 1,
+      "message": "Remove blank space.",
+      "range": {
+        "startLine": 266,
+        "startChar": 36,
+        "endLine": 266,
+        "endChar": 37
+      },
+      "revId": "8d7b3de7069f0f5042e59deb4bc555d4e21355e9",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_a52d6d48",
+        "filename": "api/oc_discovery.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-06-22T19:43:05Z",
+      "side": 1,
+      "message": "Remove blank space.",
+      "range": {
+        "startLine": 119,
+        "startChar": 61,
+        "endLine": 119,
+        "endChar": 62
+      },
       "revId": "8d7b3de7069f0f5042e59deb4bc555d4e21355e9",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
