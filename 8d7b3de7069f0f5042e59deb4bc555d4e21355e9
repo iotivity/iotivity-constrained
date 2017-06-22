@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1acb0d3e_4547e91d",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-22T16:17:11Z",
+      "side": 1,
+      "message": "I think we need notify both as written in the comment.",
+      "revId": "8d7b3de7069f0f5042e59deb4bc555d4e21355e9",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
