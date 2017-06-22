@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1acb0d3e_25c5fd8d",
+        "filename": "include/oc_api.h",
+        "patchSetId": 7
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-22T14:05:12Z",
+      "side": 1,
+      "message": "Not sure what you are typically using for documentation.\nWe are typically using Doxygen, so I provided something here.\nBut I can also delete it again if you prefer.",
+      "range": {
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 3
+      },
+      "revId": "10071ca57d9c94fe95052dbdda055c8006fe4351",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
