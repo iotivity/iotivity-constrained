@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1acb0d3e_657d456e",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-22T11:04:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1acb0d3e_e2492bd1",
+      "revId": "d1ffcc0aeab055c51e18a44cd3e3e91a90115a16",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_024557b2",
         "filename": "api/oc_core_res.c",
         "patchSetId": 6
@@ -30,6 +48,24 @@
       "writtenOn": "2017-06-21T21:49:27Z",
       "side": 1,
       "message": "This doesn\u0027t sound right. Can we try to root-cause the problem? If there is one, it should be fixed.",
+      "revId": "d1ffcc0aeab055c51e18a44cd3e3e91a90115a16",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_85807147",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 278,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-22T11:04:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1acb0d3e_024557b2",
       "revId": "d1ffcc0aeab055c51e18a44cd3e3e91a90115a16",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -76,6 +112,48 @@
     },
     {
       "key": {
+        "uuid": "1acb0d3e_25973d92",
+        "filename": "include/oc_api.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-22T11:04:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1acb0d3e_a21323b7",
+      "revId": "d1ffcc0aeab055c51e18a44cd3e3e91a90115a16",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_459289a0",
+        "filename": "include/oc_api.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-22T11:04:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1acb0d3e_e2936bf8",
+      "range": {
+        "startLine": 94,
+        "startChar": 14,
+        "endLine": 94,
+        "endChar": 29
+      },
+      "revId": "d1ffcc0aeab055c51e18a44cd3e3e91a90115a16",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1acb0d3e_228ad3bf",
         "filename": "include/oc_api.h",
         "patchSetId": 6
@@ -110,6 +188,24 @@
         "endLine": 95,
         "endChar": 22
       },
+      "revId": "d1ffcc0aeab055c51e18a44cd3e3e91a90115a16",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1acb0d3e_e5905597",
+        "filename": "include/oc_api.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-06-22T11:04:14Z",
+      "side": 1,
+      "message": "Yes. We can add it, if there is a demand. But the properties do not look interesting.",
+      "parentUuid": "1acb0d3e_228ad3bf",
       "revId": "d1ffcc0aeab055c51e18a44cd3e3e91a90115a16",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
