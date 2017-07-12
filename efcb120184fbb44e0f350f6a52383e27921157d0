@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5aaae553_2b467d24",
+        "filename": "api/oc_collection.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-07-12T16:31:16Z",
+      "side": 1,
+      "message": "Not sure about this. If it is a regular oc_resource_t, then it is not needed. But it is a cast of a different struct, then possibly its memory or lists needs to be updated as well.",
+      "revId": "efcb120184fbb44e0f350f6a52383e27921157d0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_cb4a4927",
+        "filename": "api/oc_collection.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-07-12T16:31:16Z",
+      "side": 1,
+      "message": "We would like to have empty collections initially.",
+      "revId": "efcb120184fbb44e0f350f6a52383e27921157d0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_eb47051c",
+        "filename": "api/oc_collection.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-07-12T16:31:16Z",
+      "side": 1,
+      "message": "See collection.h.\nI assume it is part of the baseline interface, but it is not exactly listed in the spec.",
+      "revId": "efcb120184fbb44e0f350f6a52383e27921157d0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_8b5451cb",
+        "filename": "include/oc_collection.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-07-12T16:31:16Z",
+      "side": 1,
+      "message": "The OCF spec includes a title property. So far we used an artificial link to encode the name of the collection, but if it is available in the spec, I would rather have this.",
+      "revId": "efcb120184fbb44e0f350f6a52383e27921157d0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
