@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_d4c3ca88",
+        "filename": "api/oc_collection.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-07-17T22:11:59Z",
+      "side": 1,
+      "message": "But a collection only refers to resources. It doesn",
+      "parentUuid": "5aaae553_59bab3e2",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_d9e6a316",
         "filename": "api/oc_collection.c",
         "patchSetId": 2
@@ -100,6 +118,24 @@
       "writtenOn": "2017-07-17T08:32:27Z",
       "side": 1,
       "message": "Moved declaration to oc_api.h.",
+      "parentUuid": "5aaae553_19b43bf1",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_743c5694",
+        "filename": "api/oc_collection.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 483,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-07-17T22:11:59Z",
+      "side": 1,
+      "message": "Having all OCF specific APIs in oc_api.h was the intent. If something is missing, we should probably add it. \nThis is excluding the other common stuff in oc_rep and oc_helpers.\nIn many cases you\u0027ll see that oc_client/server_api implements an API that calls into internal APIs to do stuff. As for why its useful, I think it is helpful for developers familiar with the OCF spec to sense the scope of available APIs by looking in one place.",
       "parentUuid": "5aaae553_19b43bf1",
       "revId": "505af00debf2f0d029878742e1e061a68f77324a",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
@@ -206,6 +242,24 @@
       "side": 1,
       "message": "The spec mentions both and I wanted to avoid the enormous overhead with the handlers only to list the n property. This way I can store the info right along with the collection and it will delete the variable with the collection. With the handlers the app needs to replicate all the management of the stack.\n\nI will rename it to n and leave it in the lynx branch for simplification. In the master branch I will drop it.",
       "parentUuid": "5aaae553_99190b25",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_3446de24",
+        "filename": "include/oc_collection.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-07-17T22:11:59Z",
+      "side": 1,
+      "message": "If you need a property that adds a ",
+      "parentUuid": "5aaae553_39b9f7e9",
       "revId": "505af00debf2f0d029878742e1e061a68f77324a",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
