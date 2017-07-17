@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5aaae553_79d8cf53",
+        "filename": "api/oc_collection.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-07-17T05:21:05Z",
+      "side": 1,
+      "message": "What is this function supposed to do? It seems odd to delete the resource itself - and from here - especially if it was the app that created the resource, and not the collections module.",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_d9e6a316",
+        "filename": "api/oc_collection.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-07-17T05:21:05Z",
+      "side": 1,
+      "message": "Ditto.",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_39e25704",
+        "filename": "api/oc_collection.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 483,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-07-17T05:21:05Z",
+      "side": 1,
+      "message": "Delete seems more appropriate here than remove, don\u0027t you think?\nAlso, are we ever going to use this function? Its not exposed via oc_api. \nIf we\u0027re not going to use it, might be better to leave it out for now.",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_b91647f0",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 305,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-07-17T05:21:05Z",
+      "side": 1,
+      "message": "Can we refactor this to remove code duplication between here\nand oc_collection_free()? Perhaps we could have another function like oc_ri_free_resource_properties(...) and have this function (and oc_collection_free()) simply call that and free up the resource/collection structures.",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_59d39338",
+        "filename": "include/oc_api.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-07-17T05:21:05Z",
+      "side": 1,
+      "message": "Why do we need a remove link? In any case, the naming is confusing. You could remove a link from a collection and free a link itself.",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_99190b25",
+        "filename": "include/oc_collection.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-07-17T05:21:05Z",
+      "side": 1,
+      "message": "The OCF spec defines a name \"n\" property for this purpose. We can have all resources (and by extension collections) define it. But we can do it in a separate commit.",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
