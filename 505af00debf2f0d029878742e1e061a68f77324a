@@ -89,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_39b017f4",
+        "filename": "api/oc_collection.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 483,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-07-17T08:32:27Z",
+      "side": 1,
+      "message": "Moved declaration to oc_api.h.",
+      "parentUuid": "5aaae553_19b43bf1",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_b91647f0",
         "filename": "api/oc_ri.c",
         "patchSetId": 2
@@ -106,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_79a68fc3",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 305,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-07-17T08:32:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5aaae553_b91647f0",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_59d39338",
         "filename": "include/oc_api.h",
         "patchSetId": 2
@@ -117,6 +153,24 @@
       "writtenOn": "2017-07-17T05:21:05Z",
       "side": 1,
       "message": "Why do we need a remove link? In any case, the naming is confusing. You could remove a link from a collection and free a link itself.",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_19abdb8a",
+        "filename": "include/oc_api.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-07-17T08:32:27Z",
+      "side": 1,
+      "message": "Dropped it as we only need the delete function.",
+      "parentUuid": "5aaae553_59d39338",
       "revId": "505af00debf2f0d029878742e1e061a68f77324a",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
