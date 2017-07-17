@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_59bab3e2",
+        "filename": "api/oc_collection.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-07-17T08:01:48Z",
+      "side": 1,
+      "message": "This is a simple helper method to also clean-up the link instead of only removing it. We usually simply allocate resource using oc_new_resource and add it to a link. We do not store it additionally. I wanted to document later in the API that this function releases also the resource unless the delete handler is set and that this must be set, if not oc_new_resource was used to allocate it. This way we do not need to have our own list of allocated resources.",
+      "parentUuid": "5aaae553_79d8cf53",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_d9e6a316",
         "filename": "api/oc_collection.c",
         "patchSetId": 2
@@ -47,6 +65,24 @@
       "writtenOn": "2017-07-17T05:21:05Z",
       "side": 1,
       "message": "Delete seems more appropriate here than remove, don\u0027t you think?\nAlso, are we ever going to use this function? Its not exposed via oc_api. \nIf we\u0027re not going to use it, might be better to leave it out for now.",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_19b43bf1",
+        "filename": "api/oc_collection.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 483,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-07-17T08:01:48Z",
+      "side": 1,
+      "message": "Will do the renaming.\nAs Reinhard already used some function from oc_collection.h that is not in oc_api.h and as both are in include, I somehow failed to see why we need to flood a single include with all functions. But I can also add it there.\nWe are already using it when restarting the stack and upon shutdown.",
+      "parentUuid": "5aaae553_39e25704",
       "revId": "505af00debf2f0d029878742e1e061a68f77324a",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -98,6 +134,24 @@
       "writtenOn": "2017-07-17T05:21:05Z",
       "side": 1,
       "message": "The OCF spec defines a name \"n\" property for this purpose. We can have all resources (and by extension collections) define it. But we can do it in a separate commit.",
+      "revId": "505af00debf2f0d029878742e1e061a68f77324a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_39b9f7e9",
+        "filename": "include/oc_collection.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-07-17T08:01:48Z",
+      "side": 1,
+      "message": "The spec mentions both and I wanted to avoid the enormous overhead with the handlers only to list the n property. This way I can store the info right along with the collection and it will delete the variable with the collection. With the handlers the app needs to replicate all the management of the stack.\n\nI will rename it to n and leave it in the lynx branch for simplification. In the master branch I will drop it.",
+      "parentUuid": "5aaae553_99190b25",
       "revId": "505af00debf2f0d029878742e1e061a68f77324a",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
