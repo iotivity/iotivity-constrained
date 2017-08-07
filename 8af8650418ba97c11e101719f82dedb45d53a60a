@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5aaae553_223777e5",
+        "filename": "include/oc_api.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-08-07T20:23:35Z",
+      "side": 1,
+      "message": "Remove spaces",
+      "revId": "8af8650418ba97c11e101719f82dedb45d53a60a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_c23303f5",
+        "filename": "include/oc_api.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-08-07T20:23:35Z",
+      "side": 1,
+      "message": "Just checking, but is it useful to also delete all links while deleting a collection? The reason I ask is that a link object cannot be in \u003e 1 collections at the same time. So, unless we have an immediate use for a link after deleting its enclosing collection, the app would always have to do delete the link anyway. But if you think that not deleting the links provides  for more flexibility, then thats fine.",
+      "revId": "8af8650418ba97c11e101719f82dedb45d53a60a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
