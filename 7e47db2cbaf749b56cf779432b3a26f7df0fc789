@@ -2,6 +2,121 @@
   "comments": [
     {
       "key": {
+        "uuid": "5aaae553_b3c17ae6",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "SOCKET (not int)\nsame in 75, 79, 85, 86, etc.",
+      "range": {
+        "startLine": 74,
+        "startChar": 2,
+        "endLine": 74,
+        "endChar": 5
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_13b08e8a",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "should probably be BOOL",
+      "range": {
+        "startLine": 94,
+        "startChar": 2,
+        "endLine": 94,
+        "endChar": 5
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_33ad8a32",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "if this is just a Boolean then:\nwhile (!dev-\u003eterminate) {",
+      "range": {
+        "startLine": 177,
+        "startChar": 9,
+        "endLine": 177,
+        "endChar": 28
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_93631e1a",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 326,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "if OC_IPV4 isn\u0027t defined, then this would be much more efficient to pass AF_INET6",
+      "range": {
+        "startLine": 326,
+        "startChar": 27,
+        "endLine": 326,
+        "endChar": 36
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_d3a99625",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 327,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "this code has a race condition bug if addresses can be dynamic.  That is, the size needed in 320 was the size at that time, which might have changed by addition of a new address before we get to here in which case you get a failure.  Typically, good code has a loop with a max number (e.g., 5) of retries.",
+      "range": {
+        "startLine": 327,
+        "startChar": 39,
+        "endLine": 327,
+        "endChar": 50
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_4299536d",
         "filename": "port/windows/ipadapter.c",
         "patchSetId": 1
@@ -13,6 +128,346 @@
       "writtenOn": "2017-08-08T15:44:39Z",
       "side": 1,
       "message": "Should this only be done if OC_IPV4 is defined?",
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_f3a61253",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 347,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "yes, agree with Andreas",
+      "parentUuid": "5aaae553_4299536d",
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_3374aace",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "this is almost certainly wrong (insufficient).  I think you should instead be checking the DNS ELIGIBLE flag in the address structure.",
+      "range": {
+        "startLine": 359,
+        "startChar": 12,
+        "endLine": 359,
+        "endChar": 52
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_f37db2b2",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 501,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "if (x \u003d\u003d SOCKET_ERROR)",
+      "range": {
+        "startLine": 501,
+        "startChar": 10,
+        "endLine": 501,
+        "endChar": 13
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_934a3e82",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 531,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "SOCKET_ERROR",
+      "range": {
+        "startLine": 531,
+        "startChar": 51,
+        "endLine": 531,
+        "endChar": 53
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_b34f3a92",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 542,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "SOCKET_ERROR",
+      "range": {
+        "startLine": 542,
+        "startChar": 73,
+        "endLine": 542,
+        "endChar": 75
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_5344c673",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 583,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "\u003d\u003d INVALID_SOCKET\nsame in 592 and anywhere else",
+      "range": {
+        "startLine": 583,
+        "startChar": 24,
+        "endLine": 583,
+        "endChar": 27
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_135e4e46",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 598,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "SOCKET_ERROR",
+      "range": {
+        "startLine": 598,
+        "startChar": 36,
+        "endLine": 598,
+        "endChar": 38
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_335b4a56",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 605,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "SOCKET_ERROR",
+      "range": {
+        "startLine": 605,
+        "startChar": 31,
+        "endLine": 605,
+        "endChar": 33
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_9331de0d",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 616,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "SOCKET_ERROR",
+      "range": {
+        "startLine": 616,
+        "startChar": 34,
+        "endLine": 616,
+        "endChar": 36
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_b3365a02",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 664,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "SOCKET",
+      "range": {
+        "startLine": 664,
+        "startChar": 39,
+        "endLine": 664,
+        "endChar": 42
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_1325eec1",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 695,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "would be safer to do sizeof(dev-\u003emcast)\nso that if the type of the field changes you don\u0027t need to change this line",
+      "range": {
+        "startLine": 695,
+        "startChar": 32,
+        "endLine": 695,
+        "endChar": 55
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_d32e76a5",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 719,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "\u003d\u003d INVALID_SOCKET",
+      "range": {
+        "startLine": 719,
+        "startChar": 23,
+        "endLine": 719,
+        "endChar": 26
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_f32b7292",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 734,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "SOCKET_ERROR",
+      "range": {
+        "startLine": 734,
+        "startChar": 33,
+        "endLine": 734,
+        "endChar": 35
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_9318fe85",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 740,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "SOCKET_ERROR",
+      "range": {
+        "startLine": 740,
+        "startChar": 35,
+        "endLine": 740,
+        "endChar": 37
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_53128663",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 823,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T23:46:28Z",
+      "side": 1,
+      "message": "TRUE",
+      "range": {
+        "startLine": 823,
+        "startChar": 19,
+        "endLine": 823,
+        "endChar": 20
+      },
       "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
