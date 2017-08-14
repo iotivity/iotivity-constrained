@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5aaae553_f3ee12b4",
+        "filename": "apps/simpleserver.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T21:09:12Z",
+      "side": 1,
+      "message": "this approach makes this file really long and hard to read.  In the IoTivity code base, there is a windows implementation of the pthread* APIs, which allows the same code to be used.\nThe problem with the current approach below is that if one fixes a bug or adds functionality, it has to be done in multiple places in this file instead of just one, making it too easy for different OS\u0027s to get out of sync.  So as the IoTivity platform support maintainer, I don\u0027t think this is a good approach, though I agree it is good to have a windows port.",
+      "range": {
+        "startLine": 223,
+        "startChar": 0,
+        "endLine": 223,
+        "endChar": 20
+      },
+      "revId": "f1f7366d58ec248dd46583d16e7397c55174f98e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_53fe066d",
+        "filename": "apps/simpleserver.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T21:09:12Z",
+      "side": 1,
+      "message": "remove blank lines",
+      "range": {
+        "startLine": 274,
+        "startChar": 0,
+        "endLine": 275,
+        "endChar": 0
+      },
+      "revId": "f1f7366d58ec248dd46583d16e7397c55174f98e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_13f88e7b",
+        "filename": "apps/simpleserver.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T21:09:12Z",
+      "side": 1,
+      "message": "assuming this is to convert from seconds to milliseconds, use a #define like MS_PER_SEC",
+      "range": {
+        "startLine": 279,
+        "startChar": 44,
+        "endLine": 279,
+        "endChar": 48
+      },
+      "revId": "f1f7366d58ec248dd46583d16e7397c55174f98e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_73030274",
+        "filename": "apps/simpleserver.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 281,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-08-14T21:09:12Z",
+      "side": 1,
+      "message": "remove blank lines",
+      "range": {
+        "startLine": 280,
+        "startChar": 0,
+        "endLine": 281,
+        "endChar": 0
+      },
+      "revId": "f1f7366d58ec248dd46583d16e7397c55174f98e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
