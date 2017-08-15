@@ -16,6 +16,24 @@
       "revId": "c17b7dcb66b0c9c7fe12049fcba693503a626a51",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_76469025",
+        "filename": "include/oc_api.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2017-08-15T08:23:41Z",
+      "side": 1,
+      "message": "Added NULL check in function and adapted description.",
+      "parentUuid": "5aaae553_b3d89a54",
+      "revId": "c17b7dcb66b0c9c7fe12049fcba693503a626a51",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
