@@ -175,6 +175,47 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_b6872861",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-08-15T01:06:26Z",
+      "side": 1,
+      "message": "We shouldn\u0027t exclude global or unique-local addresses. \nDave: In an e-mail exchange a few weeks ago, you\u0027d suggested checking the address flags for IP_ADAPTER_ADDRESS_DNS_ELIGIBLE and include those addresses.\nMight a reasonable (and simple to implement) policy for now be to include those AND all link-local addresses?",
+      "parentUuid": "5aaae553_3374aace",
+      "range": {
+        "startLine": 359,
+        "startChar": 12,
+        "endLine": 359,
+        "endChar": 52
+      },
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5aaae553_567cb472",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 384,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-08-15T01:06:26Z",
+      "side": 1,
+      "message": "Why 10? Do note also that in a static build, we\u0027d be limited by the OC_MAX_NUM_ENDPOINTS setting for the number of endpoint structures we can add here.",
+      "revId": "7e47db2cbaf749b56cf779432b3a26f7df0fc789",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_f37db2b2",
         "filename": "port/windows/ipadapter.c",
         "patchSetId": 1
