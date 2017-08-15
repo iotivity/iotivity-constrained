@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5aaae553_16c4fc90",
+        "filename": "apps/simpleserver.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-08-15T05:12:08Z",
+      "side": 1,
+      "message": "Would like to bring some clarity here: While the logical sequence of\noperations in main(), and almost all the code outside of main()\n(except port/\u003cenvironment\u003e/*) is common across environments, everything else in main() (including the use of pthreads* APIs in it) are an instance of application code as far as IoTivity-Constrained is concerned. It doesn",
+      "parentUuid": "5aaae553_f3ee12b4",
+      "range": {
+        "startLine": 223,
+        "startChar": 0,
+        "endLine": 223,
+        "endChar": 20
+      },
+      "revId": "f1f7366d58ec248dd46583d16e7397c55174f98e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5aaae553_53fe066d",
         "filename": "apps/simpleserver.c",
         "patchSetId": 1
