@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1aa4ed85_c31d3775",
+        "filename": "apps/simpleclient.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-11-06T06:10:23Z",
+      "side": 1,
+      "message": "I don\u0027t think this comment is needed, as the function name already says the same thing",
+      "range": {
+        "startLine": 381,
+        "startChar": 64,
+        "endLine": 381,
+        "endChar": 87
+      },
+      "revId": "6e7d800bb298b94cee7a9d65707df65129a0b396",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aa4ed85_63124364",
+        "filename": "port/windows/ipadapter.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 690,
+      "author": {
+        "id": 5703
+      },
+      "writtenOn": "2017-11-06T06:10:23Z",
+      "side": 1,
+      "message": "SOCKET",
+      "range": {
+        "startLine": 690,
+        "startChar": 39,
+        "endLine": 690,
+        "endChar": 42
+      },
+      "revId": "6e7d800bb298b94cee7a9d65707df65129a0b396",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
