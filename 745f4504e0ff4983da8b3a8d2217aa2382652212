@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1aa4ed85_3ae45c3a",
+        "filename": "api/oc_discovery.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 550,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-12-14T00:16:06Z",
+      "side": 1,
+      "message": "The change looks OK. But could you change this to oc_resource_properties_t properties (instead of int) both here and in the\ndiscovery callback def. That way, a client will know to test for OC_OBSERVABLE. The bitmasks defined in that enum do\ncorrespond with their respective values in the spec.",
+      "revId": "745f4504e0ff4983da8b3a8d2217aa2382652212",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aa4ed85_dad0a855",
+        "filename": "include/oc_client_state.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2017-12-14T00:16:06Z",
+      "side": 1,
+      "message": "Change to oc_resource_properties_t.",
+      "revId": "745f4504e0ff4983da8b3a8d2217aa2382652212",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
