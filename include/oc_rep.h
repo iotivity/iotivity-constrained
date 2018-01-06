@@ -27,6 +27,14 @@
 extern CborEncoder g_encoder, root_map, links_array;
 extern CborError g_err;
 
+#ifdef __cplusplus
+inline CborError& operator |=(CborError& a, CborError b)
+{
+    return a = (CborError)((int)a |(int)b);
+}
+#endif
+
+
 void oc_rep_new(uint8_t *payload, int size);
 int oc_rep_finalize(void);
 
