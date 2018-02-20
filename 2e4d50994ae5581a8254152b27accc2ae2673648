@@ -1,0 +1,210 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1aa4ed85_31c6b04a",
+        "filename": "apps/client_openthread.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-02-20T20:06:43Z",
+      "side": 1,
+      "message": "Must now be #include \u003cplatform.h\u003e",
+      "revId": "2e4d50994ae5581a8254152b27accc2ae2673648",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aa4ed85_d1c4fc41",
+        "filename": "apps/client_openthread.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-02-20T20:06:43Z",
+      "side": 1,
+      "message": "Is now OC_EVENT_DONE following a recent update.",
+      "range": {
+        "startLine": 38,
+        "startChar": 9,
+        "endLine": 38,
+        "endChar": 13
+      },
+      "revId": "2e4d50994ae5581a8254152b27accc2ae2673648",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aa4ed85_f1bfb8a8",
+        "filename": "apps/client_openthread.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-02-20T20:06:43Z",
+      "side": 1,
+      "message": "Is now OC_REP_BOOL following a recent update.",
+      "range": {
+        "startLine": 59,
+        "startChar": 9,
+        "endLine": 59,
+        "endChar": 13
+      },
+      "revId": "2e4d50994ae5581a8254152b27accc2ae2673648",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aa4ed85_91de8410",
+        "filename": "apps/server_openthread.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-02-20T20:06:43Z",
+      "side": 1,
+      "message": "Must now be #include \u003cplatform.h\u003e.",
+      "revId": "2e4d50994ae5581a8254152b27accc2ae2673648",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aa4ed85_b1e140d2",
+        "filename": "apps/server_openthread.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-02-20T20:06:43Z",
+      "side": 1,
+      "message": "Is now OC_REP_BOOL following a recent update.",
+      "range": {
+        "startLine": 67,
+        "startChar": 9,
+        "endLine": 67,
+        "endChar": 13
+      },
+      "revId": "2e4d50994ae5581a8254152b27accc2ae2673648",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aa4ed85_d1db9c19",
+        "filename": "apps/server_openthread.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-02-20T20:06:43Z",
+      "side": 1,
+      "message": "I assume that the underlying mechanisms here take advantage of IoTivity-Constrained\u0027s sleep indication when oc_main_poll() returns 0, and wake up indication via signal_event_loop(). I see the definitions and the values being used in the code, but just checking as I am not familiar with OT\u0027s main loop scheduling etc.",
+      "revId": "2e4d50994ae5581a8254152b27accc2ae2673648",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aa4ed85_71b428d1",
+        "filename": "port/openthread/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-02-20T20:06:43Z",
+      "side": 1,
+      "message": "For a \"posix\" build on my 64-bit Linux machine, this path was \"output/x86_64-unknown-linux-gnu/lib\" and not \"output/posix/lib\". I see that you",
+      "range": {
+        "startLine": 3,
+        "startChar": 48,
+        "endLine": 3,
+        "endChar": 67
+      },
+      "revId": "2e4d50994ae5581a8254152b27accc2ae2673648",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aa4ed85_11cb7454",
+        "filename": "port/openthread/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-02-20T20:06:43Z",
+      "side": 1,
+      "message": "I had to add -I${OPENTHREAD_PATH}/examples/platforms here to find platform.h due to a recent update to OpenThread in commit 4453ef5276844b0b0d0e4d76a0bfa9e7b8931d29 \" [examples] move platform.h into examples (#2541)\"",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 6
+      },
+      "revId": "2e4d50994ae5581a8254152b27accc2ae2673648",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aa4ed85_51e80cb4",
+        "filename": "port/openthread/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-02-20T20:06:43Z",
+      "side": 1,
+      "message": "Try to get rid of any blank spaces.",
+      "revId": "2e4d50994ae5581a8254152b27accc2ae2673648",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1aa4ed85_11d29400",
+        "filename": "port/openthread/Makefile-posix",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-02-20T20:06:43Z",
+      "side": 1,
+      "message": "On my 64-bit Linux machine, this path was \"output/x86_64-unknown-linux-gnu/lib\" but on my 32-bit machine it was \"output/i686-pc-linux-gnu/lib\".\nIs there a way to obtain that segment of the path via some env var (or some other automated means) instead of hardcoding it? \nIf there isn",
+      "range": {
+        "startLine": 1,
+        "startChar": 13,
+        "endLine": 1,
+        "endChar": 67
+      },
+      "revId": "2e4d50994ae5581a8254152b27accc2ae2673648",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
