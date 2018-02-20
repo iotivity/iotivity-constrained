@@ -158,6 +158,24 @@
     },
     {
       "key": {
+        "uuid": "1aa4ed85_d1207cf9",
+        "filename": "apps/server_openthread.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 14131
+      },
+      "writtenOn": "2018-02-20T22:54:31Z",
+      "side": 1,
+      "message": "Unfortunately openthread doesn\u0027t use any OS but processes all tasks in main loop. To make openthread works tasklets and drivers should be always pooled in the loop. Openthread has tasklet and timer implementation which I use to implement oc_main_poll and signal_event_loop functionality (ocInstance.cpp).",
+      "parentUuid": "1aa4ed85_d1db9c19",
+      "revId": "2e4d50994ae5581a8254152b27accc2ae2673648",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1aa4ed85_71b428d1",
         "filename": "port/openthread/Makefile",
         "patchSetId": 2
