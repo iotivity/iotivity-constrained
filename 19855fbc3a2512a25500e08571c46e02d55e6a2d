@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1aa4ed85_b11620a6",
+        "filename": "port/openthread/ocInstance.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-02-20T22:15:30Z",
+      "side": 1,
+      "message": "This is not from Intel :-). \nFeel free to mention your name/organization instead, or you may leave out the copyrights line altogether and retain just the license text.. in all the files...",
+      "revId": "19855fbc3a2512a25500e08571c46e02d55e6a2d",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
