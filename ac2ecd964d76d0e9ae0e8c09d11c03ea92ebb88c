@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_f6d7e6eb",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T01:11:34Z",
+      "side": 1,
+      "message": "Rename to coap_serialize_options.",
+      "range": {
+        "startLine": 273,
+        "startChar": 14,
+        "endLine": 273,
+        "endChar": 35
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_5604d27d",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 662,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T01:11:34Z",
+      "side": 1,
+      "message": "Rename to coap_tcp_get_message_length.",
+      "range": {
+        "startLine": 662,
+        "startChar": 15,
+        "endLine": 662,
+        "endChar": 41
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_36094e96",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 748,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T01:11:34Z",
+      "side": 1,
+      "message": "I understand why you used COAP_MAX_HEADER_SIZE here. \nBut if coap_serialize_options() happens to exceed this limit, it would overflow the buffer and lead to problems. So, it might be safer to set this buffer size to (COAP_MAX_HEADER_SIZE * 2) instead. \nThat would drastically lower the likelihood of an overflow, and if the size of options ever exceeded COAP_MAX_HEADER_SIZE, it would be caught by the check in line 815 below.",
+      "range": {
+        "startLine": 748,
+        "startChar": 23,
+        "endLine": 748,
+        "endChar": 43
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_16db6a1c",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 893,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T01:11:34Z",
+      "side": 1,
+      "message": "Rename to coap_tcp_get_packet_size.",
+      "range": {
+        "startLine": 893,
+        "startChar": 7,
+        "endLine": 893,
+        "endChar": 41
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
