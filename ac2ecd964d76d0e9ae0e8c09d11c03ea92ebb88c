@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_7688f6e7",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f6d7e6eb",
+      "range": {
+        "startLine": 273,
+        "startChar": 14,
+        "endLine": 273,
+        "endChar": 35
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_761116ac",
         "filename": "messaging/coap/coap.c",
         "patchSetId": 3
@@ -36,6 +60,30 @@
       "writtenOn": "2018-03-26T02:22:14Z",
       "side": 1,
       "message": "Rename to coap_parse_message_common.",
+      "range": {
+        "startLine": 351,
+        "startChar": 21,
+        "endLine": 351,
+        "endChar": 46
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d66c6239",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_761116ac",
       "range": {
         "startLine": 351,
         "startChar": 21,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_b669de27",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 603,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f64526b4",
+      "range": {
+        "startLine": 603,
+        "startChar": 40,
+        "endLine": 603,
+        "endChar": 76
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_561212b5",
         "filename": "messaging/coap/coap.c",
         "patchSetId": 3
@@ -82,6 +154,30 @@
       "writtenOn": "2018-03-26T02:22:14Z",
       "side": 1,
       "message": "Use num_extended_length_bytes.",
+      "range": {
+        "startLine": 608,
+        "startChar": 10,
+        "endLine": 608,
+        "endChar": 27
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1677ea03",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 608,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_561212b5",
       "range": {
         "startLine": 608,
         "startChar": 10,
@@ -152,6 +248,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_f6736613",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 662,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_5604d27d",
+      "range": {
+        "startLine": 662,
+        "startChar": 15,
+        "endLine": 662,
+        "endChar": 41
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_36178ea5",
         "filename": "messaging/coap/coap.c",
         "patchSetId": 3
@@ -191,6 +311,54 @@
         "startChar": 50,
         "endLine": 663,
         "endChar": 69
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_3665ce45",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 663,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_960c9a96",
+      "range": {
+        "startLine": 663,
+        "startChar": 50,
+        "endLine": 663,
+        "endChar": 69
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_56605235",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 663,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_36178ea5",
+      "range": {
+        "startLine": 662,
+        "startChar": 41,
+        "endLine": 663,
+        "endChar": 70
       },
       "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
@@ -256,6 +424,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_965ada81",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 748,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_36094e96",
+      "range": {
+        "startLine": 748,
+        "startChar": 23,
+        "endLine": 748,
+        "endChar": 43
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_16db6a1c",
         "filename": "messaging/coap/coap.c",
         "patchSetId": 3
@@ -267,6 +459,30 @@
       "writtenOn": "2018-03-26T01:11:34Z",
       "side": 1,
       "message": "Rename to coap_tcp_get_packet_size.",
+      "range": {
+        "startLine": 893,
+        "startChar": 7,
+        "endLine": 893,
+        "endChar": 41
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_765f5673",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 893,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_16db6a1c",
       "range": {
         "startLine": 893,
         "startChar": 7,
@@ -302,6 +518,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_b6227eff",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_d63e2229",
+      "range": {
+        "startLine": 88,
+        "startChar": 7,
+        "endLine": 88,
+        "endChar": 13
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_763ab637",
         "filename": "messaging/coap/coap.h",
         "patchSetId": 3
@@ -313,6 +553,30 @@
       "writtenOn": "2018-03-26T02:22:14Z",
       "side": 1,
       "message": "You could rename this to coap_transport_type_t.",
+      "range": {
+        "startLine": 90,
+        "startChar": 2,
+        "endLine": 90,
+        "endChar": 20
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_16208af6",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_763ab637",
       "range": {
         "startLine": 90,
         "startChar": 2,
@@ -360,6 +624,42 @@
     },
     {
       "key": {
+        "uuid": "da33351e_f61c06c4",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_7603d673",
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_567972fb",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_b63b9e37",
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_16f24a9a",
         "filename": "messaging/coap/constants.h",
         "patchSetId": 3
@@ -388,6 +688,42 @@
       "writtenOn": "2018-03-26T02:22:14Z",
       "side": 1,
       "message": "Sure, you can skip it here.",
+      "parentUuid": "da33351e_16f24a9a",
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_9683facb",
+        "filename": "messaging/coap/constants.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_1649aad0",
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_367e6ee5",
+        "filename": "messaging/coap/constants.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-26T07:33:45Z",
+      "side": 1,
+      "message": "Done",
       "parentUuid": "da33351e_16f24a9a",
       "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
