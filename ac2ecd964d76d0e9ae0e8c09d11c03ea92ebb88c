@@ -25,6 +25,75 @@
     },
     {
       "key": {
+        "uuid": "da33351e_761116ac",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T02:22:14Z",
+      "side": 1,
+      "message": "Rename to coap_parse_message_common.",
+      "range": {
+        "startLine": 351,
+        "startChar": 21,
+        "endLine": 351,
+        "endChar": 46
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f64526b4",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 603,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T02:22:14Z",
+      "side": 1,
+      "message": "Could you add *num_extended_length_bytes as a parameter to this function? It just feels a bit unexpected to receive it as the return value.",
+      "range": {
+        "startLine": 603,
+        "startChar": 40,
+        "endLine": 603,
+        "endChar": 76
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_561212b5",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 608,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T02:22:14Z",
+      "side": 1,
+      "message": "Use num_extended_length_bytes.",
+      "range": {
+        "startLine": 608,
+        "startChar": 10,
+        "endLine": 608,
+        "endChar": 27
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_d6f7428b",
         "filename": "messaging/coap/coap.c",
         "patchSetId": 3
@@ -36,6 +105,24 @@
       "writtenOn": "2018-03-26T01:35:47Z",
       "side": 1,
       "message": "How about move to i into the loop?",
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_562b32eb",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 651,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T02:22:14Z",
+      "side": 1,
+      "message": "No, you can leave it out.",
+      "parentUuid": "da33351e_d6f7428b",
       "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -65,6 +152,52 @@
     },
     {
       "key": {
+        "uuid": "da33351e_36178ea5",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 663,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T02:22:14Z",
+      "side": 1,
+      "message": "Could you add *num_extended_length_bytes as a parameter to this function? Much like above it feels unexpected as the return value.",
+      "range": {
+        "startLine": 662,
+        "startChar": 41,
+        "endLine": 663,
+        "endChar": 70
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_960c9a96",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 663,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T02:22:14Z",
+      "side": 1,
+      "message": "Rename to message_length.",
+      "range": {
+        "startLine": 663,
+        "startChar": 50,
+        "endLine": 663,
+        "endChar": 69
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b6f43e88",
         "filename": "messaging/coap/coap.c",
         "patchSetId": 3
@@ -76,6 +209,24 @@
       "writtenOn": "2018-03-26T01:35:47Z",
       "side": 1,
       "message": "how about move to i into the loop?",
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_36302e56",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 673,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T02:22:14Z",
+      "side": 1,
+      "message": "No, you can leave it out.",
+      "parentUuid": "da33351e_b6f43e88",
       "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -128,6 +279,52 @@
     },
     {
       "key": {
+        "uuid": "da33351e_d63e2229",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T02:22:14Z",
+      "side": 1,
+      "message": "Rename to TRANSPORT.",
+      "range": {
+        "startLine": 88,
+        "startChar": 7,
+        "endLine": 88,
+        "endChar": 13
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_763ab637",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T02:22:14Z",
+      "side": 1,
+      "message": "You could rename this to coap_transport_type_t.",
+      "range": {
+        "startLine": 90,
+        "startChar": 2,
+        "endLine": 90,
+        "endChar": 20
+      },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_7603d673",
         "filename": "messaging/coap/coap.h",
         "patchSetId": 3
@@ -145,6 +342,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_b63b9e37",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T02:22:14Z",
+      "side": 1,
+      "message": "You could use transport_type.",
+      "parentUuid": "da33351e_7603d673",
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_16f24a9a",
         "filename": "messaging/coap/constants.h",
         "patchSetId": 3
@@ -156,6 +371,24 @@
       "writtenOn": "2018-03-26T01:35:47Z",
       "side": 1,
       "message": "I think \u0027#ifdef\u0027 not require for define value.\nBecause it can generate duplicate values.",
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1649aad0",
+        "filename": "messaging/coap/constants.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-26T02:22:14Z",
+      "side": 1,
+      "message": "Sure, you can skip it here.",
+      "parentUuid": "da33351e_16f24a9a",
       "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
