@@ -25,6 +25,23 @@
     },
     {
       "key": {
+        "uuid": "da33351e_d6f7428b",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 651,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-03-26T01:35:47Z",
+      "side": 1,
+      "message": "How about move to i into the loop?",
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_5604d27d",
         "filename": "messaging/coap/coap.c",
         "patchSetId": 3
@@ -42,6 +59,23 @@
         "endLine": 662,
         "endChar": 41
       },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b6f43e88",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 673,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-03-26T01:35:47Z",
+      "side": 1,
+      "message": "how about move to i into the loop?",
       "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -88,6 +122,40 @@
         "endLine": 893,
         "endChar": 41
       },
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7603d673",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-03-26T01:35:47Z",
+      "side": 1,
+      "message": "How about head_type instead coap_over?",
+      "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_16f24a9a",
+        "filename": "messaging/coap/constants.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-03-26T01:35:47Z",
+      "side": 1,
+      "message": "I think \u0027#ifdef\u0027 not require for define value.\nBecause it can generate duplicate values.",
       "revId": "ac2ecd964d76d0e9ae0e8c09d11c03ea92ebb88c",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
