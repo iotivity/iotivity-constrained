@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_5b26bbbb",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-03-26T01:35:47Z",
+      "side": 1,
+      "message": "replace to space",
+      "revId": "2a0076ad5a33977e095451143a66507031d98062",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
