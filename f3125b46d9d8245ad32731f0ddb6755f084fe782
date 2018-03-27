@@ -46,6 +46,30 @@
       "revId": "f3125b46d9d8245ad32731f0ddb6755f084fe782",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_caab12d5",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-03-27T03:12:03Z",
+      "side": 1,
+      "message": "Sample apps of this sort should preferably go into /opt.",
+      "parentUuid": "da33351e_2a627ed8",
+      "range": {
+        "startLine": 7,
+        "startChar": 21,
+        "endLine": 7,
+        "endChar": 31
+      },
+      "revId": "f3125b46d9d8245ad32731f0ddb6755f084fe782",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
