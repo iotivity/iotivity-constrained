@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_4aeee223",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-03-27T09:12:33Z",
+      "side": 1,
+      "message": "put the comment as like parsing function of token and option. or rename the function coap_parse_message_token_and_option",
+      "range": {
+        "startLine": 351,
+        "startChar": 21,
+        "endLine": 351,
+        "endChar": 46
+      },
+      "revId": "abecadde04f14046753dca136919836558896c4b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_8af8eae6",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 709,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-03-27T09:12:33Z",
+      "side": 1,
+      "message": "rename to coap_udp_init_message for better understanding.",
+      "range": {
+        "startLine": 709,
+        "startChar": 0,
+        "endLine": 709,
+        "endChar": 17
+      },
+      "revId": "abecadde04f14046753dca136919836558896c4b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_aaf32e09",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 848,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-03-27T09:12:33Z",
+      "side": 1,
+      "message": "rename to coap_parse_udp_message for better understanding.",
+      "range": {
+        "startLine": 848,
+        "startChar": 0,
+        "endLine": 848,
+        "endChar": 18
+      },
+      "revId": "abecadde04f14046753dca136919836558896c4b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
