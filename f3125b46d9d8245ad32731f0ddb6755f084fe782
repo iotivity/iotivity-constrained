@@ -22,6 +22,30 @@
       "revId": "f3125b46d9d8245ad32731f0ddb6755f084fe782",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_2a627ed8",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-03-27T00:46:54Z",
+      "side": 1,
+      "message": "it\u0027s common to have extra apps in /usr/lib{64?}/package/\nif we dont want to pollute /usr/bin\n\n/opt is an alternative option but i prefer 1st one\n\nmaybe i could have moved that line after pkgconfig...",
+      "parentUuid": "da33351e_aa6e8ec7",
+      "range": {
+        "startLine": 7,
+        "startChar": 21,
+        "endLine": 7,
+        "endChar": 31
+      },
+      "revId": "f3125b46d9d8245ad32731f0ddb6755f084fe782",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
