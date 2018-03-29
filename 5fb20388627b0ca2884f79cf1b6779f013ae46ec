@@ -16,6 +16,24 @@
       "revId": "5fb20388627b0ca2884f79cf1b6779f013ae46ec",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_6d8f8024",
+        "filename": "messaging/coap/engine.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-03-29T09:22:25Z",
+      "side": 1,
+      "message": "Thanks to let me know. I removed all kind of tailing spaces.",
+      "parentUuid": "da33351e_ad8228fe",
+      "revId": "5fb20388627b0ca2884f79cf1b6779f013ae46ec",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
