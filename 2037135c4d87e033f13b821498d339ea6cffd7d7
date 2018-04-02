@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_c03db3bd",
+        "filename": "api/oc_buffer.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_cd084c30",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 93,
+        "endChar": 19
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_ed0b9029",
         "filename": "api/oc_client_api.c",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2018-04-01T20:55:27Z",
       "side": 1,
       "message": "Can revert back this change.",
+      "range": {
+        "startLine": 288,
+        "startChar": 0,
+        "endLine": 295,
+        "endChar": 3
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e039d7d9",
+        "filename": "api/oc_client_api.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 295,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_ed0b9029",
       "range": {
         "startLine": 288,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_c03653e7",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 1212,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_8d176451",
+      "range": {
+        "startLine": 1205,
+        "startChar": 0,
+        "endLine": 1212,
+        "endChar": 3
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_ad122860",
         "filename": "api/oc_server_api.c",
         "patchSetId": 2
@@ -82,6 +154,30 @@
       "writtenOn": "2018-04-01T20:55:27Z",
       "side": 1,
       "message": "You could revert back this change.",
+      "range": {
+        "startLine": 351,
+        "startChar": 0,
+        "endLine": 359,
+        "endChar": 50
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_20345fdd",
+        "filename": "api/oc_server_api.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 359,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_ad122860",
       "range": {
         "startLine": 351,
         "startChar": 0,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_204bbf5a",
+        "filename": "include/oc_buffer.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_4d1d5c73",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 19
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_2d2f38a3",
         "filename": "messaging/coap/coap.c",
         "patchSetId": 2
@@ -128,6 +248,30 @@
       "writtenOn": "2018-04-01T20:55:27Z",
       "side": 1,
       "message": "You could get rid of this #ifdef once transport_type is made a standard field.",
+      "range": {
+        "startLine": 380,
+        "startChar": 0,
+        "endLine": 380,
+        "endChar": 13
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_40524314",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 380,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_2d2f38a3",
       "range": {
         "startLine": 380,
         "startChar": 0,
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_a057cf01",
+        "filename": "messaging/coap/coap.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 862,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_cd216cb6",
+      "range": {
+        "startLine": 862,
+        "startChar": 0,
+        "endLine": 862,
+        "endChar": 13
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_6d182085",
         "filename": "messaging/coap/coap.h",
         "patchSetId": 2
@@ -174,6 +342,30 @@
       "writtenOn": "2018-04-01T20:55:27Z",
       "side": 1,
       "message": "You could make this a standard field of the struct by taking out the #ifdef.",
+      "range": {
+        "startLine": 98,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 13
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_604dc772",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_6d182085",
       "range": {
         "startLine": 98,
         "startChar": 0,
@@ -209,6 +401,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_00315bec",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_0d2cf4aa",
+      "range": {
+        "startLine": 148,
+        "startChar": 0,
+        "endLine": 152,
+        "endChar": 20
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_ad44e874",
         "filename": "messaging/coap/engine.c",
         "patchSetId": 2
@@ -220,6 +436,30 @@
       "writtenOn": "2018-04-01T20:55:27Z",
       "side": 1,
       "message": "I understand that your goal is to bypass block-wise transfers for TCP connections. But it shouldn\u0027t require this code. In the absence of block options, the code path would fall back to the else block starting at line 433 in this file, which should accept an incoming block of any size (\u003c\u003d OC_MAX_APP_DATA_SIZE) for PUT/POST and process the request.",
+      "range": {
+        "startLine": 252,
+        "startChar": 0,
+        "endLine": 288,
+        "endChar": 19
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_80aa8bd2",
+        "filename": "messaging/coap/engine.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "I knew that if the absence of block options, the code will go 433 line. But in this case, length check will be different in UDP and TCP.(can see my patch set) I want to reduce that kinds of things. And also, I actually want to separate logic with block-wise transfer because coap_receive function actually hard to read. I think this code can be modularize someday soon.",
+      "parentUuid": "da33351e_ad44e874",
       "range": {
         "startLine": 252,
         "startChar": 0,
@@ -255,6 +495,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_40a083f4",
+        "filename": "messaging/coap/engine.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 473,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_4d4f1c93",
+      "range": {
+        "startLine": 471,
+        "startChar": 0,
+        "endLine": 473,
+        "endChar": 19
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_8d49248e",
         "filename": "messaging/coap/engine.c",
         "patchSetId": 2
@@ -266,6 +530,30 @@
       "writtenOn": "2018-04-01T20:55:27Z",
       "side": 1,
       "message": "You can instead use:\n  if (msg-\u003eendpoint.flags \u0026 TCP) {\n          const void *payload \u003d oc_blockwise_dispatch_block(\n            response_buffer, 0, response_buffer-\u003epayload_size + 1, \u0026payload_size);\n          if (payload) {\n            coap_set_payload(response, payload, payload_size);\n          }\n  else {\n  ..\n\nThis way if we want to support block-wise transfers via the BERT option in the future, this would be one of the places we modify.",
+      "range": {
+        "startLine": 493,
+        "startChar": 0,
+        "endLine": 498,
+        "endChar": 18
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e0aef7e6",
+        "filename": "messaging/coap/engine.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 498,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "This makes change blockwise API to handle payload length uint32_t. please refer my patch set.",
+      "parentUuid": "da33351e_8d49248e",
       "range": {
         "startLine": 493,
         "startChar": 0,
@@ -301,6 +589,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_6082e753",
+        "filename": "messaging/coap/engine.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 561,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_cd732ce6",
+      "range": {
+        "startLine": 559,
+        "startChar": 0,
+        "endLine": 561,
+        "endChar": 19
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_2d81f88f",
         "filename": "messaging/coap/engine.c",
         "patchSetId": 2
@@ -312,6 +624,30 @@
       "writtenOn": "2018-04-01T20:55:27Z",
       "side": 1,
       "message": "Can get rid of this.",
+      "range": {
+        "startLine": 622,
+        "startChar": 0,
+        "endLine": 623,
+        "endChar": 7
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c0abf3d4",
+        "filename": "messaging/coap/engine.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 623,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_2d81f88f",
       "range": {
         "startLine": 622,
         "startChar": 0,
@@ -347,6 +683,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_20b9ff2e",
+        "filename": "messaging/coap/engine.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 652,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_0d7eb4ae",
+      "range": {
+        "startLine": 625,
+        "startChar": 0,
+        "endLine": 652,
+        "endChar": 19
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_6d4ae084",
         "filename": "messaging/coap/engine.c",
         "patchSetId": 2
@@ -358,6 +718,30 @@
       "writtenOn": "2018-04-01T20:55:27Z",
       "side": 1,
       "message": "Can get rid of this.",
+      "range": {
+        "startLine": 706,
+        "startChar": 0,
+        "endLine": 708,
+        "endChar": 19
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_00b67b3d",
+        "filename": "messaging/coap/engine.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 708,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_6d4ae084",
       "range": {
         "startLine": 706,
         "startChar": 0,
@@ -393,6 +777,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_805c4b27",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_8d400458",
+      "range": {
+        "startLine": 392,
+        "startChar": 10,
+        "endLine": 392,
+        "endChar": 68
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_ed2430c8",
         "filename": "messaging/coap/observe.c",
         "patchSetId": 2
@@ -404,6 +812,30 @@
       "writtenOn": "2018-04-01T20:55:27Z",
       "side": 1,
       "message": "You can revert this change. It doesn\u0027t matter if \"mid\" is set to some non-zero value in any structures because it is never encoded.",
+      "range": {
+        "startLine": 416,
+        "startChar": 0,
+        "endLine": 421,
+        "endChar": 64
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e040b737",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 421,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_ed2430c8",
       "range": {
         "startLine": 416,
         "startChar": 0,
@@ -439,6 +871,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_00483b5a",
+        "filename": "messaging/coap/transactions.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_ad3b48ea",
+      "range": {
+        "startLine": 87,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 5
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_cd5a0c50",
         "filename": "port/oc_connectivity.h",
         "patchSetId": 2
@@ -450,6 +906,30 @@
       "writtenOn": "2018-04-01T20:55:27Z",
       "side": 1,
       "message": "Use #ifdef OC_TCP ... #else ... here to set OC_PDU_SIZE.",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 63,
+        "endChar": 2
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a06eafc7",
+        "filename": "port/oc_connectivity.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_cd5a0c50",
       "range": {
         "startLine": 56,
         "startChar": 0,
@@ -485,6 +965,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_20629fd8",
+        "filename": "port/oc_connectivity.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "I thought make packet separately with UDP and TCP can reduce memory usage. But in point of \u0027fragmentation\u0027 view, your said is very reasonable. I will change like as you said.",
+      "parentUuid": "da33351e_cdd7acbe",
+      "range": {
+        "startLine": 65,
+        "startChar": 8,
+        "endLine": 65,
+        "endChar": 26
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_2d58d855",
         "filename": "port/oc_connectivity.h",
         "patchSetId": 2
@@ -496,6 +1000,30 @@
       "writtenOn": "2018-04-01T20:55:27Z",
       "side": 1,
       "message": "Ditto as above.",
+      "range": {
+        "startLine": 68,
+        "startChar": 8,
+        "endLine": 68,
+        "endChar": 19
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_8073abb0",
+        "filename": "port/oc_connectivity.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_2d58d855",
       "range": {
         "startLine": 68,
         "startChar": 8,
@@ -531,6 +1059,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_e06717e9",
+        "filename": "port/oc_connectivity.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_0d55141d",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 71,
+        "endChar": 78
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_6d31400b",
         "filename": "port/oc_connectivity.h",
         "patchSetId": 2
@@ -554,6 +1106,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_c06493e7",
+        "filename": "port/oc_connectivity.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_6d31400b",
+      "range": {
+        "startLine": 136,
+        "startChar": 0,
+        "endLine": 140,
+        "endChar": 20
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_ed5d504a",
         "filename": "security/oc_dtls.c",
         "patchSetId": 2
@@ -565,6 +1141,30 @@
       "writtenOn": "2018-04-01T20:55:27Z",
       "side": 1,
       "message": "Following suggested changes to oc_connectivity.h and oc_buffer.c, you could revert back this code change.",
+      "range": {
+        "startLine": 807,
+        "startChar": 0,
+        "endLine": 812,
+        "endChar": 5
+      },
+      "revId": "2037135c4d87e033f13b821498d339ea6cffd7d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_005f9b0f",
+        "filename": "security/oc_dtls.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 812,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-02T11:51:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_ed5d504a",
       "range": {
         "startLine": 807,
         "startChar": 0,
