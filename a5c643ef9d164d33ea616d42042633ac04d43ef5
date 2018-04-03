@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_80144bf6",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-03T02:15:51Z",
+      "side": 1,
+      "message": "trivial.. \nIf you have plan to change this commit. I hope you to align the location of \u0027\\\u0027( line 155, 162, 174, 182, 189)   . otherwise. It\u0027s ok.",
+      "revId": "a5c643ef9d164d33ea616d42042633ac04d43ef5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_400a43d3",
+        "filename": "port/oc_log.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-03T02:15:51Z",
+      "side": 1,
+      "message": "1. I am curious why length(count) is ahead of buf(bytes) becuase\nlength follows address in usual.\n\n2. Would you plese check whether bytes (or bytes[i]) is NULL or not to avoid exception",
+      "revId": "a5c643ef9d164d33ea616d42042633ac04d43ef5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a00fcfe0",
+        "filename": "port/openthread/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-03T02:15:51Z",
+      "side": 1,
+      "message": "Do you explain the reason using PRINT instead of OC_* ?\nYou changed them at various places so I think it is your suggestion",
+      "revId": "a5c643ef9d164d33ea616d42042633ac04d43ef5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
