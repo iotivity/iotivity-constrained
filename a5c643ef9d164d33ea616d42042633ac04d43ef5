@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_c0f5b3cc",
+        "filename": "messaging/coap/coap.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-03T04:27:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_80144bf6",
+      "revId": "a5c643ef9d164d33ea616d42042633ac04d43ef5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_400a43d3",
         "filename": "port/oc_log.h",
         "patchSetId": 3
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_802bab2f",
+        "filename": "port/oc_log.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-03T04:27:07Z",
+      "side": 1,
+      "message": "1.Done\n2.If there is no value, it will print with 00",
+      "parentUuid": "da33351e_400a43d3",
+      "revId": "a5c643ef9d164d33ea616d42042633ac04d43ef5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_a00fcfe0",
         "filename": "port/openthread/ipadapter.c",
         "patchSetId": 3
@@ -47,6 +83,24 @@
       "writtenOn": "2018-04-03T02:15:51Z",
       "side": 1,
       "message": "Do you explain the reason using PRINT instead of OC_* ?\nYou changed them at various places so I think it is your suggestion",
+      "revId": "a5c643ef9d164d33ea616d42042633ac04d43ef5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e01f1708",
+        "filename": "port/openthread/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-03T04:27:07Z",
+      "side": 1,
+      "message": "It has already been done in linux port.\nOnly in / out messages are displayed using PRINT.",
+      "parentUuid": "da33351e_a00fcfe0",
       "revId": "a5c643ef9d164d33ea616d42042633ac04d43ef5",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
