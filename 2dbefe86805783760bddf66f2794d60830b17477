@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_40a6c3c2",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-03T14:27:05Z",
+      "side": 1,
+      "message": "Sorry, I don\u0027t get it. Why do we need to fall out of select every second? Is this for the session fds?",
+      "revId": "2dbefe86805783760bddf66f2794d60830b17477",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e0cd5788",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-03T14:27:05Z",
+      "side": 1,
+      "message": "Why is this an error? You will find this on most Linux machines. We just do not want to include them.",
+      "revId": "2dbefe86805783760bddf66f2794d60830b17477",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_20c8df73",
+        "filename": "port/linux/tcpadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-03T14:27:05Z",
+      "side": 1,
+      "message": "There is currently review https://gerrit.iotivity.org/gerrit/24525 open to get rid of requiring always the trailing \\n.",
+      "revId": "2dbefe86805783760bddf66f2794d60830b17477",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_00c5db5a",
+        "filename": "port/linux/tcpadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 464,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-03T14:27:05Z",
+      "side": 1,
+      "message": "OC_DBG seems like a good alternative.",
+      "revId": "2dbefe86805783760bddf66f2794d60830b17477",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
