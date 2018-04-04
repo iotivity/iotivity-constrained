@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_c31c9d16",
+        "filename": "api/oc_helpers.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-04T13:43:27Z",
+      "side": 1,
+      "message": "Is there a reason why you are breaking the coding style and additionally use uneccessary long lines?",
+      "revId": "69c05e2feb5a5ac1d72bf407fcb41c2a5fdc807f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_0317a5ee",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-04T13:43:27Z",
+      "side": 1,
+      "message": "This is now unreadable without using a scrollbar in Gerrit.\nRevert to original coding style.",
+      "revId": "69c05e2feb5a5ac1d72bf407fcb41c2a5fdc807f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_43d88d53",
+        "filename": "util/oc_mmem.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-04T13:43:27Z",
+      "side": 1,
+      "message": "Why is this construct required instead of simply mapping onto __oc_mmem_free(m, pool_type)?",
+      "revId": "69c05e2feb5a5ac1d72bf407fcb41c2a5fdc807f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
