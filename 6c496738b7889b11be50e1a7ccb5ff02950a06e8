@@ -1,0 +1,135 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_c385bdae",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 491,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-04T23:38:58Z",
+      "side": 0,
+      "message": "Modify this to \nstatic void\nget_interface_addresses(unsigned char family, uint16_t port, bool secure, bool tcp)\n{\n..\n\nNo need to use #ifdef OC_TCP above.\nAlso, It is OK to return void here. This is meant to be a \"best effort\" method to obtain interface information from the kernel - so you get whatever you get.",
+      "range": {
+        "startLine": 490,
+        "startChar": 0,
+        "endLine": 491,
+        "endChar": 73
+      },
+      "revId": "6c496738b7889b11be50e1a7ccb5ff02950a06e8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_2393c9fb",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 600,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-04T23:38:58Z",
+      "side": 0,
+      "message": "At this point (before calling oc_add_endpoint_to_list()) you can add the following:\n#ifdef OC_TCP\nif (tcp) {\n  ep.flags |\u003d TCP;\n}\n#endif /* OC_TCP */",
+      "revId": "6c496738b7889b11be50e1a7ccb5ff02950a06e8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a3b6b988",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 617,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-04T23:38:58Z",
+      "side": 0,
+      "message": "Below this, you would add\nget_interface_addresses(AF_INET6, dev-\u003etcp.port, false, true);",
+      "revId": "6c496738b7889b11be50e1a7ccb5ff02950a06e8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_23aaa919",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 617,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-04T23:38:58Z",
+      "side": 0,
+      "message": "You would add ,false here and likewise in the calls below.",
+      "range": {
+        "startLine": 617,
+        "startChar": 52,
+        "endLine": 617,
+        "endChar": 54
+      },
+      "revId": "6c496738b7889b11be50e1a7ccb5ff02950a06e8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_83bbb571",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 619,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-04T23:38:58Z",
+      "side": 0,
+      "message": "Below this, you would add\nget_interface_addresses(AF_INET6, dev-\u003etcp.tls_port, true, true);",
+      "revId": "6c496738b7889b11be50e1a7ccb5ff02950a06e8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e3af212a",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 622,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-04T23:38:58Z",
+      "side": 0,
+      "message": "Below this, you would add\nget_interface_addresses(AF_INET, dev-\u003etcp.port4, false, true);",
+      "revId": "6c496738b7889b11be50e1a7ccb5ff02950a06e8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c3ac9d38",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 624,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-04T23:38:58Z",
+      "side": 0,
+      "message": "Below this, you would add\nget_interface_addresses(AF_INET, dev-\u003etcp.tls4_port, true, true);",
+      "revId": "6c496738b7889b11be50e1a7ccb5ff02950a06e8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
