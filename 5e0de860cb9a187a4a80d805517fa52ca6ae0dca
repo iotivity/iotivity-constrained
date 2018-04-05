@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "da33351e_e3956189",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-05T02:28:48Z",
+      "side": 1,
+      "message": "Add #ifdef OC_TCP?",
+      "revId": "5e0de860cb9a187a4a80d805517fa52ca6ae0dca",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_6395d1e3",
         "filename": "port/linux/ipadapter.c",
         "patchSetId": 5
@@ -88,6 +105,23 @@
     },
     {
       "key": {
+        "uuid": "da33351e_c392dd9e",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 551,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-05T02:28:48Z",
+      "side": 1,
+      "message": "Is is not require null check before using it?",
+      "revId": "5e0de860cb9a187a4a80d805517fa52ca6ae0dca",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_e388c1c8",
         "filename": "port/linux/ipadapter.c",
         "patchSetId": 5
@@ -104,6 +138,29 @@
         "startChar": 0,
         "endLine": 592,
         "endChar": 1
+      },
+      "revId": "5e0de860cb9a187a4a80d805517fa52ca6ae0dca",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_2390e994",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 610,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-05T02:28:48Z",
+      "side": 1,
+      "message": "Indent is strange.",
+      "range": {
+        "startLine": 608,
+        "startChar": 0,
+        "endLine": 610,
+        "endChar": 3
       },
       "revId": "5e0de860cb9a187a4a80d805517fa52ca6ae0dca",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
@@ -208,6 +265,29 @@
       "writtenOn": "2018-04-04T23:38:58Z",
       "side": 1,
       "message": "Code style:\n\nPlease review tools/README to set up clang-format to automatically set code style using a git pre-commit hook. Once configured, it will run clang-format during every \"git commit\".",
+      "revId": "5e0de860cb9a187a4a80d805517fa52ca6ae0dca",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_038de57b",
+        "filename": "port/linux/tcpadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-05T02:28:48Z",
+      "side": 1,
+      "message": "it is two space.",
+      "range": {
+        "startLine": 35,
+        "startChar": 29,
+        "endLine": 35,
+        "endChar": 31
+      },
       "revId": "5e0de860cb9a187a4a80d805517fa52ca6ae0dca",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -438,6 +518,29 @@
     },
     {
       "key": {
+        "uuid": "da33351e_037e85ae",
+        "filename": "port/linux/tcpadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-05T02:28:48Z",
+      "side": 1,
+      "message": "Please remove space",
+      "range": {
+        "startLine": 164,
+        "startChar": 11,
+        "endLine": 164,
+        "endChar": 12
+      },
+      "revId": "5e0de860cb9a187a4a80d805517fa52ca6ae0dca",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_835f3572",
         "filename": "port/linux/tcpadapter.c",
         "patchSetId": 5
@@ -610,6 +713,40 @@
         "endLine": 209,
         "endChar": 42
       },
+      "revId": "5e0de860cb9a187a4a80d805517fa52ca6ae0dca",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_634af184",
+        "filename": "port/linux/tcpadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-05T02:28:48Z",
+      "side": 1,
+      "message": "is it not require break when the session is founed?",
+      "revId": "5e0de860cb9a187a4a80d805517fa52ca6ae0dca",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_434fed92",
+        "filename": "port/linux/tcpadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-05T02:28:48Z",
+      "side": 1,
+      "message": "I think that \u0027{\u0027 move to next line\nPlease change the same in other functions.",
       "revId": "5e0de860cb9a187a4a80d805517fa52ca6ae0dca",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -840,6 +977,23 @@
         "endLine": 297,
         "endChar": 45
       },
+      "revId": "5e0de860cb9a187a4a80d805517fa52ca6ae0dca",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a344f974",
+        "filename": "port/linux/tcpadapter.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-05T02:28:48Z",
+      "side": 1,
+      "message": "is is not require session close or free?",
       "revId": "5e0de860cb9a187a4a80d805517fa52ca6ae0dca",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
