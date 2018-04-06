@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_1e4b7cb1",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-06T05:21:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_9e030c73",
+      "range": {
+        "startLine": 329,
+        "startChar": 0,
+        "endLine": 329,
+        "endChar": 25
+      },
+      "revId": "9d0c156407c2e1e9ad5a0a4d3387217a2cf6b904",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_5e098494",
         "filename": "port/linux/ipadapter.c",
         "patchSetId": 6
@@ -36,6 +60,30 @@
       "writtenOn": "2018-04-05T22:08:01Z",
       "side": 1,
       "message": "We absolutely shouldn\u0027t make this loop spin. It kills the efficiency of the event-driven model. select() should be allowed to block indefinitely in anticipation of events.\nAs for the concern around the shutdown sequence, I believe Andreas had volunteered submit a patch for it after this one is merged.",
+      "range": {
+        "startLine": 335,
+        "startChar": 0,
+        "endLine": 336,
+        "endChar": 24
+      },
+      "revId": "9d0c156407c2e1e9ad5a0a4d3387217a2cf6b904",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7ec72813",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-06T05:21:44Z",
+      "side": 1,
+      "message": "Actually, when new tcp connection is made, connected socket is add in dev-\u003erfds. But if no event in receive fds, there are no way to update setfds with new rfds. So I set timeout value to update every 1 second.\nBut as you said that gives adversely effect for the event-driven model, I removes timeout and makes pipe for connect event. please check this too.",
+      "parentUuid": "da33351e_5e098494",
       "range": {
         "startLine": 335,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_5ecce435",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 338,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-06T05:21:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_befed069",
+      "range": {
+        "startLine": 338,
+        "startChar": 49,
+        "endLine": 338,
+        "endChar": 56
+      },
+      "revId": "9d0c156407c2e1e9ad5a0a4d3387217a2cf6b904",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_3edbe01c",
         "filename": "port/linux/tcpadapter.c",
         "patchSetId": 6
@@ -82,6 +154,30 @@
       "writtenOn": "2018-04-05T22:08:01Z",
       "side": 1,
       "message": "The buffer is allocated to OC_PDU_SIZE. In an OC_TCP build, OC_PDU_SIZE is derived from OC_MAX_APP_DATA_SIZE:\n\n#define OC_PDU_SIZE (oc_get_max_app_data_size() + COAP_MAX_HEADER_SIZE)\n\nIf the condition in line 285 was false, total_length \u003c\u003d OC_PDU_SOZE.\nSo, it shouldn\u0027t be necessary to do a realloc here.",
+      "range": {
+        "startLine": 295,
+        "startChar": 0,
+        "endLine": 297,
+        "endChar": 34
+      },
+      "revId": "9d0c156407c2e1e9ad5a0a4d3387217a2cf6b904",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_9ed66cc4",
+        "filename": "port/linux/tcpadapter.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-06T05:21:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_3edbe01c",
       "range": {
         "startLine": 295,
         "startChar": 0,
