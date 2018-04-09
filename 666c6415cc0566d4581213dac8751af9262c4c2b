@@ -1,0 +1,274 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_99b966ec",
+        "filename": "include/oc_helpers.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T22:14:29Z",
+      "side": 1,
+      "message": "Duplicate of lines 32-36?",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 55
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_798f4224",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 4
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T22:14:29Z",
+      "side": 1,
+      "message": "You could get rid of this.",
+      "range": {
+        "startLine": 87,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 19
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_39765a3f",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T22:14:29Z",
+      "side": 1,
+      "message": "This isn\u0027t true.. The tracer will build and run just fine in its current state on a build without OC_DYNAMIC_ALLOCATION. It is not strictly necessary to build the tracer without malloc to profile a static build, as you can you run a static build on Linux.",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 61
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b9b42af3",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T22:14:29Z",
+      "side": 1,
+      "message": "You could create an OC_MEMB() of mem_logger_s objects. OC_MEMB internally handles the distinction between with/without dynamic allocation. That way the tracer would compile on OSes that do not support malloc. However, picking the size of that pool is going to be tricky, as the basic operation here is to log all alloc/free ops in a constantly growing list of mem_logger_s objects, and that size would vary by the duration for which the app runs.",
+      "range": {
+        "startLine": 24,
+        "startChar": 24,
+        "endLine": 24,
+        "endChar": 55
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_79baa2e2",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T22:14:29Z",
+      "side": 1,
+      "message": "Should be (FUNC_NAME_LEN + 1), or it would cause a buffer overflow below.",
+      "range": {
+        "startLine": 41,
+        "startChar": 12,
+        "endLine": 41,
+        "endChar": 25
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b999ca70",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T22:14:29Z",
+      "side": 1,
+      "message": "A mutex shouldn\u0027t be necessary here as the primary consumer of these alloc/free APIs is the stack itself and all those calls come from the same thread. So, please hold off on adding one.",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 15
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_59bfded0",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T22:14:29Z",
+      "side": 1,
+      "message": "Could use calloc() instead.",
+      "range": {
+        "startLine": 75,
+        "startChar": 47,
+        "endLine": 75,
+        "endChar": 53
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_99b046f6",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T22:14:29Z",
+      "side": 1,
+      "message": "Should then be func_name_len.",
+      "range": {
+        "startLine": 76,
+        "startChar": 43,
+        "endLine": 76,
+        "endChar": 56
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_39f13ace",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T22:14:29Z",
+      "side": 1,
+      "message": "You\u0027ll have to add this:\nsize_t func_name_len \u003d (FUNC_NAME_LEN \u003c strlen(func)) ? FUNC_NAME_LEN:strlen(func);",
+      "range": {
+        "startLine": 76,
+        "startChar": 43,
+        "endLine": 76,
+        "endChar": 56
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_19eef6ec",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T22:14:29Z",
+      "side": 1,
+      "message": "Should be func_name_len.",
+      "range": {
+        "startLine": 77,
+        "startChar": 21,
+        "endLine": 77,
+        "endChar": 34
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_5994fe36",
+        "filename": "util/oc_mmem.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T22:14:29Z",
+      "side": 1,
+      "message": "Move this line to just after line 147.",
+      "range": {
+        "startLine": 200,
+        "startChar": 0,
+        "endLine": 200,
+        "endChar": 61
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d99f6e4f",
+        "filename": "util/oc_mmem.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T22:14:29Z",
+      "side": 1,
+      "message": "At the moment, you\u0027re only tracing alloc/frees through the memory map. But a majority of all allocations in the stack happen through OC_MEMB.",
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
