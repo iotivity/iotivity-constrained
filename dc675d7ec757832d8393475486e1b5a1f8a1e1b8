@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_394bfa5a",
+        "filename": "port/linux/config.h",
+        "patchSetId": 8
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T23:15:02Z",
+      "side": 1,
+      "message": "Not required.",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 30
+      },
+      "revId": "dc675d7ec757832d8393475486e1b5a1f8a1e1b8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d93daebd",
+        "filename": "port/linux/tcpadapter.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 362,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-09T23:15:02Z",
+      "side": 1,
+      "message": "Should check the return value:\nif (oc_endpoint_to_string(...) \u003d\u003d 0) {\n...",
+      "range": {
+        "startLine": 362,
+        "startChar": 2,
+        "endLine": 362,
+        "endChar": 43
+      },
+      "revId": "dc675d7ec757832d8393475486e1b5a1f8a1e1b8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
