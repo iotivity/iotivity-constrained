@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_d9c00e7f",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 580
+      },
+      "writtenOn": "2018-04-09T06:49:12Z",
+      "side": 1,
+      "message": "CMAKE is no longer required. I will remove this line.",
+      "parentUuid": "da33351e_be9ff002",
+      "revId": "b0303ed2099e9ef0aa23c5a0d1a36796394b00bd",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_9ea4ac58",
         "filename": "port/linux/Makefile",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2018-04-06T11:35:14Z",
       "side": 1,
       "message": "That fit\u0027s better below the tests directory.",
+      "revId": "b0303ed2099e9ef0aa23c5a0d1a36796394b00bd",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_39be5a00",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 580
+      },
+      "writtenOn": "2018-04-09T06:49:12Z",
+      "side": 1,
+      "message": "Actually, Unit TC is integrated part of API, so they should reside beside API files, not to an altogether remote directory. At least that is the norm followed in main IoTivity project.\n\nIn my opinion, the \u003ciotivity_constrained_root\u003e/tests folder is better suited for ITC and other test materials, but not UTC.",
+      "parentUuid": "da33351e_9ea4ac58",
       "revId": "b0303ed2099e9ef0aa23c5a0d1a36796394b00bd",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
