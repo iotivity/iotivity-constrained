@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_59651e44",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 331,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-10T15:04:23Z",
+      "side": 0,
+      "message": "This is set again below in the loop and not required above.",
+      "revId": "80d235789e8ee08e9fbc84d7a82cd0763c253299",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
