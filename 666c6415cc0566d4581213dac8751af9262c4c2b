@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_744d8972",
+        "filename": "include/oc_helpers.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-12T05:00:57Z",
+      "side": 1,
+      "message": "Thanks for pointing out the duplication",
+      "parentUuid": "da33351e_99b966ec",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 55
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_798f4224",
         "filename": "port/linux/Makefile",
         "patchSetId": 4
@@ -36,6 +60,30 @@
       "writtenOn": "2018-04-09T22:14:29Z",
       "side": 1,
       "message": "You could get rid of this.",
+      "range": {
+        "startLine": 87,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 19
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d43d75bd",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 4
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-12T05:00:57Z",
+      "side": 1,
+      "message": "it is related to my comment at Line 20 in oc_mem_trace.c",
+      "parentUuid": "da33351e_798f4224",
       "range": {
         "startLine": 87,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_b4571102",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-12T05:00:57Z",
+      "side": 1,
+      "message": "My concern is malloc()/calloc() at line 75. I think I don\u0027t want to use malloc()/calloc under no dynamic alloc. Therefore  I\u0027m looking for a easier \u0026 simpler way to apply both of them \n(on going.. .. it will be submitted soon)\nUntil that, I hope it is only applied to DYAMIC_ALLOC.\n\nIf it seems that I don\u0027t catch up your philosophy of a memory management in iotivity constrained well, Please let me know",
+      "parentUuid": "da33351e_39765a3f",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 61
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b9b42af3",
         "filename": "util/oc_mem_trace.c",
         "patchSetId": 4
@@ -82,6 +154,30 @@
       "writtenOn": "2018-04-09T22:14:29Z",
       "side": 1,
       "message": "You could create an OC_MEMB() of mem_logger_s objects. OC_MEMB internally handles the distinction between with/without dynamic allocation. That way the tracer would compile on OSes that do not support malloc. However, picking the size of that pool is going to be tricky, as the basic operation here is to log all alloc/free ops in a constantly growing list of mem_logger_s objects, and that size would vary by the duration for which the app runs.",
+      "range": {
+        "startLine": 24,
+        "startChar": 24,
+        "endLine": 24,
+        "endChar": 55
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f4407937",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-12T05:00:57Z",
+      "side": 1,
+      "message": "I also have a plan to apply mem_trace to OC_MEMB() too. so the memory allocation in mem_trace should work without wrapping memory functions iotivity-contrained provides. \nIn addition, other alloc() functions in iotivity-stack  will be replaced for tracing memory \n\ndrawback: memory explosion. \ncurrently, one mem_logger_s needs about 40 bytes and I know   memory explosion may happen very soon under the limited embeded system because it adds endless \"mem_logger_s\"s until the application ends. \n\nHowever, I would like to keep all history of mem_logger_s now, because whole tracing memory alloc/free status in bytes is more important than others. \n\nTo deal with the situation,\nWhat do you think about adding an option to suggest the max size of mem_log_list like Unlimited/4096(defining variable value to decide the max size) ?\n\nUnlimited means that it is collecting all status as you guess\nsome size makes the limitation of collecting \"mem_logger_s\"s",
+      "parentUuid": "da33351e_b9b42af3",
       "range": {
         "startLine": 24,
         "startChar": 24,
@@ -255,6 +351,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_3434a1dd",
+        "filename": "util/oc_mmem.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-12T05:00:57Z",
+      "side": 1,
+      "message": "I would like to let it stay here because I want to confirm that  this function is called when free() really works.\n\nBy the way, I just found another hidden thing that has to be fixed due to your comment here. :) .instead of size ,  \"size* sizeof(byte, int or dobule)\" is supposed to be  as param in oc_mem_trace_add_pace().\n\nYou would get the fixed one next commit soon",
+      "parentUuid": "da33351e_5994fe36",
+      "range": {
+        "startLine": 200,
+        "startChar": 0,
+        "endLine": 200,
+        "endChar": 61
+      },
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_d99f6e4f",
         "filename": "util/oc_mmem.h",
         "patchSetId": 4
@@ -266,6 +386,24 @@
       "writtenOn": "2018-04-09T22:14:29Z",
       "side": 1,
       "message": "At the moment, you\u0027re only tracing alloc/frees through the memory map. But a majority of all allocations in the stack happen through OC_MEMB.",
+      "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_14319dec",
+        "filename": "util/oc_mmem.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-12T05:00:57Z",
+      "side": 1,
+      "message": "I know it and have a plan to include OC_MEMB after receiving your feedbacks first",
+      "parentUuid": "da33351e_d99f6e4f",
       "revId": "666c6415cc0566d4581213dac8751af9262c4c2b",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
