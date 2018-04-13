@@ -342,6 +342,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_74b629de",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-13T11:34:48Z",
+      "side": 1,
+      "message": "Collection support is must for easy setup .. oic.r.easysetup is a collection resource. So yes, we can handle this with conditional compilation in port/Makefile.",
+      "parentUuid": "da33351e_d49f354f",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b499d170",
         "filename": "service/easy-setup/enrollee/esresources.h",
         "patchSetId": 2
