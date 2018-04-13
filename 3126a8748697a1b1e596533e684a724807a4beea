@@ -291,6 +291,23 @@
     },
     {
       "key": {
+        "uuid": "da33351e_f4a23999",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-13T11:30:41Z",
+      "side": 1,
+      "message": "Please use OC_DBG for debug output.\nDue to a recent merge the trailing newlines are then automatically added and shall no longer be part of the string.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_94b92dec",
         "filename": "service/easy-setup/enrollee/esresources.c",
         "patchSetId": 2
@@ -302,6 +319,23 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "blank spaces need to be removed.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d49f354f",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-13T11:30:41Z",
+      "side": 1,
+      "message": "I do not know easysetup. If the use of collections is there optional, then this is ok. But if easysetup requires collections, then the whole module makes only sense to be compiled, if collection support is compiled-in.",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -387,6 +421,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "please end comments with period (.).",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_34adc189",
+        "filename": "service/easy-setup/enrollee/include/easysetup.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-13T11:30:41Z",
+      "side": 1,
+      "message": "Agreed, but I am very happy that these comments exist.\nPlease note that the Doxygen setup is in tools/doxygen.ini.\nYou may add your path here.\nThe Doxygen so far expects the explicit use of @brief and the (unfortunately few) comments so far in oc_api.h also use it.\nBut we could check if setting autobrief to YES would still create a proper output. Thanks.",
+      "parentUuid": "da33351e_f4cd1988",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
