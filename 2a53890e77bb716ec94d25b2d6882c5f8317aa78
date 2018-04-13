@@ -39,6 +39,29 @@
       "revId": "2a53890e77bb716ec94d25b2d6882c5f8317aa78",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_14523ddd",
+        "filename": "include/oc_api.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 314,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-13T05:38:44Z",
+      "side": 1,
+      "message": "Put API Doxygen comment referencing with IoTivity.",
+      "range": {
+        "startLine": 314,
+        "startChar": 0,
+        "endLine": 314,
+        "endChar": 53
+      },
+      "revId": "2a53890e77bb716ec94d25b2d6882c5f8317aa78",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
