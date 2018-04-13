@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_9403ed72",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_b426f166",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_942bed2f",
         "filename": "port/linux/Makefile",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "Trailing whitespace.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f4f7d98a",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_942bed2f",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_34f2e19a",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f41fd907",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_d41c5516",
         "filename": "service/easy-setup/enrollee/easysetup.c",
         "patchSetId": 2
@@ -64,6 +118,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "first header should be own header file to make sure header can be compiled without any dependency. \n\nso please make \"easysetup.h\" as the first one in include files.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_14efddb1",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_d41c5516",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_742bc9eb",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_341ae117",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_1417ddee",
         "filename": "service/easy-setup/enrollee/easysetup.c",
         "patchSetId": 2
@@ -98,6 +188,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "we can add some log message here for this check to be useful.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_54304556",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_1417ddee",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_b4355148",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_74d3c938",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_54d84553",
         "filename": "service/easy-setup/enrollee/easysetup.c",
         "patchSetId": 2
@@ -132,6 +258,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "we can add some log message here for this check to be useful.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_943acd34",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_54d84553",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -155,6 +299,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_f43eb928",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_b4dd5145",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_94e2cd01",
         "filename": "service/easy-setup/enrollee/easysetup.c",
         "patchSetId": 2
@@ -166,6 +328,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "formatting: else should be in same line after closing brace.\n\nif (condition) {\n} else {\n}",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d43bb536",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_94e2cd01",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -189,6 +369,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_344941d1",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_d4e3b503",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_f4e6b915",
         "filename": "service/easy-setup/enrollee/easysetup.c",
         "patchSetId": 2
@@ -200,6 +398,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "same here (else formatting).",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1446bdbf",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f4e6b915",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -223,6 +439,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_7412a9b5",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_34f141ce",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_14eebdec",
         "filename": "service/easy-setup/enrollee/easysetup.c",
         "patchSetId": 2
@@ -234,6 +468,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "else formatting.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_5417a5a3",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_14eebdec",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -257,6 +509,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_342021f7",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_d491f553",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b4b431f3",
         "filename": "service/easy-setup/enrollee/esresources.c",
         "patchSetId": 2
@@ -268,6 +538,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "tabs need to be removed.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_141d1dbe",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_b4b431f3",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -291,6 +579,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_747909fc",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_349f8161",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_f4a23999",
         "filename": "service/easy-setup/enrollee/esresources.c",
         "patchSetId": 2
@@ -308,6 +614,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_547e85e5",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f4a23999",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_94b92dec",
         "filename": "service/easy-setup/enrollee/esresources.c",
         "patchSetId": 2
@@ -319,6 +643,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "blank spaces need to be removed.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b48391cb",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_94b92dec",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -395,6 +737,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_b40c3196",
+        "filename": "service/easy-setup/enrollee/esresources.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_b499d170",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_74baa9e2",
         "filename": "service/easy-setup/enrollee/esresources.h",
         "patchSetId": 2
@@ -406,6 +766,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "ending _ not required.. \n\nplease follow the consistent style like \"OC_API_H\"",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_94112daf",
+        "filename": "service/easy-setup/enrollee/esresources.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_74baa9e2",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -429,6 +807,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_f425190b",
+        "filename": "service/easy-setup/enrollee/esresources.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f494f945",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_54bfa5d0",
         "filename": "service/easy-setup/enrollee/esresources.h",
         "patchSetId": 2
@@ -440,6 +836,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "need to update here.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d4229500",
+        "filename": "service/easy-setup/enrollee/esresources.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_54bfa5d0",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -517,6 +931,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_94880de9",
+        "filename": "service/easy-setup/enrollee/include/easysetup.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f4cd1988",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_34c82174",
         "filename": "service/easy-setup/enrollee/include/easysetup.h",
         "patchSetId": 2
@@ -528,6 +960,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "plz consider line length to be \u003c 100 chars",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f46cf938",
+        "filename": "service/easy-setup/enrollee/include/easysetup.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_34c82174",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -551,6 +1001,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_d469f526",
+        "filename": "service/easy-setup/enrollee/include/easysetup.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_d4ca956d",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_14c51d5b",
         "filename": "service/easy-setup/enrollee/include/enrolleecommon.h",
         "patchSetId": 2
@@ -562,6 +1030,24 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "ending _ can be removed",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_34778104",
+        "filename": "service/easy-setup/enrollee/include/enrolleecommon.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_14c51d5b",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -585,6 +1071,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_1474fdfb",
+        "filename": "service/easy-setup/enrollee/include/enrolleecommon.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_149cfd68",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_7488e922",
         "filename": "service/easy-setup/enrollee/include/enrolleecommon.h",
         "patchSetId": 2
@@ -596,6 +1100,24 @@
       "writtenOn": "2018-04-13T11:00:11Z",
       "side": 1,
       "message": "mediator -\u003e Mediator\nWiFi -\u003e Wi-Fi",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7460e935",
+        "filename": "service/easy-setup/enrollee/include/enrolleecommon.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_7488e922",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -619,6 +1141,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_5465e543",
+        "filename": "service/easy-setup/enrollee/include/enrolleecommon.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_b48271fe",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_548de530",
         "filename": "service/easy-setup/enrollee/include/enrolleecommon.h",
         "patchSetId": 2
@@ -630,6 +1170,24 @@
       "writtenOn": "2018-04-13T11:00:11Z",
       "side": 1,
       "message": "please fix naming convention ::\naccessToken -\u003e access_token",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b45a7181",
+        "filename": "service/easy-setup/enrollee/include/enrolleecommon.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_548de530",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -653,6 +1211,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_945f6d72",
+        "filename": "service/easy-setup/enrollee/include/estypes.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_74a109a9",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_94876d0f",
         "filename": "service/easy-setup/enrollee/include/estypes.h",
         "patchSetId": 2
@@ -664,6 +1240,24 @@
       "writtenOn": "2018-04-13T11:00:11Z",
       "side": 1,
       "message": "auth code can be removed .. so please delete lines 58 and 59.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f453596a",
+        "filename": "service/easy-setup/enrollee/include/estypes.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_94876d0f",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -687,6 +1281,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_d450d560",
+        "filename": "service/easy-setup/enrollee/include/estypes.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f47b5927",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_d478d52d",
         "filename": "service/easy-setup/enrollee/include/estypes.h",
         "patchSetId": 2
@@ -698,6 +1310,30 @@
       "writtenOn": "2018-04-13T11:00:11Z",
       "side": 1,
       "message": "please align line length to \u003c 100 .. (to be fixed at all other places too).",
+      "range": {
+        "startLine": 171,
+        "startChar": 101,
+        "endLine": 171,
+        "endChar": 102
+      },
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_344e61c2",
+        "filename": "service/easy-setup/enrollee/include/estypes.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 14207
+      },
+      "writtenOn": "2018-04-13T13:53:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_d478d52d",
       "range": {
         "startLine": 171,
         "startChar": 101,
