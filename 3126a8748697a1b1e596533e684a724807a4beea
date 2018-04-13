@@ -360,6 +360,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_f4c9995b",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-13T11:58:56Z",
+      "side": 1,
+      "message": "Thanks for the info.\nCollection enable/disable is actually done in config.h found in port/linux (and other ports of course) and not in the Makefile. Kishen\u0027s approach in security was using an #ifdef around the entire code in the C files.\nBut we could add a new flag in the Makefile that enabling easysetup enforces also collections. The last word has Kishen.",
+      "parentUuid": "da33351e_74b629de",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b499d170",
         "filename": "service/easy-setup/enrollee/esresources.h",
         "patchSetId": 2
@@ -475,6 +493,24 @@
       "side": 1,
       "message": "Thanks for the info on doxygen..\n\none Query: have you used other scripts (tools/check.py or check-style) for constrained project ? Are they supposed to automatically format the code similar to astyle in main iotivity project ?",
       "parentUuid": "da33351e_34adc189",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d4c61549",
+        "filename": "service/easy-setup/enrollee/include/easysetup.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-13T11:58:56Z",
+      "side": 1,
+      "message": "Personally I have never used these tools and they are not applied upon commit. I learned by looking at the code and complaints from Kishen...\nAs 95% of the code comes from Kishen so far, he has the last word on it. But the styles in Lite are different to IoTivity.",
+      "parentUuid": "da33351e_b4b0b1de",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
