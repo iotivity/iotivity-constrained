@@ -240,6 +240,23 @@
     },
     {
       "key": {
+        "uuid": "da33351e_d491f553",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-13T11:00:11Z",
+      "side": 1,
+      "message": "can remove un-necessary header which are not required",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b4b431f3",
         "filename": "service/easy-setup/enrollee/esresources.c",
         "patchSetId": 2
@@ -251,6 +268,23 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "tabs need to be removed.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_349f8161",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-13T11:00:11Z",
+      "side": 1,
+      "message": "please cleanup these comments",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -285,6 +319,23 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "ending _ not required.. \n\nplease follow the consistent style like \"OC_API_H\"",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f494f945",
+        "filename": "service/easy-setup/enrollee/esresources.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-13T11:00:11Z",
+      "side": 1,
+      "message": "why do we need \u003cstring.h\u003e include in this header?",
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -376,6 +427,74 @@
     },
     {
       "key": {
+        "uuid": "da33351e_149cfd68",
+        "filename": "service/easy-setup/enrollee/include/enrolleecommon.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-13T11:00:11Z",
+      "side": 1,
+      "message": "period \".\" at the end of comment",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7488e922",
+        "filename": "service/easy-setup/enrollee/include/enrolleecommon.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-13T11:00:11Z",
+      "side": 1,
+      "message": "mediator -\u003e Mediator\nWiFi -\u003e Wi-Fi",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b48271fe",
+        "filename": "service/easy-setup/enrollee/include/enrolleecommon.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-13T11:00:11Z",
+      "side": 1,
+      "message": "mediator -\u003e Mediator\n\nand add period at the end of comment (please fix in other places too).",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_548de530",
+        "filename": "service/easy-setup/enrollee/include/enrolleecommon.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-13T11:00:11Z",
+      "side": 1,
+      "message": "please fix naming convention ::\naccessToken -\u003e access_token",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_74a109a9",
         "filename": "service/easy-setup/enrollee/include/estypes.h",
         "patchSetId": 2
@@ -387,6 +506,63 @@
       "writtenOn": "2018-04-13T10:21:09Z",
       "side": 1,
       "message": "here too",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_94876d0f",
+        "filename": "service/easy-setup/enrollee/include/estypes.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-13T11:00:11Z",
+      "side": 1,
+      "message": "auth code can be removed .. so please delete lines 58 and 59.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f47b5927",
+        "filename": "service/easy-setup/enrollee/include/estypes.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-13T11:00:11Z",
+      "side": 1,
+      "message": "can remove WIFI_BOTH and WIFI_NONE and remove about TODO comment.",
+      "revId": "3126a8748697a1b1e596533e684a724807a4beea",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d478d52d",
+        "filename": "service/easy-setup/enrollee/include/estypes.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-13T11:00:11Z",
+      "side": 1,
+      "message": "please align line length to \u003c 100 .. (to be fixed at all other places too).",
+      "range": {
+        "startLine": 171,
+        "startChar": 101,
+        "endLine": 171,
+        "endChar": 102
+      },
       "revId": "3126a8748697a1b1e596533e684a724807a4beea",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
