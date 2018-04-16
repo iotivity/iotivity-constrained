@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_7418e984",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-16T03:56:25Z",
+      "side": 1,
+      "message": "I expect the adpator to separate the file for OIC and OCF spec handling with version info. Common comment for all handlers.",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 77,
+        "endChar": 24
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f424f9c7",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-16T03:56:25Z",
+      "side": 1,
+      "message": "It will be better to exclude easy-setup build in case of OC_COLLECTIONS is false. Because easy-setup consists of collection resource from OCF spec., it is natural disable the easy-setup without collection.",
+      "range": {
+        "startLine": 152,
+        "startChar": 0,
+        "endLine": 152,
+        "endChar": 21
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_342f81a3",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-16T03:56:25Z",
+      "side": 1,
+      "message": "Default collection handler for OC_IF_LL should have implementation for both OCF and OIC spec with versioning info.",
+      "range": {
+        "startLine": 156,
+        "startChar": 2,
+        "endLine": 156,
+        "endChar": 52
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_142cfdaa",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-16T03:56:25Z",
+      "side": 1,
+      "message": "Default collection handler for OC_IF_B cannot do what you expect automatically. you also need to use oc_resource_set_request_handler(col, OC_POST, post_batch_devconf..) to aggregate or propergate into children.",
+      "range": {
+        "startLine": 157,
+        "startChar": 2,
+        "endLine": 157,
+        "endChar": 50
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
