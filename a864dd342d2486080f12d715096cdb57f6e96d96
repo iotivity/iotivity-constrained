@@ -131,6 +131,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_6f881023",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-16T11:19:34Z",
+      "side": 1,
+      "message": "Ok then I will it it to test my scripts:\n\n\nhttps://gerrit.iotivity.org/gerrit/#/c/24663/2/port/linux/Makefile",
+      "parentUuid": "da33351e_6f05b0c1",
+      "revId": "a864dd342d2486080f12d715096cdb57f6e96d96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_af7cd873",
         "filename": "port/linux/Makefile",
         "patchSetId": 3
