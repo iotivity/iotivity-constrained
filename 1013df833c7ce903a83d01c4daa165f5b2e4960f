@@ -16,6 +16,24 @@
       "revId": "1013df833c7ce903a83d01c4daa165f5b2e4960f",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_ef7b8027",
+        "filename": "service/cloud-access/include/cloud_access.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-16T11:52:55Z",
+      "side": 1,
+      "message": "We have started using Doxygen. See as example include/oc_api.h for some examples (not complete yet). The according setup is in tools/doxygen.ini.",
+      "parentUuid": "da33351e_2f9f2861",
+      "revId": "1013df833c7ce903a83d01c4daa165f5b2e4960f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
