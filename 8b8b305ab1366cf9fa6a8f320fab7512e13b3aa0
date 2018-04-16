@@ -71,6 +71,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_ef4a6026",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-16T09:09:34Z",
+      "side": 1,
+      "message": "This code is for Enrollee (Device). I feel resource model handling w.r.t.OIC and OCF 1.x spec versioning info can be better done at Mediator (Controller) side.",
+      "parentUuid": "da33351e_7418e984",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 77,
+        "endChar": 24
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_f424f9c7",
         "filename": "service/easy-setup/enrollee/esresources.c",
         "patchSetId": 3
@@ -82,6 +106,30 @@
       "writtenOn": "2018-04-16T03:56:25Z",
       "side": 1,
       "message": "It will be better to exclude easy-setup build in case of OC_COLLECTIONS is false. Because easy-setup consists of collection resource from OCF spec., it is natural disable the easy-setup without collection.",
+      "range": {
+        "startLine": 152,
+        "startChar": 0,
+        "endLine": 152,
+        "endChar": 21
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_4f3c2c94",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-16T09:09:34Z",
+      "side": 1,
+      "message": "agree. We are planning to enable one argument at build time enable easy setup build which will also enable OC_COLLECTIONS.\n\nwe will make the changes.",
+      "parentUuid": "da33351e_f424f9c7",
       "range": {
         "startLine": 152,
         "startChar": 0,
@@ -117,6 +165,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_8f463422",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-16T09:09:34Z",
+      "side": 1,
+      "message": "This code is for Enrollee (Device). I feel resource model handling w.r.t.OIC and OCF 1.x spec versioning info can be better done at Mediator (Controller) side.",
+      "parentUuid": "da33351e_342f81a3",
+      "range": {
+        "startLine": 156,
+        "startChar": 2,
+        "endLine": 156,
+        "endChar": 52
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_142cfdaa",
         "filename": "service/easy-setup/enrollee/esresources.c",
         "patchSetId": 3
@@ -128,6 +200,30 @@
       "writtenOn": "2018-04-16T03:56:25Z",
       "side": 1,
       "message": "Default collection handler for OC_IF_B cannot do what you expect automatically. you also need to use oc_resource_set_request_handler(col, OC_POST, post_batch_devconf..) to aggregate or propergate into children.",
+      "range": {
+        "startLine": 157,
+        "startChar": 2,
+        "endLine": 157,
+        "endChar": 50
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_af41780d",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-16T09:09:34Z",
+      "side": 1,
+      "message": "ok.. we need to check on it.",
+      "parentUuid": "da33351e_142cfdaa",
       "range": {
         "startLine": 157,
         "startChar": 2,
