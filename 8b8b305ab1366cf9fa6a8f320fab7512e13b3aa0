@@ -2,6 +2,52 @@
   "comments": [
     {
       "key": {
+        "uuid": "da33351e_2fb9e82e",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T07:40:11Z",
+      "side": 1,
+      "message": "remove blank in functions. (below functions too.)",
+      "range": {
+        "startLine": 34,
+        "startChar": 32,
+        "endLine": 34,
+        "endChar": 33
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_8faab4d2",
+        "filename": "service/easy-setup/enrollee/easysetup.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T07:40:11Z",
+      "side": 1,
+      "message": "need to remove.",
+      "range": {
+        "startLine": 106,
+        "startChar": 81,
+        "endLine": 106,
+        "endChar": 82
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_7418e984",
         "filename": "service/easy-setup/enrollee/esresources.c",
         "patchSetId": 3
@@ -88,6 +134,46 @@
         "endLine": 157,
         "endChar": 50
       },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_cfab1cd5",
+        "filename": "service/easy-setup/enrollee/esresources.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T07:40:11Z",
+      "side": 1,
+      "message": "Remove blank in functions.(below also)",
+      "range": {
+        "startLine": 41,
+        "startChar": 31,
+        "endLine": 41,
+        "endChar": 32
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_efaee0e6",
+        "filename": "service/easy-setup/enrollee/include/estypes.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T07:40:11Z",
+      "side": 1,
+      "message": "How about OIC_* change to OC_* ?",
       "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
