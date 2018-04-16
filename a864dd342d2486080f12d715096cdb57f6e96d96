@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_2f6288d8",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-16T07:09:10Z",
+      "side": 1,
+      "message": "I think you can just use ${MAKE} it will use default \"make\"\n\nsame with CXX",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 11
+      },
+      "revId": "a864dd342d2486080f12d715096cdb57f6e96d96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_0f5fc40f",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-16T07:09:10Z",
+      "side": 1,
+      "message": "could use later defined I_ROOT_DIR",
+      "range": {
+        "startLine": 17,
+        "startChar": 11,
+        "endLine": 17,
+        "endChar": 19
+      },
+      "revId": "a864dd342d2486080f12d715096cdb57f6e96d96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_6f9bf0c9",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-16T07:09:10Z",
+      "side": 1,
+      "message": "${MAKE} -C ${GTEST_DIR}/make clean",
+      "revId": "a864dd342d2486080f12d715096cdb57f6e96d96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
