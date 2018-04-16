@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_b4443175",
+        "filename": "include/oc_helpers.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T02:13:05Z",
+      "side": 1,
+      "message": "Actually this header is hard to understand what should I use when any case.\n\nHow about separating the all functions with the OC_MEMORY_TRACE case and not?",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_94492d8e",
+        "filename": "include/oc_helpers.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T02:13:05Z",
+      "side": 1,
+      "message": "Why some function have one underline and others have 2 underline? Can it be unified format?",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f45d194a",
+        "filename": "include/oc_helpers.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T02:13:05Z",
+      "side": 1,
+      "message": "#else /* OC_MEMORY_TRACE */",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d45a954f",
+        "filename": "include/oc_helpers.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T02:13:05Z",
+      "side": 1,
+      "message": "#endif /* !OC_MEMORY_TRACE */",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7431090b",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T02:13:05Z",
+      "side": 1,
+      "message": "return;",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_54368504",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T02:13:05Z",
+      "side": 1,
+      "message": "check column limit in this function.",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_34582156",
+        "filename": "util/oc_mem_trace.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T02:13:05Z",
+      "side": 1,
+      "message": "How about using enum type?\n\ntypedef enum {\n  MEM_TRACE_ALLOC,\n  MEM_TRACE_FREE\n} mem_trace_type_t;",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_14551d1d",
+        "filename": "util/oc_mem_trace.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T02:13:05Z",
+      "side": 1,
+      "message": "type\u0027s type can be chaned when define change to enum.",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b43b91ea",
+        "filename": "util/oc_mmem.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-16T02:13:05Z",
+      "side": 1,
+      "message": "(int)__oc_mmem_alloc(__func__, m, size, pool_type)",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
