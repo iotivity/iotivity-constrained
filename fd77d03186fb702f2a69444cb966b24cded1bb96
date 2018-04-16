@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_ef126057",
+        "filename": "include/oc_helpers.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-16T06:10:07Z",
+      "side": 1,
+      "message": "I\u0027ve changed name of functions from __* to _*.\nin addition. I moved internal functions to bottom side",
+      "parentUuid": "da33351e_b4443175",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_94492d8e",
         "filename": "include/oc_helpers.h",
         "patchSetId": 6
@@ -30,6 +48,24 @@
       "writtenOn": "2018-04-16T02:13:05Z",
       "side": 1,
       "message": "Why some function have one underline and others have 2 underline? Can it be unified format?",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_cf0f9c2d",
+        "filename": "include/oc_helpers.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-16T06:10:07Z",
+      "side": 1,
+      "message": "I\u0027ve changed name of functions from __* to _*. in addition. I moved internal functions to bottom side",
+      "parentUuid": "da33351e_94492d8e",
       "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_2f1d6867",
+        "filename": "include/oc_helpers.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-16T06:10:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f45d194a",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_d45a954f",
         "filename": "include/oc_helpers.h",
         "patchSetId": 6
@@ -64,6 +118,24 @@
       "writtenOn": "2018-04-16T02:13:05Z",
       "side": 1,
       "message": "#endif /* !OC_MEMORY_TRACE */",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_0f1a246e",
+        "filename": "include/oc_helpers.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-16T06:10:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_d45a954f",
       "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_6f2650bc",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-16T06:10:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_7431090b",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_54368504",
         "filename": "util/oc_mem_trace.c",
         "patchSetId": 6
@@ -98,6 +188,24 @@
       "writtenOn": "2018-04-16T02:13:05Z",
       "side": 1,
       "message": "check column limit in this function.",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_2f3448dd",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-16T06:10:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_54368504",
       "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -121,6 +229,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_af20589c",
+        "filename": "util/oc_mem_trace.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-16T06:10:07Z",
+      "side": 1,
+      "message": "Given that I am considering bit operation,\nI would like to let them be for a while",
+      "parentUuid": "da33351e_34582156",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_14551d1d",
         "filename": "util/oc_mem_trace.h",
         "patchSetId": 6
@@ -138,6 +264,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_8f2594ad",
+        "filename": "util/oc_mem_trace.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-16T06:10:07Z",
+      "side": 1,
+      "message": "Given that I am considering bit operation, I would like to let them be for a while",
+      "parentUuid": "da33351e_14551d1d",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b43b91ea",
         "filename": "util/oc_mmem.h",
         "patchSetId": 6
@@ -149,6 +293,24 @@
       "writtenOn": "2018-04-16T02:13:05Z",
       "side": 1,
       "message": "(int)__oc_mmem_alloc(__func__, m, size, pool_type)",
+      "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_ef39c0d9",
+        "filename": "util/oc_mmem.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-16T06:10:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_b43b91ea",
       "revId": "fd77d03186fb702f2a69444cb966b24cded1bb96",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
