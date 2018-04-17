@@ -34,6 +34,42 @@
       "revId": "1013df833c7ce903a83d01c4daa165f5b2e4960f",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_4f68acf5",
+        "filename": "service/cloud-access/include/cloud_access.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-17T00:08:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_2f9f2861",
+      "revId": "1013df833c7ce903a83d01c4daa165f5b2e4960f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_af6df806",
+        "filename": "service/cloud-access/include/cloud_access.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-17T00:08:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_ef7b8027",
+      "revId": "1013df833c7ce903a83d01c4daa165f5b2e4960f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
