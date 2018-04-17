@@ -16,6 +16,24 @@
       "revId": "01ad0445ad561bca21efac613e4c65ba0428bfa0",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_af3b38ea",
+        "filename": "include/oc_api.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 321,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-17T05:06:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_4f4f0c93",
+      "revId": "01ad0445ad561bca21efac613e4c65ba0428bfa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
