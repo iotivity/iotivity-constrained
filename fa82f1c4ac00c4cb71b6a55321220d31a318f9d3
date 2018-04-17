@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_0f55041d",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-17T05:02:02Z",
+      "side": 1,
+      "message": "when the mem_log_item free? (in LIST mem_log_list)",
+      "revId": "fa82f1c4ac00c4cb71b6a55321220d31a318f9d3",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
