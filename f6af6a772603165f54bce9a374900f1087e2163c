@@ -60,6 +60,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_2f1727ef",
+        "filename": "api/unittest/uuidtest.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-17T17:28:57Z",
+      "side": 1,
+      "message": "\u003e Which GCC version are you using?\n\nWhats the difference? Irrespective of the GCC version, you have to initialize either uuid or uuidTemp to guarantee that the preconditions of this test are met.\n(I\u0027m using 7.2.0)",
+      "parentUuid": "da33351e_af09782e",
+      "revId": "f6af6a772603165f54bce9a374900f1087e2163c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b4127160",
         "filename": "port/linux/Makefile",
         "patchSetId": 1
