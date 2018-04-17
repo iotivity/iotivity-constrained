@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_2fe4473a",
+        "filename": "tests/port/tizenrt/iotivity-constrained.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-17T12:45:28Z",
+      "side": 1,
+      "message": "here it should be updated to tizenrt",
+      "revId": "712d0ba65ab13cec0c51c0d10a0f3626cfed5d22",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
