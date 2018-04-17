@@ -16,6 +16,24 @@
       "revId": "3391dbf7b244be547185f5e9286f29d609d6af50",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_4f1d4c73",
+        "filename": "service/cloud-access/include/cloud_access.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-17T06:25:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_2f2f28a3",
+      "revId": "3391dbf7b244be547185f5e9286f29d609d6af50",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
