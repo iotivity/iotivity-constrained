@@ -1,0 +1,95 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_afaa17d2",
+        "filename": "api/unittest/reptest.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-17T10:10:49Z",
+      "side": 1,
+      "message": "I would add stdlib at top header , then gtest and finally oc_rep\n\nnot a big deal.",
+      "revId": "79d69dc6da510bdfb5bfeca432132e07079639ff",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_cfa5db05",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-17T10:10:49Z",
+      "side": 1,
+      "message": "if specific to gtest maybe you can prefix it by GTEST_...",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 13
+      },
+      "revId": "79d69dc6da510bdfb5bfeca432132e07079639ff",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_2f5f2710",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 5
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-17T10:10:49Z",
+      "side": 1,
+      "message": "good,\n\ntip: usually to make sure I add\n\ntest: ...\n   ls $\u003c\n\n\nby the way can you run \nmake check ?\n\nI see failures",
+      "revId": "79d69dc6da510bdfb5bfeca432132e07079639ff",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_8f9bd3c8",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 5
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-17T10:10:49Z",
+      "side": 1,
+      "message": "didnt Kishen want test in ./tests/port/linux ?\n\nto avoid polution of build files...\n\nanyway I have no preference",
+      "revId": "79d69dc6da510bdfb5bfeca432132e07079639ff",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_6fa00ff5",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 5
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-17T10:10:49Z",
+      "side": 1,
+      "message": "-${MAKE}\n\nwith - it will never fail",
+      "revId": "79d69dc6da510bdfb5bfeca432132e07079639ff",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
