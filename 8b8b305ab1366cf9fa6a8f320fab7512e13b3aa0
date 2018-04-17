@@ -48,6 +48,29 @@
     },
     {
       "key": {
+        "uuid": "da33351e_cf5afc4f",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-17T04:21:30Z",
+      "side": 1,
+      "message": "better to define oic version pair also.",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 58
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_7418e984",
         "filename": "service/easy-setup/enrollee/esresources.c",
         "patchSetId": 3
@@ -177,6 +200,30 @@
       "side": 1,
       "message": "This code is for Enrollee (Device). I feel resource model handling w.r.t.OIC and OCF 1.x spec versioning info can be better done at Mediator (Controller) side.",
       "parentUuid": "da33351e_342f81a3",
+      "range": {
+        "startLine": 156,
+        "startChar": 2,
+        "endLine": 156,
+        "endChar": 52
+      },
+      "revId": "8b8b305ab1366cf9fa6a8f320fab7512e13b3aa0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_4f31cca1",
+        "filename": "service/easy-setup/enrollee/esresources.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 156,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-17T04:21:30Z",
+      "side": 1,
+      "message": "If old version mediator tried to connect enrollee, it should support in both case, I think.",
+      "parentUuid": "da33351e_8f463422",
       "range": {
         "startLine": 156,
         "startChar": 2,
