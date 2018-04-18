@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_cf995b70",
+        "filename": "api/oc_client_api.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-18T00:57:48Z",
+      "side": 1,
+      "message": "Change to OC_ERR(\"require valid endpoint\");",
+      "range": {
+        "startLine": 337,
+        "startChar": 4,
+        "endLine": 337,
+        "endChar": 49
+      },
+      "revId": "9ae9390745af070f9145b1e914898cd1288f21d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_af9e9754",
+        "filename": "api/oc_client_api.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 398,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-18T00:57:48Z",
+      "side": 1,
+      "message": "Change to oc_do_discovery_at_endpoint(...)",
+      "range": {
+        "startLine": 398,
+        "startChar": 0,
+        "endLine": 398,
+        "endChar": 32
+      },
+      "revId": "9ae9390745af070f9145b1e914898cd1288f21d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_0fa3439f",
+        "filename": "include/oc_api.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-18T00:57:48Z",
+      "side": 1,
+      "message": "Endpoint at which to discover resources.",
+      "range": {
+        "startLine": 318,
+        "startChar": 21,
+        "endLine": 318,
+        "endChar": 61
+      },
+      "revId": "9ae9390745af070f9145b1e914898cd1288f21d7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
