@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_924dbc75",
+        "filename": "tests/Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-19T05:00:13Z",
+      "side": 1,
+      "message": "Are 25,26 lines same with upper command?",
+      "revId": "b7caf28a0a57f7751b592fb00a408a3cb012a6fe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7252b814",
+        "filename": "tests/auto_build.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-19T05:00:13Z",
+      "side": 1,
+      "message": "remove space",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 8
+      },
+      "revId": "b7caf28a0a57f7751b592fb00a408a3cb012a6fe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d2574401",
+        "filename": "tests/port/tizenrt/Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-19T05:00:13Z",
+      "side": 1,
+      "message": "remove space",
+      "range": {
+        "startLine": 95,
+        "startChar": 5,
+        "endLine": 95,
+        "endChar": 7
+      },
+      "revId": "b7caf28a0a57f7751b592fb00a408a3cb012a6fe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b25c4027",
+        "filename": "tests/port/tizenrt/Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-19T05:00:13Z",
+      "side": 1,
+      "message": "remove space",
+      "range": {
+        "startLine": 109,
+        "startChar": 35,
+        "endLine": 109,
+        "endChar": 36
+      },
+      "revId": "b7caf28a0a57f7751b592fb00a408a3cb012a6fe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
