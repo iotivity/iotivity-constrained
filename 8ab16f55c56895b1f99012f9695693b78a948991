@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_2f03a710",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 11
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-19T02:32:40Z",
+      "side": 1,
+      "message": "It can cause build errors.\nI recommend to take out i.\nint i;\nfor(i\u003d0...)",
+      "revId": "8ab16f55c56895b1f99012f9695693b78a948991",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_92ff7c01",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 11
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-19T02:32:40Z",
+      "side": 1,
+      "message": "It can cause build errors.\nI recommend to take out i.\nint i;\nfor(i\u003d0...)",
+      "revId": "8ab16f55c56895b1f99012f9695693b78a948991",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
