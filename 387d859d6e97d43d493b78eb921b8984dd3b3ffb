@@ -53,6 +53,41 @@
     },
     {
       "key": {
+        "uuid": "da33351e_156876b9",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-20T00:38:06Z",
+      "side": 1,
+      "message": "I think not require check routine because already has in oc_blockwise_alloc_inner_buffer function.",
+      "parentUuid": "da33351e_32aaf070",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f564f2e6",
+        "filename": "api/oc_client_api.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-20T00:38:06Z",
+      "side": 1,
+      "message": "How about add OC_ERR?",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_52f2149b",
         "filename": "api/oc_server_api.c",
         "patchSetId": 3
@@ -70,6 +105,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_5562fed8",
+        "filename": "api/oc_server_api.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-20T00:38:06Z",
+      "side": 1,
+      "message": "Yes, I agree. And add space likes \u0027buffer \u003d oc_block\u0027.",
+      "parentUuid": "da33351e_52f2149b",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_32ef90b2",
         "filename": "messaging/coap/observe.c",
         "patchSetId": 3
@@ -81,6 +134,24 @@
       "writtenOn": "2018-04-19T14:51:11Z",
       "side": 1,
       "message": "please add NULL check",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_355f7a10",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-20T00:38:06Z",
+      "side": 1,
+      "message": "+1 and add space likes to \u0027buffer \u003d oc_block\u0027.",
+      "parentUuid": "da33351e_32ef90b2",
       "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
