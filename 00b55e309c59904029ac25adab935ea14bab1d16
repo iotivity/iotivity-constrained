@@ -70,6 +70,23 @@
     },
     {
       "key": {
+        "uuid": "da33351e_35ee5aed",
+        "filename": "port/tizenrt/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 786,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-20T14:07:34Z",
+      "side": 1,
+      "message": "FYI, I managed to run through this:\n\nTASH\u003e\u003e iotivity_constrained_example\nDEBUG: ../../api/oc_buffer.c \u003cprocess_thread_message_buffer_handler:112\u003e: Started buffer handler process\nDEBUG: ../../api/oc_introspection.c \u003coc_create_introspection_resource:118\u003e: oc_introspection: Initializing introspection resource\nDEBUG: ipadapter.c \u003coc_connectivity_init:791\u003e: Initializing carm_prefetchabort: \nPrefetch abort. PC: 253a7324 IFAR: 253a7324 IFSR: 00000008",
+      "revId": "00b55e309c59904029ac25adab935ea14bab1d16",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_35693a8c",
         "filename": "port/tizenrt/tcpadapter.c",
         "patchSetId": 2
