@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "da33351e_d50f2ee0",
+        "filename": "port/tizenrt/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-20T09:15:22Z",
+      "side": 1,
+      "message": "please rebase on\nhttps://gerrit.iotivity.org/gerrit/#/c/24713/",
+      "revId": "00b55e309c59904029ac25adab935ea14bab1d16",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_1572367c",
         "filename": "port/tizenrt/config.h",
         "patchSetId": 2
