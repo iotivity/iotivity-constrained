@@ -104,6 +104,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_15ceb683",
+        "filename": "port/tizenrt/tcpadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-20T14:16:07Z",
+      "side": 1,
+      "message": "well I thought more about forking linux implementation, stub it, test it, then re implement it, and then eventually unifying both... in let say \"./port/posix\" ? to be checked with upstream once we have something stable...",
+      "parentUuid": "da33351e_35693a8c",
+      "revId": "00b55e309c59904029ac25adab935ea14bab1d16",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_321790ef",
         "filename": "port/tizenrt/tcpadapter.c",
         "patchSetId": 2
