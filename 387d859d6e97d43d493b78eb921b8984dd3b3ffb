@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_55e79e40",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-20T05:31:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f29fe84e",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_52adf487",
         "filename": "api/oc_blockwise.c",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2018-04-19T14:51:11Z",
       "side": 1,
       "message": "buffer is already checked",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_35e49a3a",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-20T05:31:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_52adf487",
       "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -71,6 +107,42 @@
     },
     {
       "key": {
+        "uuid": "da33351e_75d58242",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-20T05:31:19Z",
+      "side": 1,
+      "message": "thank you for explanation :)",
+      "parentUuid": "da33351e_156876b9",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_95d00655",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-20T05:31:19Z",
+      "side": 1,
+      "message": "As Jaehong wrote,\nif buffer-\u003ebuffer isn\u0027t NULL, \noc_blockwise_alloc_inner_buffer() just returns the original address; there isn\u0027t any change",
+      "parentUuid": "da33351e_32aaf070",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_f564f2e6",
         "filename": "api/oc_client_api.c",
         "patchSetId": 3
@@ -82,6 +154,24 @@
       "writtenOn": "2018-04-20T00:38:06Z",
       "side": 1,
       "message": "How about add OC_ERR?",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b581ca4c",
+        "filename": "api/oc_client_api.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-20T05:31:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f564f2e6",
       "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -123,6 +213,42 @@
     },
     {
       "key": {
+        "uuid": "da33351e_95e9261d",
+        "filename": "api/oc_server_api.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-20T05:31:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_5562fed8",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_358dba7c",
+        "filename": "api/oc_server_api.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-20T05:31:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_52f2149b",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_32ef90b2",
         "filename": "messaging/coap/observe.c",
         "patchSetId": 3
@@ -151,6 +277,42 @@
       "writtenOn": "2018-04-20T00:38:06Z",
       "side": 1,
       "message": "+1 and add space likes to \u0027buffer \u003d oc_block\u0027.",
+      "parentUuid": "da33351e_32ef90b2",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f592329e",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-20T05:31:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_355f7a10",
+      "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1596b694",
+        "filename": "messaging/coap/observe.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-20T05:31:19Z",
+      "side": 1,
+      "message": "Done",
       "parentUuid": "da33351e_32ef90b2",
       "revId": "387d859d6e97d43d493b78eb921b8984dd3b3ffb",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
