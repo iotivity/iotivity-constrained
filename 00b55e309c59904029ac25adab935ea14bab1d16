@@ -53,6 +53,23 @@
     },
     {
       "key": {
+        "uuid": "da33351e_15e7d613",
+        "filename": "port/tizenrt/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-20T12:51:19Z",
+      "side": 1,
+      "message": "are you sure this is implemented in tizenrt ?\n\nDid you actually run an app using it ?",
+      "revId": "00b55e309c59904029ac25adab935ea14bab1d16",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_35693a8c",
         "filename": "port/tizenrt/tcpadapter.c",
         "patchSetId": 2
