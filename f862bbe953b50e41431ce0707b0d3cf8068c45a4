@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_b5a42a58",
+        "filename": "patches/07_mbedtls_constrained.patch",
+        "patchSetId": 4
+      },
+      "lineNbr": 2619,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-21T17:34:01Z",
+      "side": 1,
+      "message": "I see that this is already set to 512 in ssl.h.\nBut being able to override this here is probably\nokay.\n\n",
+      "range": {
+        "startLine": 2619,
+        "startChar": 0,
+        "endLine": 2619,
+        "endChar": 35
+      },
+      "revId": "f862bbe953b50e41431ce0707b0d3cf8068c45a4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_158996ca",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 4
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-21T17:34:01Z",
+      "side": 1,
+      "message": "Instead of doing this, you could store the commit\nhash in the git database so a clone would directly\nfetch it. This is what we currently do.\n\nYou would follow these steps in your working copy:\n\ncd \u003ciotivity-lite-root\u003e/deps/mbedtls\n\ngit checkout 3b438d33c18cc6c9473027010945dce05eb5e1e3\n\ncd \u003ciotivity-lite-root\u003e\n\ngit add deps/mbedtls\n\ngit commit\n\n\nYou could amend this commit with this change.",
+      "range": {
+        "startLine": 218,
+        "startChar": 18,
+        "endLine": 218,
+        "endChar": 58
+      },
+      "revId": "f862bbe953b50e41431ce0707b0d3cf8068c45a4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
