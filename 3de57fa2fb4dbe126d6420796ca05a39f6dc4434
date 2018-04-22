@@ -1,0 +1,349 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_9563e619",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "This has nothing to do with the tracer.\nPlease move this and any related code to a completely separate commit named something like \"free resources during shutdown sequence\".",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 126,
+        "endChar": 1
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7568e2f5",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "The code above is not relevant to just OC_DYNAMIC_ALLOCATION. Resources may be freed back to the memory pool/map even in a static build.",
+      "range": {
+        "startLine": 127,
+        "startChar": 0,
+        "endLine": 127,
+        "endChar": 34
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d56d6e06",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "Should be in separate commit for freeing resources.",
+      "range": {
+        "startLine": 268,
+        "startChar": 0,
+        "endLine": 276,
+        "endChar": 1
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b5726ae3",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "Should be in separate commit for freeing resources.",
+      "range": {
+        "startLine": 316,
+        "startChar": 0,
+        "endLine": 322,
+        "endChar": 6
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1577d6d5",
+        "filename": "include/oc_core_res.h",
+        "patchSetId": 12
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "You don\u0027t need an #ifdef here. They will only ever be used when they\u0027re compiled in, or based on the logic in the .c. Please remove it.",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 28
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f57352e5",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 12
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "This is not necessary. You should be able to run make MEMTRACE\u003d1 without DYNAMIC\u003d1 and still use the memory tracer.",
+      "range": {
+        "startLine": 87,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 19
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_357e5aaf",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "Use calloc instead. It will initialize all bits to 0 which is good here.",
+      "range": {
+        "startLine": 77,
+        "startChar": 47,
+        "endLine": 77,
+        "endChar": 53
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_954ac681",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "What this reports here is not necessarly a memory leak. It could be memory that hasn\u0027t leaked, but just reachable at the time this function is called. So, this message should instead read \"Unreleased memory size\".",
+      "range": {
+        "startLine": 123,
+        "startChar": 21,
+        "endLine": 123,
+        "endChar": 32
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_55815e8e",
+        "filename": "util/oc_mem_trace.h",
+        "patchSetId": 12
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "No need for #ifdef here.",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 22
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f55a324f",
+        "filename": "util/oc_memb.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "oc_memb.",
+      "range": {
+        "startLine": 63,
+        "startChar": 12,
+        "endLine": 63,
+        "endChar": 19
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_55583e56",
+        "filename": "util/oc_memb.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "oc_memb.",
+      "range": {
+        "startLine": 109,
+        "startChar": 12,
+        "endLine": 109,
+        "endChar": 19
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_155eb645",
+        "filename": "util/oc_memb.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "Please move this block to line 112 and then you would be able to leave the rest of this function intact.",
+      "range": {
+        "startLine": 151,
+        "startChar": 0,
+        "endLine": 153,
+        "endChar": 6
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_754f4293",
+        "filename": "util/oc_mmem.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "Why was this necessary?\nIf we add a new pool type tomorrow, we\u0027ll now have to make the same and separate modifications to two functions in this file.\nPlease revert this part back and stick with only those changes we need for the memory tracer.",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 6
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d5444e76",
+        "filename": "util/oc_mmem.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "You could add an int allocated_size at the top, set it appropriately under each case, and use that value here.",
+      "range": {
+        "startLine": 140,
+        "startChar": 30,
+        "endLine": 140,
+        "endChar": 76
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b549ca8d",
+        "filename": "util/oc_mmem.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-22T03:09:16Z",
+      "side": 1,
+      "message": "Please move this to line 159. I\u0027d mentioned this in my last review and you\u0027d responded that you\u0027d like to do it after free() executes. \nBut thats a distinction without a difference because free() will either execute fine, or the application will crash if it has been handed an invalid pointer. free() returns no status value for good reason.\n\nIn any event, leaving this line here would make a code analyzer complain about an attempt to use an invalid pointer.",
+      "range": {
+        "startLine": 213,
+        "startChar": 0,
+        "endLine": 216,
+        "endChar": 28
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
