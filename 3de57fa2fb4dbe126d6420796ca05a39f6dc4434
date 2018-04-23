@@ -140,6 +140,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_9874bb9d",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 12
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-23T12:56:13Z",
+      "side": 1,
+      "message": "Currently, it only works well under only DYNAMIC. \nAs I said before My concern is malloc()/calloc() in mem_trace functionality I think I don\u0027t want to use malloc()/calloc under no dynamic alloc. In static case, I have to add additional\u0026seperate memory management like oc_memb and oc_mmem. Therefore I\u0027m looking for an easier \u0026 simpler way to apply both of them. Until that, I hope it is only applied to DYAMIC_ALLOC.\nI think it should be off under static mode when it is not ready for static mode yet\nI want to extend it to the static mode after finishing it",
+      "parentUuid": "da33351e_f57352e5",
+      "range": {
+        "startLine": 87,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 19
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_357e5aaf",
         "filename": "util/oc_mem_trace.c",
         "patchSetId": 12
@@ -151,6 +175,30 @@
       "writtenOn": "2018-04-22T03:09:16Z",
       "side": 1,
       "message": "Use calloc instead. It will initialize all bits to 0 which is good here.",
+      "range": {
+        "startLine": 77,
+        "startChar": 47,
+        "endLine": 77,
+        "endChar": 53
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7879f792",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-23T12:56:13Z",
+      "side": 1,
+      "message": "I can",
+      "parentUuid": "da33351e_357e5aaf",
       "range": {
         "startLine": 77,
         "startChar": 47,
@@ -278,6 +326,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_d86e43c9",
+        "filename": "util/oc_memb.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-23T12:56:13Z",
+      "side": 1,
+      "message": "Basically, my intension is that calling oc_mem_trace_add_pace() is called after real action happens.\nIf I move it to line 112, it cannot check line 147(return -1) \n( I know it is static case so it doesn",
+      "parentUuid": "da33351e_155eb645",
+      "range": {
+        "startLine": 151,
+        "startChar": 0,
+        "endLine": 153,
+        "endChar": 6
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_754f4293",
         "filename": "util/oc_mmem.c",
         "patchSetId": 12
@@ -289,6 +361,30 @@
       "writtenOn": "2018-04-22T03:09:16Z",
       "side": 1,
       "message": "Why was this necessary?\nIf we add a new pool type tomorrow, we\u0027ll now have to make the same and separate modifications to two functions in this file.\nPlease revert this part back and stick with only those changes we need for the memory tracer.",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 6
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b8737fb0",
+        "filename": "util/oc_mmem.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-23T12:56:13Z",
+      "side": 1,
+      "message": "In my opinion, using one function is better than duplicating similar code. and oc_mmem_get_sizeof_avail_item() simplifies it. \n[The followings are almost same except sizeof(). ]\n#ifdef OC_DYNAMIC_ALLOCATION\n    m-\u003eptr \u003d malloc(size);\n    m-\u003esize \u003d size;\n#ifdef OC_DYNAMIC_ALLOCATION\n    m-\u003eptr \u003d malloc(size * sizeof(int));\n    m-\u003esize \u003d size;\n#ifdef OC_DYNAMIC_ALLOCATION\n    m-\u003eptr \u003d malloc(size * sizeof(double));\n    m-\u003esize \u003d size;\nand it seems that I cant catch the point you worry., I think you can put it into oc_mmem_get_sizeof_avail_item() if new pool type is added  because what oc_mem_trace_add_pace()  needs is the size of allocation.\nPlease correct me if I miss something",
+      "parentUuid": "da33351e_754f4293",
       "range": {
         "startLine": 65,
         "startChar": 0,
@@ -335,6 +431,30 @@
       "writtenOn": "2018-04-22T03:09:16Z",
       "side": 1,
       "message": "Please move this to line 159. I\u0027d mentioned this in my last review and you\u0027d responded that you\u0027d like to do it after free() executes. \nBut thats a distinction without a difference because free() will either execute fine, or the application will crash if it has been handed an invalid pointer. free() returns no status value for good reason.\n\nIn any event, leaving this line here would make a code analyzer complain about an attempt to use an invalid pointer.",
+      "range": {
+        "startLine": 213,
+        "startChar": 0,
+        "endLine": 216,
+        "endChar": 28
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1868abb9",
+        "filename": "util/oc_mmem.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-23T12:56:13Z",
+      "side": 1,
+      "message": "Basically, my intension is that calling oc_mem_trace_add_pace() is called after real action happens.\nFor instance, if you look at line 185. You can see there is a case which it doesn",
+      "parentUuid": "da33351e_b549ca8d",
       "range": {
         "startLine": 213,
         "startChar": 0,
