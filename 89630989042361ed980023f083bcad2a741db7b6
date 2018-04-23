@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_150cf641",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-23T05:54:43Z",
+      "side": 1,
+      "message": "need to wrapping #ifdef OC_DYNAMIC_ALLOCATION\nif static alloc already have own buffer when alloc memb buffer.",
+      "revId": "89630989042361ed980023f083bcad2a741db7b6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f508722f",
+        "filename": "api/oc_client_api.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-23T05:54:43Z",
+      "side": 1,
+      "message": "You should not delete this.\nIf request_buffer is set with block-wise payload, I should be handled in blockwise list and deleted when block transfer is done.",
+      "revId": "89630989042361ed980023f083bcad2a741db7b6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
