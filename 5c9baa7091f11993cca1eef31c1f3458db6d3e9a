@@ -36,6 +36,23 @@
     },
     {
       "key": {
+        "uuid": "da33351e_352c9aab",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-23T04:14:54Z",
+      "side": 1,
+      "message": "How about change just ROOT_DIR not IOTIVITY_...?\nbelow also.",
+      "revId": "5c9baa7091f11993cca1eef31c1f3458db6d3e9a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_d2fe246b",
         "filename": "port/linux/Makefile",
         "patchSetId": 8
