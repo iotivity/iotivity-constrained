@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_78d57742",
+        "filename": "tests/itc/ri/Makefile",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 10583
+      },
+      "writtenOn": "2018-04-23T15:41:59Z",
+      "side": 1,
+      "message": "space needs to be removed and also commented code needs to be removed",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 5
+      },
+      "revId": "d7e0fed23affb5d3dbfa37724593ba121f99423d",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
