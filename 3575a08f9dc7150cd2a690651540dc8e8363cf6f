@@ -1,0 +1,280 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_381acf6e",
+        "filename": "service/cloud-access/src/cloud_access.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-23T08:32:57Z",
+      "side": 1,
+      "message": "These values are from the mediator which can be hacked.\nPlease check the size which does not over marginal size.\nPlease, define the reasonable size with #define.",
+      "range": {
+        "startLine": 25,
+        "startChar": 48,
+        "endLine": 26,
+        "endChar": 32
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f80fc72c",
+        "filename": "service/cloud-access/src/cloud_access.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-23T08:32:57Z",
+      "side": 1,
+      "message": "use #define MAX_UUID_LENGTH + 1",
+      "range": {
+        "startLine": 36,
+        "startChar": 14,
+        "endLine": 36,
+        "endChar": 16
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_581d1366",
+        "filename": "service/cloud-access/src/cloud_access.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-23T08:32:57Z",
+      "side": 1,
+      "message": "use #define also",
+      "range": {
+        "startLine": 37,
+        "startChar": 41,
+        "endLine": 37,
+        "endChar": 42
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f836a7e6",
+        "filename": "service/cloud-access/src/cloud_access.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-23T08:32:57Z",
+      "side": 1,
+      "message": "initialze with \u003d { 0 };",
+      "range": {
+        "startLine": 64,
+        "startChar": 4,
+        "endLine": 64,
+        "endChar": 17
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_5834f3dd",
+        "filename": "service/cloud-access/src/cloud_access.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-23T08:32:57Z",
+      "side": 1,
+      "message": "initialze with \u003d { 0 };",
+      "range": {
+        "startLine": 108,
+        "startChar": 4,
+        "endLine": 108,
+        "endChar": 17
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_98267bb9",
+        "filename": "service/resource-directory/client/include/rd_client.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-23T08:32:57Z",
+      "side": 1,
+      "message": "describe as comment where the value come from",
+      "range": {
+        "startLine": 36,
+        "startChar": 23,
+        "endLine": 36,
+        "endChar": 28
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_38312fed",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-23T08:32:57Z",
+      "side": 1,
+      "message": "redundant code.",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 3
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_984ddb75",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-23T08:32:57Z",
+      "side": 1,
+      "message": "why didn\u0027t you include the resource value check?",
+      "range": {
+        "startLine": 44,
+        "startChar": 5,
+        "endLine": 44,
+        "endChar": 24
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b8253fad",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-23T08:32:57Z",
+      "side": 1,
+      "message": "where is comming from? use define for explanation",
+      "range": {
+        "startLine": 49,
+        "startChar": 18,
+        "endLine": 49,
+        "endChar": 20
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_782bb782",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-23T08:32:57Z",
+      "side": 1,
+      "message": "Can\u0027t",
+      "range": {
+        "startLine": 68,
+        "startChar": 12,
+        "endLine": 68,
+        "endChar": 21
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_183a6bcd",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-23T08:32:57Z",
+      "side": 1,
+      "message": "where is comming from? use define for explanation",
+      "range": {
+        "startLine": 87,
+        "startChar": 18,
+        "endLine": 87,
+        "endChar": 20
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d820039e",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-23T08:32:57Z",
+      "side": 1,
+      "message": "Can\u0027t",
+      "range": {
+        "startLine": 90,
+        "startChar": 12,
+        "endLine": 90,
+        "endChar": 21
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
