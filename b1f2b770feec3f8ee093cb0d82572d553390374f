@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_38ef6fb2",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 6
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-24T11:56:06Z",
+      "side": 1,
+      "message": "OK, now you are using the submodule setup and afterwards you enforce a specific version? I am getting confused.",
+      "revId": "b1f2b770feec3f8ee093cb0d82572d553390374f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
