@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_d8dda344",
+        "filename": "api/oc_client_api.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-24T07:17:25Z",
+      "side": 1,
+      "message": "check whether Equal and greater than OCF_VER_1_0_0 with else if again.",
+      "range": {
+        "startLine": 72,
+        "startChar": 6,
+        "endLine": 72,
+        "endChar": 10
+      },
+      "revId": "e736507fea3f5ea5dce0935bfc3829be24a51f5c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
