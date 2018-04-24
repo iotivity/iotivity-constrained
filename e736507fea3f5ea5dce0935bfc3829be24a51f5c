@@ -22,6 +22,30 @@
       "revId": "e736507fea3f5ea5dce0935bfc3829be24a51f5c",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b8b9bfeb",
+        "filename": "api/oc_client_api.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2018-04-24T09:40:48Z",
+      "side": 1,
+      "message": "APPLICATION_VND_OCF_CBOR was being set by default for every outgoing requests. simple else keeps that behavior unchanged, but to set to APPLICATION_CBOR only when it is intended by application layer.",
+      "parentUuid": "da33351e_d8dda344",
+      "range": {
+        "startLine": 72,
+        "startChar": 6,
+        "endLine": 72,
+        "endChar": 10
+      },
+      "revId": "e736507fea3f5ea5dce0935bfc3829be24a51f5c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
