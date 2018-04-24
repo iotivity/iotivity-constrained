@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_f8e34703",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-24T08:06:21Z",
+      "side": 1,
+      "message": "OC_NUM_CORE_RESOURCES_PER_DEVICE need to change.\nas you can see in line 318, if new_num is bigger than OC_NUM_CORE_RESOURCES_PER_DEVICE, then core_resources and oc_device_info is realloced.\n\nSo, OC_NUM_CORE_RESOURCES_PER_DEVICE  need to  changed.\n(ex.\nint new_num \u003d 1 + OCF_D * (device_count + 1);\nint device_info_count \u003d new_num \u003e OC_NUM_CORE_RESOURCES_PER_DEVICE ?\n                        device_count + 1 : OC_NUM_CORE_RESOURCES_PER_DEVICE;\n\nand then use device_info_count for looping.)",
+      "range": {
+        "startLine": 113,
+        "startChar": 20,
+        "endLine": 113,
+        "endChar": 52
+      },
+      "revId": "1e6c8914833d3767bf21c406b56293f49ec976ae",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_58f193cc",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-04-24T08:06:21Z",
+      "side": 1,
+      "message": "This value need to change too.\n(ex.\nint new_num \u003d 1 + OCF_D * (device_count + 1);\nint core_resources_count \u003d new_num \u003e OC_NUM_CORE_RESOURCES_PER_DEVICE ?\n                           new_num : OC_NUM_CORE_RESOURCES_PER_DEVICE;\n\nand then use core_resources_count for looping.)",
+      "range": {
+        "startLine": 126,
+        "startChar": 20,
+        "endLine": 126,
+        "endChar": 52
+      },
+      "revId": "1e6c8914833d3767bf21c406b56293f49ec976ae",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
