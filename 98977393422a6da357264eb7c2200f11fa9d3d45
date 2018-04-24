@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_d86da306",
+        "filename": "patches/07_mbedtls_constrained.patch",
+        "patchSetId": 7
+      },
+      "lineNbr": 614,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-24T16:59:00Z",
+      "side": 1,
+      "message": "OC_* is not relevent in mbedtls\u0027s context, so maybe you need to align to upstream\u0027s conventions if any",
+      "revId": "98977393422a6da357264eb7c2200f11fa9d3d45",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b8725fe3",
+        "filename": "patches/07_mbedtls_constrained.patch",
+        "patchSetId": 7
+      },
+      "lineNbr": 2619,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-24T16:59:00Z",
+      "side": 1,
+      "message": "maybe you could keep the +COAP_SIZE and adjust to fit into 512  if possible (or use min, max macros) ?",
+      "revId": "98977393422a6da357264eb7c2200f11fa9d3d45",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_18770bd6",
+        "filename": "patches/07_mbedtls_constrained.patch",
+        "patchSetId": 7
+      },
+      "lineNbr": 2840,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-24T16:59:00Z",
+      "side": 1,
+      "message": "remove commented code is better",
+      "revId": "98977393422a6da357264eb7c2200f11fa9d3d45",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
