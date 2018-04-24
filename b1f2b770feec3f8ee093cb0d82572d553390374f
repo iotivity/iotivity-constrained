@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "da33351e_d8d123cf",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 6
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-24T13:17:59Z",
+      "side": 1,
+      "message": "you can use .tmp for suffix",
+      "range": {
+        "startLine": 69,
+        "startChar": 45,
+        "endLine": 69,
+        "endChar": 48
+      },
+      "revId": "b1f2b770feec3f8ee093cb0d82572d553390374f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_38ef6fb2",
         "filename": "port/linux/Makefile",
         "patchSetId": 6
@@ -13,6 +36,41 @@
       "writtenOn": "2018-04-24T11:56:06Z",
       "side": 1,
       "message": "OK, now you are using the submodule setup and afterwards you enforce a specific version? I am getting confused.",
+      "revId": "b1f2b770feec3f8ee093cb0d82572d553390374f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_98c79b12",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 6
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-24T13:17:59Z",
+      "side": 1,
+      "message": "I guess patches only applies to a specific version,\nare those patches submitted upstream ?",
+      "parentUuid": "da33351e_38ef6fb2",
+      "revId": "b1f2b770feec3f8ee093cb0d82572d553390374f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_78cc5736",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 6
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-24T13:17:59Z",
+      "side": 1,
+      "message": "BTW quilt tool can help when you have series of patches.",
       "revId": "b1f2b770feec3f8ee093cb0d82572d553390374f",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
