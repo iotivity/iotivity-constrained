@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_b8b53fcf",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 5
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-24T11:08:32Z",
+      "side": 1,
+      "message": "Why aren\u0027t you using the git submodule configuration?",
+      "revId": "eb0b8a9be6740efd7b770f5272ca73360ef7d79d",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
