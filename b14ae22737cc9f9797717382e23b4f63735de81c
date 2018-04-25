@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_431a4418",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 10
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 580
+      },
+      "writtenOn": "2018-04-25T11:03:23Z",
+      "side": 1,
+      "message": "right, makes sense",
+      "parentUuid": "da33351e_636308b2",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 4
+      },
+      "revId": "b14ae22737cc9f9797717382e23b4f63735de81c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_835e0ce8",
         "filename": "port/linux/Makefile",
         "patchSetId": 10
@@ -65,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_e31c3816",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 10
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 580
+      },
+      "writtenOn": "2018-04-25T11:03:23Z",
+      "side": 1,
+      "message": "I think GTEST here is better. As beside from unittest, it is not required for any other library/app.",
+      "parentUuid": "da33351e_2352a0dd",
+      "revId": "b14ae22737cc9f9797717382e23b4f63735de81c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_e347181c",
         "filename": "port/linux/Makefile",
         "patchSetId": 10
@@ -76,6 +118,24 @@
       "writtenOn": "2018-04-25T07:41:16Z",
       "side": 1,
       "message": "test could be added here too",
+      "revId": "b14ae22737cc9f9797717382e23b4f63735de81c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_231740ef",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 10
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 580
+      },
+      "writtenOn": "2018-04-25T11:03:23Z",
+      "side": 1,
+      "message": "hmm, $(GTEST) can be replaced by test",
+      "parentUuid": "da33351e_e347181c",
       "revId": "b14ae22737cc9f9797717382e23b4f63735de81c",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
