@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_43f1a4cc",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 11
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-25T11:32:40Z",
+      "side": 1,
+      "message": "or at least put it just after all rule",
+      "revId": "c6d8d7b7c20bf21613eb448bbfa9d810d1186afe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
