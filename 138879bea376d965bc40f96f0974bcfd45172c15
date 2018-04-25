@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_c3ddb444",
+        "filename": "tests/itc/ri/src/ri_itc.cpp",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 580
+      },
+      "writtenOn": "2018-04-25T11:09:28Z",
+      "side": 1,
+      "message": "Test suit name should be updated to reflect a suitable description",
+      "range": {
+        "startLine": 26,
+        "startChar": 5,
+        "endLine": 26,
+        "endChar": 19
+      },
+      "revId": "138879bea376d965bc40f96f0974bcfd45172c15",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
