@@ -78,6 +78,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_e3c0b87e",
+        "filename": "api/unittest/uuidtest.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-25T02:58:21Z",
+      "side": 1,
+      "message": "Can you initialize as oc_uuid_t uuid \u003d null;",
+      "parentUuid": "da33351e_af09782e",
+      "revId": "f6af6a772603165f54bce9a374900f1087e2163c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b4127160",
         "filename": "port/linux/Makefile",
         "patchSetId": 1
