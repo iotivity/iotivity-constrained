@@ -34,6 +34,24 @@
       "revId": "69f06bc91d3d1005f8cb2a4e97686c0dfecbbbd7",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_03dddc70",
+        "filename": "apps/cloud_linux.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-25T02:39:54Z",
+      "side": 1,
+      "message": "Each service is optional to use according to the use case. So this is different from include files on base layer.",
+      "parentUuid": "da33351e_03967c94",
+      "revId": "69f06bc91d3d1005f8cb2a4e97686c0dfecbbbd7",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
