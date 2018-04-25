@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_e391d853",
+        "filename": "patches/07_mbedtls_constrained.patch",
+        "patchSetId": 4
+      },
+      "lineNbr": 2619,
+      "author": {
+        "id": 8401
+      },
+      "writtenOn": "2018-04-25T15:45:12Z",
+      "side": 1,
+      "message": "1. mbedTLS will always allocate buffers of size MBEDTLS_SSL_BUFFER_MIN and then reallocate if required, but \u003c MBEDTLS_SSL_MAX_CONTENT_LEN.\n\n2. Yes, it should operate both for TLS and DTLS.\n\nThese patches were actually brought from here:\nhttps://github.com/ARMmbed/mbedtls/pull/1208",
+      "parentUuid": "da33351e_b5a42a58",
+      "range": {
+        "startLine": 2619,
+        "startChar": 0,
+        "endLine": 2619,
+        "endChar": 35
+      },
+      "revId": "f862bbe953b50e41431ce0707b0d3cf8068c45a4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_78a0d7f4",
         "filename": "port/linux/Makefile",
         "patchSetId": 4

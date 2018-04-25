@@ -22,6 +22,30 @@
       "revId": "8210e4aadb9b2d64f28e20ad3c43ab70c55b30a6",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_439fe45f",
+        "filename": "patches/07_mbedtls_constrained.patch",
+        "patchSetId": 4
+      },
+      "lineNbr": 2428,
+      "author": {
+        "id": 8401
+      },
+      "writtenOn": "2018-04-25T15:45:12Z",
+      "side": 0,
+      "message": "Agree. Perhaps previous build configuration should be preserved for static build?",
+      "parentUuid": "da33351e_55db1e1b",
+      "range": {
+        "startLine": 2428,
+        "startChar": 0,
+        "endLine": 2428,
+        "endChar": 74
+      },
+      "revId": "8210e4aadb9b2d64f28e20ad3c43ab70c55b30a6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
