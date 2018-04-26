@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_c335b447",
+        "filename": "service/cloud-access/include/cloud_access.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-26T01:21:52Z",
+      "side": 1,
+      "message": "rename device_index or device_idx",
+      "range": {
+        "startLine": 53,
+        "startChar": 43,
+        "endLine": 53,
+        "endChar": 49
+      },
+      "revId": "dd2fced6021d907fdcc02f2f974db938e4d69d83",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a33a3034",
+        "filename": "service/resource-directory/client/include/rd_client.h",
+        "patchSetId": 5
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-26T01:21:52Z",
+      "side": 1,
+      "message": "explain as like \"The resource to be registered.\"",
+      "range": {
+        "startLine": 50,
+        "startChar": 19,
+        "endLine": 50,
+        "endChar": 70
+      },
+      "revId": "dd2fced6021d907fdcc02f2f974db938e4d69d83",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
