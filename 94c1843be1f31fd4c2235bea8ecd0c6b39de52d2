@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "da33351e_a349908d",
+        "filename": "apps/cloud_linux.c",
+        "patchSetId": 10
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-26T11:09:50Z",
+      "side": 1,
+      "message": "This is only useful for case \u00274\u0027. It looks better to move to case \u00274\u0027 swich case to specifcally show this API is required for rd_publish as parameter.",
+      "range": {
+        "startLine": 207,
+        "startChar": 0,
+        "endLine": 210,
+        "endChar": 39
+      },
+      "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_c36db406",
         "filename": "apps/cloud_linux.c",
         "patchSetId": 10
@@ -13,6 +36,24 @@
       "writtenOn": "2018-04-26T10:05:36Z",
       "side": 1,
       "message": "This logics is better to move under 373 line. Because someone can just kill the app using SIGINT signal. In that case upper logic will not be executed.",
+      "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c3449476",
+        "filename": "apps/cloud_linux.c",
+        "patchSetId": 10
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-26T11:09:50Z",
+      "side": 1,
+      "message": "better to move to case \u00274\u0027 swich case.",
+      "parentUuid": "da33351e_c36db406",
       "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
