@@ -16,6 +16,24 @@
       "revId": "f767aa1ebd5f44dc8635ef3cba2e557dbef50f7a",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_0302fc3d",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 8
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-26T08:38:09Z",
+      "side": 1,
+      "message": "yes I think too, we can update module in patch, but it was originally done that way, so I let author push over mine, I can do it if rest of change is acceptable.",
+      "parentUuid": "da33351e_4377e402",
+      "revId": "f767aa1ebd5f44dc8635ef3cba2e557dbef50f7a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
