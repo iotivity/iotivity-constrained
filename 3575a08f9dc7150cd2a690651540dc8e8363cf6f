@@ -402,6 +402,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_63094895",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-26T00:06:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_43e7e440",
+      "range": {
+        "startLine": 44,
+        "startChar": 5,
+        "endLine": 44,
+        "endChar": 24
+      },
+      "revId": "3575a08f9dc7150cd2a690651540dc8e8363cf6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b8253fad",
         "filename": "service/resource-directory/client/src/rd_client.c",
         "patchSetId": 2
