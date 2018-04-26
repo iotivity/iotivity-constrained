@@ -34,6 +34,24 @@
       "revId": "f767aa1ebd5f44dc8635ef3cba2e557dbef50f7a",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_83956ce6",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 8
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-26T09:03:01Z",
+      "side": 1,
+      "message": "Kishen told me that exactly this is blocking the merge, the rest seems to be fine. I would hence recommend changing this to the submodule approach and we are done. I can then also modify the Windows batch file.",
+      "parentUuid": "da33351e_0302fc3d",
+      "revId": "f767aa1ebd5f44dc8635ef3cba2e557dbef50f7a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
