@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_4377e402",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 8
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-04-26T07:48:03Z",
+      "side": 1,
+      "message": "Simply update the submodule to the according hash and all these weird work-arounds are no longer necessary.\nIs it really that complicated?",
+      "revId": "f767aa1ebd5f44dc8635ef3cba2e557dbef50f7a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
