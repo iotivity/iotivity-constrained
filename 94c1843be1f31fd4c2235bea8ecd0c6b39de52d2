@@ -77,6 +77,29 @@
     },
     {
       "key": {
+        "uuid": "da33351e_ded90b85",
+        "filename": "service/resource-directory/client/include/rd_client.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-26T23:38:29Z",
+      "side": 1,
+      "message": "in case of other device resource registration, link is valid type which can be generated?\nWhat is the parameter type in iotivity-main case?",
+      "range": {
+        "startLine": 56,
+        "startChar": 31,
+        "endLine": 56,
+        "endChar": 47
+      },
+      "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_4381a48e",
         "filename": "service/resource-directory/client/src/rd_client.c",
         "patchSetId": 10
