@@ -63,6 +63,30 @@
       "revId": "ed85aac9a99f1ca6b46601117fd962fffc52538e",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_232c60ab",
+        "filename": "api/oc_discovery.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-26T12:22:33Z",
+      "side": 1,
+      "message": "Let me ask again. These block was not while loop before regardless of x.org.iotivity.tcp/tls. Why this move within while loop?",
+      "parentUuid": "da33351e_a3407057",
+      "range": {
+        "startLine": 228,
+        "startChar": 4,
+        "endLine": 261,
+        "endChar": 5
+      },
+      "revId": "ed85aac9a99f1ca6b46601117fd962fffc52538e",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
