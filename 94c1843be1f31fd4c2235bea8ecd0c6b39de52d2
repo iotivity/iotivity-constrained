@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_9eb5c3cf",
+        "filename": "apps/cloud_linux.c",
+        "patchSetId": 10
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-27T07:01:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_a349908d",
+      "range": {
+        "startLine": 207,
+        "startChar": 0,
+        "endLine": 210,
+        "endChar": 39
+      },
+      "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_c36db406",
         "filename": "apps/cloud_linux.c",
         "patchSetId": 10
@@ -60,6 +84,42 @@
     },
     {
       "key": {
+        "uuid": "da33351e_5ebb3bc4",
+        "filename": "apps/cloud_linux.c",
+        "patchSetId": 10
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-27T07:01:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_c36db406",
+      "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_beb087de",
+        "filename": "apps/cloud_linux.c",
+        "patchSetId": 10
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-27T07:01:25Z",
+      "side": 1,
+      "message": "it will can use later.",
+      "parentUuid": "da33351e_c3449476",
+      "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_e37398e5",
         "filename": "service/cloud-access/src/cloud_access.c",
         "patchSetId": 10
@@ -71,6 +131,24 @@
       "writtenOn": "2018-04-26T10:05:36Z",
       "side": 1,
       "message": "Is it okay not to check handler is NULL?",
+      "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_dec62b49",
+        "filename": "service/cloud-access/src/cloud_access.c",
+        "patchSetId": 10
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-27T07:01:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_e37398e5",
       "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -100,6 +178,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_5ee21bd6",
+        "filename": "service/resource-directory/client/include/rd_client.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-27T07:01:25Z",
+      "side": 1,
+      "message": "IoTivity use resource array and number of resource. But Lite don\u0027t have ins in resource type.",
+      "parentUuid": "da33351e_ded90b85",
+      "range": {
+        "startLine": 56,
+        "startChar": 31,
+        "endLine": 56,
+        "endChar": 47
+      },
+      "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_4381a48e",
         "filename": "service/resource-directory/client/src/rd_client.c",
         "patchSetId": 10
@@ -111,6 +213,30 @@
       "writtenOn": "2018-04-26T10:05:36Z",
       "side": 1,
       "message": "Is there no usecase for HIGH_QOS for any kinds of new api?",
+      "range": {
+        "startLine": 65,
+        "startChar": 19,
+        "endLine": 65,
+        "endChar": 26
+      },
+      "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_3ec4773f",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 10
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-27T07:01:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_4381a48e",
       "range": {
         "startLine": 65,
         "startChar": 19,
