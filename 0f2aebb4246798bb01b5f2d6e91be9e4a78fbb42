@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_7e2c3f4b",
+        "filename": "service/easy-setup/enrollee/resourcehandler.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-27T03:46:24Z",
+      "side": 1,
+      "message": "1. tab to be removed\n2. Light resource -\u003e Easy Setup Resource.",
+      "revId": "0f2aebb4246798bb01b5f2d6e91be9e4a78fbb42",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_3e03d7b9",
+        "filename": "service/easy-setup/es_util/inc/es_logger.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-04-27T03:46:24Z",
+      "side": 1,
+      "message": "we don\u0027t need separate logger for easy setup .. please use logger from core stack",
+      "revId": "0f2aebb4246798bb01b5f2d6e91be9e4a78fbb42",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
