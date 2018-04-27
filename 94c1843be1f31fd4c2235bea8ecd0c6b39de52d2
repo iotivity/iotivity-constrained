@@ -202,6 +202,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_decd8b5f",
+        "filename": "service/resource-directory/client/include/rd_client.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-27T07:38:32Z",
+      "side": 1,
+      "message": "oc_resource_t is created OCF server which means resource from server view. If we need to register register from other device with other device id, how can we get the oc_resource_t? By discovery we can get only ep.",
+      "parentUuid": "da33351e_5ee21bd6",
+      "range": {
+        "startLine": 56,
+        "startChar": 31,
+        "endLine": 56,
+        "endChar": 47
+      },
+      "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_4381a48e",
         "filename": "service/resource-directory/client/src/rd_client.c",
         "patchSetId": 10
