@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_69048715",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 6
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-28T10:05:35Z",
+      "side": 1,
+      "message": "align style",
+      "range": {
+        "startLine": 126,
+        "startChar": 0,
+        "endLine": 126,
+        "endChar": 12
+      },
+      "revId": "6db24e60557705ee75ce1a5b276f0141dadc8504",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c909532e",
+        "filename": "port/linux/config.h",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-28T10:05:35Z",
+      "side": 1,
+      "message": "maybe prefix with OC_",
+      "range": {
+        "startLine": 10,
+        "startChar": 7,
+        "endLine": 10,
+        "endChar": 16
+      },
+      "revId": "6db24e60557705ee75ce1a5b276f0141dadc8504",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
