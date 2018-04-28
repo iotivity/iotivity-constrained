@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "da33351e_295f1f10",
+        "filename": "port/tizenrt/iotlite_apps/Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-28T12:05:50Z",
+      "side": 1,
+      "message": "maybe application can be submitted separate once base code is verified . like I made for:\n\nhttps://gerrit.iotivity.org/gerrit/#/c/24903/\n\neventually rebase on it",
+      "revId": "91c28e1bae09b905ec134ebf4a0ad8db3f43c883",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_09685bb9",
         "filename": "port/tizenrt/scripts/Makefile",
         "patchSetId": 3
