@@ -42,6 +42,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_e992579e",
+        "filename": "port/tizenrt/How_To_Build.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 14205
+      },
+      "writtenOn": "2018-04-28T14:12:10Z",
+      "side": 1,
+      "message": "Done. Removed whitespaces.",
+      "parentUuid": "da33351e_de73cbe5",
+      "range": {
+        "startLine": 11,
+        "startChar": 83,
+        "endLine": 11,
+        "endChar": 84
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_3e063721",
         "filename": "port/tizenrt/How_To_Build.txt",
         "patchSetId": 1
@@ -59,6 +83,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_4990a395",
+        "filename": "port/tizenrt/How_To_Build.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 14205
+      },
+      "writtenOn": "2018-04-28T14:12:10Z",
+      "side": 1,
+      "message": "Do you mean on Ethernet ?\nBoard I have doesn\u0027t have Ethernet port.",
+      "parentUuid": "da33351e_3e063721",
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_3e811790",
         "filename": "port/tizenrt/iotivity-constrained-server.pc.in",
         "patchSetId": 1
@@ -70,6 +112,30 @@
       "writtenOn": "2018-04-28T02:37:31Z",
       "side": 1,
       "message": "remove white space",
+      "range": {
+        "startLine": 2,
+        "startChar": 1,
+        "endLine": 2,
+        "endChar": 2
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_49bee300",
+        "filename": "port/tizenrt/iotivity-constrained-server.pc.in",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 14205
+      },
+      "writtenOn": "2018-04-28T14:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_3e811790",
       "range": {
         "startLine": 2,
         "startChar": 1,
@@ -105,6 +171,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_29e43f3a",
+        "filename": "port/tizenrt/iotlite_apps/Make.defs",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 14205
+      },
+      "writtenOn": "2018-04-28T14:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_1e7ed3ae",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 76
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_7e4a7f84",
         "filename": "port/tizenrt/iotlite_apps/Makefile",
         "patchSetId": 1
@@ -116,6 +206,30 @@
       "writtenOn": "2018-04-28T02:37:31Z",
       "side": 1,
       "message": "These looks not required",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 76
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_29bb9f0f",
+        "filename": "port/tizenrt/iotlite_apps/Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 14205
+      },
+      "writtenOn": "2018-04-28T14:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_7e4a7f84",
       "range": {
         "startLine": 18,
         "startChar": 0,
@@ -151,6 +265,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_89374bb0",
+        "filename": "port/tizenrt/iotlite_apps/iotlite/Make.defs",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 14205
+      },
+      "writtenOn": "2018-04-28T14:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_5e4fbb92",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 76
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_fe768fd7",
         "filename": "port/tizenrt/iotlite_apps/iotlite/iotlite_main.c",
         "patchSetId": 1
@@ -162,6 +300,30 @@
       "writtenOn": "2018-04-28T02:37:31Z",
       "side": 1,
       "message": "these looks not required",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 78
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_89d0eb54",
+        "filename": "port/tizenrt/iotlite_apps/iotlite/iotlite_main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 14205
+      },
+      "writtenOn": "2018-04-28T14:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_fe768fd7",
       "range": {
         "startLine": 18,
         "startChar": 0,
@@ -197,6 +359,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_69d5a742",
+        "filename": "port/tizenrt/iotlite_apps/iotlite/iotlite_main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 14205
+      },
+      "writtenOn": "2018-04-28T14:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_9e72e3e3",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 1
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_be6d2707",
         "filename": "port/tizenrt/iotlite_apps/iotlite/port_tinyara.c",
         "patchSetId": 1
@@ -208,6 +394,30 @@
       "writtenOn": "2018-04-28T02:37:31Z",
       "side": 1,
       "message": "clear the tab in this file",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 1
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c9caf3a0",
+        "filename": "port/tizenrt/iotlite_apps/iotlite/port_tinyara.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 14205
+      },
+      "writtenOn": "2018-04-28T14:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_be6d2707",
       "range": {
         "startLine": 35,
         "startChar": 0,
@@ -243,6 +453,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_a9cfafaf",
+        "filename": "port/tizenrt/iotliteconfig/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 14205
+      },
+      "writtenOn": "2018-04-28T14:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_be440775",
+      "range": {
+        "startLine": 11,
+        "startChar": 47,
+        "endLine": 11,
+        "endChar": 49
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_9e49438e",
         "filename": "port/tizenrt/scripts/Make.defs",
         "patchSetId": 1
@@ -254,6 +488,30 @@
       "writtenOn": "2018-04-28T02:37:31Z",
       "side": 1,
       "message": "These looks not required.",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 76
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_09c4db90",
+        "filename": "port/tizenrt/scripts/Make.defs",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 14205
+      },
+      "writtenOn": "2018-04-28T14:12:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_9e49438e",
       "range": {
         "startLine": 17,
         "startChar": 0,
