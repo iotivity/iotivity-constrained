@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_de73cbe5",
+        "filename": "port/tizenrt/How_To_Build.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-28T02:37:31Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 11,
+        "startChar": 83,
+        "endLine": 11,
+        "endChar": 84
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_3e811790",
+        "filename": "port/tizenrt/iotivity-constrained-server.pc.in",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-28T02:37:31Z",
+      "side": 1,
+      "message": "remove white space",
+      "range": {
+        "startLine": 2,
+        "startChar": 1,
+        "endLine": 2,
+        "endChar": 2
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1e7ed3ae",
+        "filename": "port/tizenrt/iotlite_apps/Make.defs",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-28T02:37:31Z",
+      "side": 1,
+      "message": "these looks not required",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 76
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7e4a7f84",
+        "filename": "port/tizenrt/iotlite_apps/Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-28T02:37:31Z",
+      "side": 1,
+      "message": "These looks not required",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 76
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_5e4fbb92",
+        "filename": "port/tizenrt/iotlite_apps/iotlite/Make.defs",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-28T02:37:31Z",
+      "side": 1,
+      "message": "These looks not required",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 76
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_fe768fd7",
+        "filename": "port/tizenrt/iotlite_apps/iotlite/iotlite_main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-28T02:37:31Z",
+      "side": 1,
+      "message": "these looks not required",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 78
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_9e72e3e3",
+        "filename": "port/tizenrt/iotlite_apps/iotlite/iotlite_main.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-28T02:37:31Z",
+      "side": 1,
+      "message": "clear tab space in this file.",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 1
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_be6d2707",
+        "filename": "port/tizenrt/iotlite_apps/iotlite/port_tinyara.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-28T02:37:31Z",
+      "side": 1,
+      "message": "clear the tab in this file",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 1
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_be440775",
+        "filename": "port/tizenrt/iotliteconfig/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-28T02:37:31Z",
+      "side": 1,
+      "message": "remove tail space",
+      "range": {
+        "startLine": 11,
+        "startChar": 47,
+        "endLine": 11,
+        "endChar": 49
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_9e49438e",
+        "filename": "port/tizenrt/scripts/Make.defs",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-04-28T02:37:31Z",
+      "side": 1,
+      "message": "These looks not required.",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 76
+      },
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
