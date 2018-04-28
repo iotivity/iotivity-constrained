@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "da33351e_9e178351",
+        "filename": "port/tizenrt/How_To_Build.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-28T09:57:47Z",
+      "side": 1,
+      "message": "I have automated this in:\n\nPlease review:\nhttps://gerrit.iotivity.org/gerrit/#/c/24899/",
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_de73cbe5",
         "filename": "port/tizenrt/How_To_Build.txt",
         "patchSetId": 1
