@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_09685bb9",
+        "filename": "port/tizenrt/scripts/Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-28T12:04:03Z",
+      "side": 1,
+      "message": "why this file is here ?",
+      "revId": "91c28e1bae09b905ec134ebf4a0ad8db3f43c883",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
