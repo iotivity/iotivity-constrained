@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "da33351e_e947f71b",
+        "filename": "port/tizenrt/How_To_Build.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-28T14:26:33Z",
+      "side": 1,
+      "message": "cd iotivity-constrainted/tests\nautobuild.sh tizenrt\n\nshould build it",
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_de73cbe5",
         "filename": "port/tizenrt/How_To_Build.txt",
         "patchSetId": 1
@@ -66,6 +83,23 @@
     },
     {
       "key": {
+        "uuid": "da33351e_094b3b2c",
+        "filename": "port/tizenrt/How_To_Build.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-28T14:26:33Z",
+      "side": 1,
+      "message": "clean trailing space",
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_3e063721",
         "filename": "port/tizenrt/How_To_Build.txt",
         "patchSetId": 1
@@ -95,6 +129,24 @@
       "side": 1,
       "message": "Do you mean on Ethernet ?\nBoard I have doesn\u0027t have Ethernet port.",
       "parentUuid": "da33351e_3e063721",
+      "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a9468f21",
+        "filename": "port/tizenrt/How_To_Build.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-04-28T14:26:33Z",
+      "side": 1,
+      "message": "I meant loopback interface (127.0.0.1)",
+      "parentUuid": "da33351e_4990a395",
       "revId": "da7c9c155d123f7afa9a8ffba144e99fa6f65bbc",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
