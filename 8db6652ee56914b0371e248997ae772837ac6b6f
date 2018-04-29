@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_69a647c3",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-29T22:22:53Z",
+      "side": 1,
+      "message": "Just FYI, this distinction was previously made so a static build would have constant time access to the ip_context_t for a logical device instead of traversing the list each time.\n\nHowever, thats a fine point, and not a huge deal. So, I\u0027m OK with this change.",
+      "revId": "8db6652ee56914b0371e248997ae772837ac6b6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c9ab1388",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 1090,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-29T22:22:53Z",
+      "side": 1,
+      "message": "You don\u0027t need this. This is done from oc_network_event_handler_mutex_destroy() which is called during the shutdown sequence.",
+      "range": {
+        "startLine": 1089,
+        "startChar": 0,
+        "endLine": 1090,
+        "endChar": 33
+      },
+      "revId": "8db6652ee56914b0371e248997ae772837ac6b6f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
