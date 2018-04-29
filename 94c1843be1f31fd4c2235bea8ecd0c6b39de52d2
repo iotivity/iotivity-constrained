@@ -226,6 +226,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_e978972d",
+        "filename": "service/resource-directory/client/include/rd_client.h",
+        "patchSetId": 10
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-04-29T23:24:22Z",
+      "side": 1,
+      "message": "Not only ep but also uri ,rt, if..",
+      "parentUuid": "da33351e_decd8b5f",
+      "range": {
+        "startLine": 56,
+        "startChar": 31,
+        "endLine": 56,
+        "endChar": 47
+      },
+      "revId": "94c1843be1f31fd4c2235bea8ecd0c6b39de52d2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_4381a48e",
         "filename": "service/resource-directory/client/src/rd_client.c",
         "patchSetId": 10
