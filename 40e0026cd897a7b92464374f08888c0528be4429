@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_e9c6d748",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-04-30T03:21:23Z",
+      "side": 1,
+      "message": "Please remove this block. \"data\" is really any 3rd party context provided by an app to the add_device_cb callback during oc_add_device(). IoTivity-Lite does not own it.",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 34
+      },
+      "revId": "40e0026cd897a7b92464374f08888c0528be4429",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
