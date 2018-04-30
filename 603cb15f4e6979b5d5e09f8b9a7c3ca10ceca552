@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_c9995370",
+        "filename": "apps/client_multithread_linux.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 348,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-30T00:55:18Z",
+      "side": 1,
+      "message": "dosen\u0027t it need destroy (mutex)?",
+      "revId": "603cb15f4e6979b5d5e09f8b9a7c3ca10ceca552",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a99e8f54",
+        "filename": "apps/client_multithread_linux.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 354,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-30T00:55:18Z",
+      "side": 1,
+      "message": "do they require destroy (mutx, app_mutex)?",
+      "revId": "603cb15f4e6979b5d5e09f8b9a7c3ca10ceca552",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_898f4b23",
+        "filename": "apps/server_multithread_linux.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-30T00:55:18Z",
+      "side": 1,
+      "message": "I am curious if pthread_mutex_destroy(\u0026mutex) is needed  or not",
+      "revId": "603cb15f4e6979b5d5e09f8b9a7c3ca10ceca552",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_69948737",
+        "filename": "apps/server_multithread_linux.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-04-30T00:55:18Z",
+      "side": 1,
+      "message": "I am curious if pthread_mutex_destroy(\u0026mutex) and  pthread_mutex_destroy(\u0026app_mutex) are required  or not",
+      "revId": "603cb15f4e6979b5d5e09f8b9a7c3ca10ceca552",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
