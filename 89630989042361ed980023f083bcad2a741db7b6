@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_c4e81a7f",
+        "filename": "api/oc_blockwise.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-05-02T14:42:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_150cf641",
+      "revId": "89630989042361ed980023f083bcad2a741db7b6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_f508722f",
         "filename": "api/oc_client_api.c",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2018-04-23T05:54:43Z",
       "side": 1,
       "message": "You should not delete this.\nIf request_buffer is set with block-wise payload, I should be handled in blockwise list and deleted when block transfer is done.",
+      "revId": "89630989042361ed980023f083bcad2a741db7b6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a4ed168e",
+        "filename": "api/oc_client_api.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-05-02T14:42:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f508722f",
       "revId": "89630989042361ed980023f083bcad2a741db7b6",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
