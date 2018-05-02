@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_c3b494f4",
+        "filename": "tests/itc/ri/Makefile",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-05-02T12:23:01Z",
+      "side": 1,
+      "message": "maybe optionnal",
+      "revId": "fc4fbf1713ddeb032f5a35b297dfe46376c1a9d6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a3b990eb",
+        "filename": "tests/itc/ri/Makefile",
+        "patchSetId": 5
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-05-02T12:23:01Z",
+      "side": 1,
+      "message": "please move tests after all:\n\nand actually run test \n\nsee others fixes from me in other patches",
+      "revId": "fc4fbf1713ddeb032f5a35b297dfe46376c1a9d6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_03ce7c83",
+        "filename": "tests/itc/ri/Makefile",
+        "patchSetId": 5
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-05-02T12:23:01Z",
+      "side": 1,
+      "message": "^ you can put dir here \nand then use \"$\u003c\" in laterline",
+      "revId": "fc4fbf1713ddeb032f5a35b297dfe46376c1a9d6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e3ca786d",
+        "filename": "tests/itc/ri/Makefile",
+        "patchSetId": 5
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-05-02T12:23:01Z",
+      "side": 1,
+      "message": "could be simplified if same as above",
+      "revId": "fc4fbf1713ddeb032f5a35b297dfe46376c1a9d6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
