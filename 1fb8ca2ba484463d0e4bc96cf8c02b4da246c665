@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_18ac26ed",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 12373
+      },
+      "writtenOn": "2018-05-03T15:25:05Z",
+      "side": 1,
+      "message": "Sorry? Do you want an empty line between message and signed-off?",
+      "parentUuid": "da33351e_f820629d",
+      "revId": "1fb8ca2ba484463d0e4bc96cf8c02b4da246c665",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_581a2e6f",
         "filename": "port/linux/Makefile",
         "patchSetId": 1
