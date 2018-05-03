@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_784bb259",
+        "filename": "apps/easysetup_linux.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-03T14:38:56Z",
+      "side": 1,
+      "message": "move into upper line.",
+      "range": {
+        "startLine": 111,
+        "startChar": 0,
+        "endLine": 111,
+        "endChar": 2
+      },
+      "revId": "beb5d93f8b5ce3dbf08e8be8b51bdf43eb1db188",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
