@@ -39,6 +39,29 @@
       "revId": "e562e88f70f7e86c4484ff1c15860ac7aebcf7c5",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f85862fc",
+        "filename": "port/oc_connectivity.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-04T04:35:25Z",
+      "side": 1,
+      "message": "how about moving to oc_api.h for developer API open with removing \u0027_connectivity_\u0027 flag from the name.\nSame comment to oc_connectivity_add_network_interface_event_callback.",
+      "range": {
+        "startLine": 129,
+        "startChar": 0,
+        "endLine": 143,
+        "endChar": 78
+      },
+      "revId": "e562e88f70f7e86c4484ff1c15860ac7aebcf7c5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
