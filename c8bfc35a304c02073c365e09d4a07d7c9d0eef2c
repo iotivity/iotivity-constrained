@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_d82bde2e",
+        "filename": "apps/sc_easysetup_linux.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-04T05:55:16Z",
+      "side": 1,
+      "message": "change year to 2018 and follow same license from files.",
+      "revId": "c8bfc35a304c02073c365e09d4a07d7c9d0eef2c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_38200a49",
+        "filename": "service/easy-setup/enrollee/include/samsung/sc_easysetup.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-04T05:55:16Z",
+      "side": 1,
+      "message": "follow macro style same as other header files..",
+      "revId": "c8bfc35a304c02073c365e09d4a07d7c9d0eef2c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_181d4610",
+        "filename": "service/easy-setup/enrollee/include/samsung/sc_easysetup.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-04T05:55:16Z",
+      "side": 1,
+      "message": "alignment",
+      "revId": "c8bfc35a304c02073c365e09d4a07d7c9d0eef2c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_781a9218",
+        "filename": "service/easy-setup/enrollee/include/samsung/sc_easysetup.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-04T05:55:16Z",
+      "side": 1,
+      "message": "alignment of comments.",
+      "revId": "c8bfc35a304c02073c365e09d4a07d7c9d0eef2c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_5817ceed",
+        "filename": "service/easy-setup/enrollee/include/samsung/sc_easysetup.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-04T05:55:16Z",
+      "side": 1,
+      "message": "here too.",
+      "revId": "c8bfc35a304c02073c365e09d4a07d7c9d0eef2c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b8d37a37",
+        "filename": "service/easy-setup/enrollee/samsung/sc_easysetup.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-04T05:55:16Z",
+      "side": 1,
+      "message": "remove tabs\n\nand isn\u0027t PRId64 defined in \u003cstdint.h\u003e ?",
+      "revId": "c8bfc35a304c02073c365e09d4a07d7c9d0eef2c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_98d83655",
+        "filename": "service/easy-setup/enrollee/samsung/sc_easysetup.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-04T05:55:16Z",
+      "side": 1,
+      "message": "tabs need to be removed (here and other places..)",
+      "revId": "c8bfc35a304c02073c365e09d4a07d7c9d0eef2c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_f8dd0244",
+        "filename": "service/easy-setup/enrollee/samsung/sc_easysetup.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-04T05:55:16Z",
+      "side": 1,
+      "message": "remove whitespace",
+      "revId": "c8bfc35a304c02073c365e09d4a07d7c9d0eef2c",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
