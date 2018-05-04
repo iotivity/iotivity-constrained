@@ -22,6 +22,30 @@
       "revId": "beb5d93f8b5ce3dbf08e8be8b51bdf43eb1db188",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_b8b6dada",
+        "filename": "apps/easysetup_linux.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-04T11:22:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_784bb259",
+      "range": {
+        "startLine": 111,
+        "startChar": 0,
+        "endLine": 111,
+        "endChar": 2
+      },
+      "revId": "beb5d93f8b5ce3dbf08e8be8b51bdf43eb1db188",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
