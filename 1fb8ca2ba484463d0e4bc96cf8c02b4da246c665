@@ -72,6 +72,29 @@
     },
     {
       "key": {
+        "uuid": "da33351e_b85edae7",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-05-04T04:29:21Z",
+      "side": 1,
+      "message": "This needs to be:\n\nSRC_COMMON +\u003d $(addprefix $(MBEDTLS_DIR)/library/,${DTLS})\n\nto work as intended.",
+      "range": {
+        "startLine": 85,
+        "startChar": 1,
+        "endLine": 85,
+        "endChar": 51
+      },
+      "revId": "1fb8ca2ba484463d0e4bc96cf8c02b4da246c665",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b826dab8",
         "filename": "port/linux/Makefile",
         "patchSetId": 1
