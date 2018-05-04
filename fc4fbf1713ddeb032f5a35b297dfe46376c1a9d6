@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_f8ab4287",
+        "filename": "tests/itc/ri/Makefile",
+        "patchSetId": 5
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 580
+      },
+      "writtenOn": "2018-05-04T09:00:22Z",
+      "side": 1,
+      "message": "I think variable name should change to ${SCENARIO_TESTS}\nAlso, this is not UTC, so no need to run after build",
+      "parentUuid": "da33351e_a3b990eb",
+      "revId": "fc4fbf1713ddeb032f5a35b297dfe46376c1a9d6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_03ce7c83",
         "filename": "tests/itc/ri/Makefile",
         "patchSetId": 5
