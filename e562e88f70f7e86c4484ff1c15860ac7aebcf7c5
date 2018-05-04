@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_18c1c680",
+        "filename": "api/oc_network_events.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-05-04T03:20:50Z",
+      "side": 1,
+      "message": "Might be better to move this to after the mutex unlock?",
+      "revId": "e562e88f70f7e86c4484ff1c15860ac7aebcf7c5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_58bb4e0e",
+        "filename": "port/linux/ipadapter.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-05-04T03:20:50Z",
+      "side": 1,
+      "message": "I think you meant: OC_MAX_NETWORK_INTERFACE_CBS",
+      "range": {
+        "startLine": 82,
+        "startChar": 8,
+        "endLine": 82,
+        "endChar": 29
+      },
+      "revId": "e562e88f70f7e86c4484ff1c15860ac7aebcf7c5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
