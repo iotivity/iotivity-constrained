@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_785572c5",
+        "filename": "port/unittest/connectivitytest.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-04T04:27:43Z",
+      "side": 1,
+      "message": "Can we check this api works correctly not only return value but also check no callback happening?",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 1
+      },
+      "revId": "84141484a5918ca16a558ec73657c96bd7579cb6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
