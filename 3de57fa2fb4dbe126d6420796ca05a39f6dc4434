@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_f85a2282",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-05-06T13:10:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_9563e619",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 126,
+        "endChar": 1
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_7568e2f5",
         "filename": "api/oc_core_res.c",
         "patchSetId": 12
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_d85f5e71",
+        "filename": "api/oc_core_res.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-05-06T13:10:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_7568e2f5",
+      "range": {
+        "startLine": 127,
+        "startChar": 0,
+        "endLine": 127,
+        "endChar": 34
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_d56d6e06",
         "filename": "api/oc_ri.c",
         "patchSetId": 12
@@ -59,6 +107,30 @@
       "writtenOn": "2018-04-22T03:09:16Z",
       "side": 1,
       "message": "Should be in separate commit for freeing resources.",
+      "range": {
+        "startLine": 268,
+        "startChar": 0,
+        "endLine": 276,
+        "endChar": 1
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_38548a53",
+        "filename": "api/oc_ri.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-05-06T13:10:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_d56d6e06",
       "range": {
         "startLine": 268,
         "startChar": 0,
@@ -105,6 +177,30 @@
       "writtenOn": "2018-04-22T03:09:16Z",
       "side": 1,
       "message": "You don\u0027t need an #ifdef here. They will only ever be used when they\u0027re compiled in, or based on the logic in the .c. Please remove it.",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 28
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1851c662",
+        "filename": "include/oc_core_res.h",
+        "patchSetId": 12
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-05-06T13:10:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_1577d6d5",
       "range": {
         "startLine": 44,
         "startChar": 0,
@@ -164,6 +260,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_784e12c3",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 12
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-05-06T13:10:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_9874bb9d",
+      "range": {
+        "startLine": 87,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 19
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_357e5aaf",
         "filename": "util/oc_mem_trace.c",
         "patchSetId": 12
@@ -211,6 +331,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_584b4eb0",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-05-06T13:10:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_7879f792",
+      "range": {
+        "startLine": 77,
+        "startChar": 47,
+        "endLine": 77,
+        "endChar": 53
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_954ac681",
         "filename": "util/oc_mem_trace.c",
         "patchSetId": 12
@@ -234,6 +378,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_b8c7fa11",
+        "filename": "util/oc_mem_trace.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-05-06T13:10:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_954ac681",
+      "range": {
+        "startLine": 123,
+        "startChar": 21,
+        "endLine": 123,
+        "endChar": 32
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_55815e8e",
         "filename": "util/oc_mem_trace.h",
         "patchSetId": 12
@@ -245,6 +413,30 @@
       "writtenOn": "2018-04-22T03:09:16Z",
       "side": 1,
       "message": "No need for #ifdef here.",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 22
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_98ccb637",
+        "filename": "util/oc_mem_trace.h",
+        "patchSetId": 12
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-05-06T13:10:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_55815e8e",
       "range": {
         "startLine": 24,
         "startChar": 0,
@@ -397,6 +589,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_f8d182ce",
+        "filename": "util/oc_mmem.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-05-06T13:10:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_b8737fb0",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 6
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_d5444e76",
         "filename": "util/oc_mmem.c",
         "patchSetId": 12
@@ -408,6 +624,30 @@
       "writtenOn": "2018-04-22T03:09:16Z",
       "side": 1,
       "message": "You could add an int allocated_size at the top, set it appropriately under each case, and use that value here.",
+      "range": {
+        "startLine": 140,
+        "startChar": 30,
+        "endLine": 140,
+        "endChar": 76
+      },
+      "revId": "3de57fa2fb4dbe126d6420796ca05a39f6dc4434",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_d8d63ec5",
+        "filename": "util/oc_mmem.c",
+        "patchSetId": 12
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 475
+      },
+      "writtenOn": "2018-05-06T13:10:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_d5444e76",
       "range": {
         "startLine": 140,
         "startChar": 30,
