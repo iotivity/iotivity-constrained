@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_dbb0f8f6",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 356,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-05-08T22:22:24Z",
+      "side": 1,
+      "message": "This is not safe as you could request a value string with key x, when rep actually has an int with key x, and is successfully returned by this function.\n\nAdd oc_rep_value_type_t as a parameter here that the API implementations below can appropriately specify. and update the logic here so that ONLY when both key and requested value type match will it return anything.",
+      "range": {
+        "startLine": 356,
+        "startChar": 0,
+        "endLine": 356,
+        "endChar": 61
+      },
+      "revId": "f6e3afb5e9e63fabe765db353e98803feb9f6306",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
