@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_3b264417",
+        "filename": "apps/sc_easysetup_linux.c",
+        "patchSetId": 10
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-09T05:17:15Z",
+      "side": 1,
+      "message": "change termination order like below to avoid termination crash (refer latest sample app easysetup_linux.c) ::\n\n  printf(\"[ES App] stop_easy_setup..\\n\");\n  stop_easy_setup();\n  printf(\"[ES App] stop_easy_setup done\\n\");\n\n  oc_main_shutdown();",
+      "revId": "8bfacbe31e26fab0aadc499a62b08a95426e28f3",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_5b1d08bd",
+        "filename": "service/easy-setup/enrollee/samsung/sc_easysetup.c",
+        "patchSetId": 10
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-09T05:17:15Z",
+      "side": 1,
+      "message": "OICMalloc -\u003e malloc",
+      "revId": "8bfacbe31e26fab0aadc499a62b08a95426e28f3",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7b20ccf7",
+        "filename": "service/easy-setup/enrollee/samsung/sc_easysetup.c",
+        "patchSetId": 10
+      },
+      "lineNbr": 441,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-09T05:17:15Z",
+      "side": 1,
+      "message": "need to fix formatting. . (can do it later by running tool)",
+      "revId": "8bfacbe31e26fab0aadc499a62b08a95426e28f3",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1b238006",
+        "filename": "service/easy-setup/enrollee/samsung/sc_easysetup.c",
+        "patchSetId": 10
+      },
+      "lineNbr": 627,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-09T05:17:15Z",
+      "side": 1,
+      "message": "is there a typo on this line.. where does the comment section begin ?",
+      "revId": "8bfacbe31e26fab0aadc499a62b08a95426e28f3",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
