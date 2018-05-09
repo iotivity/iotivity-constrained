@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_9b9af012",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 373,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-05-09T09:21:24Z",
+      "side": 1,
+      "message": "This code is needed. If not be then we should made more function for every type.\nex. oc_rep_get_array, oc_rep_get_int_array, oc_rep_double_array...",
+      "parentUuid": "da33351e_fbe7bce2",
+      "range": {
+        "startLine": 355,
+        "startChar": 0,
+        "endLine": 373,
+        "endChar": 1
+      },
+      "revId": "c8f4f2100ff1e0a12493dfb31018fa5ae447419a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_dbec78ca",
         "filename": "api/oc_rep.c",
         "patchSetId": 3
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_5bf9884c",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 379,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-05-09T09:21:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_dbec78ca",
+      "range": {
+        "startLine": 379,
+        "startChar": 29,
+        "endLine": 379,
+        "endChar": 58
+      },
+      "revId": "c8f4f2100ff1e0a12493dfb31018fa5ae447419a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_3bd124fc",
         "filename": "api/oc_rep.c",
         "patchSetId": 3
@@ -59,6 +107,30 @@
       "writtenOn": "2018-05-09T03:13:03Z",
       "side": 1,
       "message": "Just this needs to be:\n\nif (oc_string_len(rep-\u003evalue-\u003ename) \u003d\u003d strlen(key) \u0026\u0026\n    strncmp(key, oc_string(rep_value-\u003ename),\n    oc_string_len(rep_value-\u003ename)) \u003d\u003d 0 \u0026\u0026\n    rep_value-\u003etype \u003d\u003d type) {\n...",
+      "range": {
+        "startLine": 386,
+        "startChar": 4,
+        "endLine": 387,
+        "endChar": 53
+      },
+      "revId": "c8f4f2100ff1e0a12493dfb31018fa5ae447419a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_bb9534e6",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 387,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-05-09T09:21:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_3bd124fc",
       "range": {
         "startLine": 386,
         "startChar": 4,
