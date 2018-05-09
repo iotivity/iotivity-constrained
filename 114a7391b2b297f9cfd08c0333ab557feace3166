@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_3bb0048b",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-09T13:23:54Z",
+      "side": 1,
+      "message": "use define",
+      "range": {
+        "startLine": 102,
+        "startChar": 21,
+        "endLine": 102,
+        "endChar": 47
+      },
+      "revId": "114a7391b2b297f9cfd08c0333ab557feace3166",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
