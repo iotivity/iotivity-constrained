@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_db5f5871",
+        "filename": "service/easy-setup/enrollee/samsung/sc_easysetup.c",
+        "patchSetId": 11
+      },
+      "lineNbr": 564,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-09T06:05:52Z",
+      "side": 1,
+      "message": "looks not required",
+      "range": {
+        "startLine": 564,
+        "startChar": 0,
+        "endLine": 564,
+        "endChar": 19
+      },
+      "revId": "7461f69d35f18c5e6028363144d7fbf1359e1c0b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
