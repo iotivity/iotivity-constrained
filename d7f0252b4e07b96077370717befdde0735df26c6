@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_0ece9c5a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-10T14:57:44Z",
+      "side": 1,
+      "message": "change commit message. something like \"Enabled secure mode for Tizen RT\"",
+      "revId": "d7f0252b4e07b96077370717befdde0735df26c6",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
