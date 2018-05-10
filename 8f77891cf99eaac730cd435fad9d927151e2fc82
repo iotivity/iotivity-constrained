@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_8ed8ec54",
+        "filename": "patches/07_mbedtls_constrained.patch",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 8401
+      },
+      "writtenOn": "2018-05-10T11:01:59Z",
+      "side": 1,
+      "message": "Yes, it enables ECDSA",
+      "parentUuid": "da33351e_b8741a9d",
+      "revId": "8f77891cf99eaac730cd435fad9d927151e2fc82",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_f86ea2c8",
         "filename": "security/oc_cred.c",
         "patchSetId": 1
