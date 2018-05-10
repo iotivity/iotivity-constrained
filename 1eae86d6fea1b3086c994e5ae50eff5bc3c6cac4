@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_aee9701c",
+        "filename": "tests/itc/ri/Makefile",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-05-10T02:04:01Z",
+      "side": 1,
+      "message": "Remove any trailing whitespaces here and if elsewhere.",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 1
+      },
+      "revId": "1eae86d6fea1b3086c994e5ae50eff5bc3c6cac4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_8eee2c21",
+        "filename": "tests/itc/ri/Makefile",
+        "patchSetId": 6
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-05-10T02:04:01Z",
+      "side": 1,
+      "message": "Why are you calling this apitest? Don\u0027t we already have one for the unit tests?",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 7
+      },
+      "revId": "1eae86d6fea1b3086c994e5ae50eff5bc3c6cac4",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
