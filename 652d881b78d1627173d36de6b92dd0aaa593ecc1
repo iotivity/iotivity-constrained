@@ -45,6 +45,132 @@
       "revId": "652d881b78d1627173d36de6b92dd0aaa593ecc1",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_ae7970fe",
+        "filename": "service/easy-setup/enrollee/include/samsung/sc_easysetup.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-11T00:58:40Z",
+      "side": 1,
+      "message": "change to oc_string_t\nevery other string in structure also.",
+      "revId": "652d881b78d1627173d36de6b92dd0aaa593ecc1",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_8e7e2ce3",
+        "filename": "service/easy-setup/enrollee/include/samsung/sc_easysetup.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-11T00:58:40Z",
+      "side": 1,
+      "message": "This is too big. Should it have always maximun?\nHow about change to pointer?",
+      "revId": "652d881b78d1627173d36de6b92dd0aaa593ecc1",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_ce8834ea",
+        "filename": "service/easy-setup/enrollee/include/samsung/sc_easysetup.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-11T00:58:40Z",
+      "side": 1,
+      "message": "register_sc_provisioning_info_resource",
+      "range": {
+        "startLine": 178,
+        "startChar": 12,
+        "endLine": 178,
+        "endChar": 47
+      },
+      "revId": "652d881b78d1627173d36de6b92dd0aaa593ecc1",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_2e6d6033",
+        "filename": "service/easy-setup/enrollee/include/samsung/sc_easysetup.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 179,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-11T00:58:40Z",
+      "side": 1,
+      "message": "set_properties_for_sc_prov_info",
+      "range": {
+        "startLine": 179,
+        "startChar": 12,
+        "endLine": 179,
+        "endChar": 40
+      },
+      "revId": "652d881b78d1627173d36de6b92dd0aaa593ecc1",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_6e2008f8",
+        "filename": "service/easy-setup/enrollee/samsung/sc_easysetup.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-11T00:58:40Z",
+      "side": 1,
+      "message": "It maybe x.com.samsung.provisioning.easysetupdi",
+      "range": {
+        "startLine": 66,
+        "startChar": 75,
+        "endLine": 66,
+        "endChar": 109
+      },
+      "revId": "652d881b78d1627173d36de6b92dd0aaa593ecc1",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_4e1d44bd",
+        "filename": "service/easy-setup/enrollee/samsung/sc_easysetup.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-11T00:58:40Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 1
+      },
+      "revId": "652d881b78d1627173d36de6b92dd0aaa593ecc1",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
