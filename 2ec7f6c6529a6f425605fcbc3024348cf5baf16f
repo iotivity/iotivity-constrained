@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_6e776803",
+        "filename": "port/linux/Makefile",
+        "patchSetId": 3
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-11T01:02:34Z",
+      "side": 1,
+      "message": "I think coverage flag should only be enabled when someone want to ger a report about coverage.\nThat maens in normal build case, it is better to reduced.",
+      "revId": "2ec7f6c6529a6f425605fcbc3024348cf5baf16f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_4e7424fd",
+        "filename": "port/linux/coverage_report.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-11T01:02:34Z",
+      "side": 1,
+      "message": "How about this file change into {root}/tools folder?",
+      "revId": "2ec7f6c6529a6f425605fcbc3024348cf5baf16f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
