@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_d1b9f9ea",
+        "filename": "tools/build_linux.py",
+        "patchSetId": 15
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-05-14T08:20:36Z",
+      "side": 1,
+      "message": "Should this be only linux specific ?",
+      "revId": "e7c0409912c2ddafa92353164331580708dbdfe0",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
