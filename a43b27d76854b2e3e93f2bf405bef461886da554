@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_5169698a",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-14T03:33:31Z",
+      "side": 1,
+      "message": "use define rdpub resource type.",
+      "range": {
+        "startLine": 64,
+        "startChar": 50,
+        "endLine": 64,
+        "endChar": 62
+      },
+      "revId": "a43b27d76854b2e3e93f2bf405bef461886da554",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_716c6d9d",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-14T03:33:31Z",
+      "side": 1,
+      "message": "use branch ifdef OIC_VER_1_1_0 and set \"application/vnd.ocf+cbor\" for the other case.",
+      "range": {
+        "startLine": 68,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 55
+      },
+      "revId": "a43b27d76854b2e3e93f2bf405bef461886da554",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
