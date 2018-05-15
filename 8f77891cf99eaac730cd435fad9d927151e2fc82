@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_ec5a6082",
+        "filename": "apps/mfgserver.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 8401
+      },
+      "writtenOn": "2018-05-15T15:46:54Z",
+      "side": 1,
+      "message": "Added MFG compile option",
+      "parentUuid": "da33351e_98795696",
+      "revId": "8f77891cf99eaac730cd435fad9d927151e2fc82",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_b8741a9d",
         "filename": "patches/07_mbedtls_constrained.patch",
         "patchSetId": 1
@@ -71,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_cc5f9c71",
+        "filename": "security/oc_cred.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 324,
+      "author": {
+        "id": 8401
+      },
+      "writtenOn": "2018-05-15T15:46:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_f86ea2c8",
+      "revId": "8f77891cf99eaac730cd435fad9d927151e2fc82",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_d873deaf",
         "filename": "security/oc_cred.c",
         "patchSetId": 1
@@ -88,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_2c544853",
+        "filename": "security/oc_cred.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 367,
+      "author": {
+        "id": 8401
+      },
+      "writtenOn": "2018-05-15T15:46:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_d873deaf",
+      "revId": "8f77891cf99eaac730cd435fad9d927151e2fc82",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_38680aba",
         "filename": "security/oc_cred.c",
         "patchSetId": 1
@@ -99,6 +153,24 @@
       "writtenOn": "2018-05-03T15:05:59Z",
       "side": 1,
       "message": "as above",
+      "revId": "8f77891cf99eaac730cd435fad9d927151e2fc82",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_0c518462",
+        "filename": "security/oc_cred.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 414,
+      "author": {
+        "id": 8401
+      },
+      "writtenOn": "2018-05-15T15:46:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_38680aba",
       "revId": "8f77891cf99eaac730cd435fad9d927151e2fc82",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
@@ -133,6 +205,24 @@
       "writtenOn": "2018-05-03T15:05:59Z",
       "side": 1,
       "message": "malloc is only allowed for dynamic allocation.\nCheck for NULL.\nFree pointers if certificates are not used for this device or in case of an error.",
+      "revId": "8f77891cf99eaac730cd435fad9d927151e2fc82",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_ccd67cc5",
+        "filename": "security/oc_tls.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 573,
+      "author": {
+        "id": 8401
+      },
+      "writtenOn": "2018-05-15T15:46:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_786292d9",
       "revId": "8f77891cf99eaac730cd435fad9d927151e2fc82",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
