@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_8cd8f454",
+        "filename": "service/easy-setup/enrollee/resourcehandler.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 14167
+      },
+      "writtenOn": "2018-05-15T10:08:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_4c526cde",
+      "revId": "a68296c9089ddedfa2b81dfbbedb5e5daf669588",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_ac5e98e7",
         "filename": "service/easy-setup/enrollee/resourcehandler.c",
         "patchSetId": 3
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_acd33837",
+        "filename": "service/easy-setup/enrollee/resourcehandler.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 14167
+      },
+      "writtenOn": "2018-05-15T10:08:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_ac5e98e7",
+      "revId": "a68296c9089ddedfa2b81dfbbedb5e5daf669588",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_8c63d4b0",
         "filename": "service/easy-setup/enrollee/resourcehandler.c",
         "patchSetId": 3
@@ -47,6 +83,24 @@
       "writtenOn": "2018-05-15T08:26:11Z",
       "side": 1,
       "message": "oc_allocate_string allocates from heap or stack ?",
+      "revId": "a68296c9089ddedfa2b81dfbbedb5e5daf669588",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_4c170cee",
+        "filename": "service/easy-setup/enrollee/resourcehandler.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 14167
+      },
+      "writtenOn": "2018-05-15T10:08:30Z",
+      "side": 1,
+      "message": "Internally it uses malloc which will allocate memory in heap.",
+      "parentUuid": "da33351e_8c63d4b0",
       "revId": "a68296c9089ddedfa2b81dfbbedb5e5daf669588",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
