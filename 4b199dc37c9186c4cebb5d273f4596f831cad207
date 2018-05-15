@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_07379fe4",
+        "filename": "security/oc_acl.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 1040,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-05-15T21:56:56Z",
+      "side": 1,
+      "message": "I have a similar patch pending please review or rebase on:\n\nhttps://gerrit.iotivity.org/gerrit/#/c/25219/",
+      "revId": "4b199dc37c9186c4cebb5d273f4596f831cad207",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
