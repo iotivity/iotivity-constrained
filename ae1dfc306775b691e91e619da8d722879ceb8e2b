@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_6c03f0b8",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-15T09:27:58Z",
+      "side": 1,
+      "message": "Can we make this commonly used from rd_publish_with_device_id?",
+      "range": {
+        "startLine": 116,
+        "startChar": 0,
+        "endLine": 137,
+        "endChar": 6
+      },
+      "revId": "ae1dfc306775b691e91e619da8d722879ceb8e2b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
