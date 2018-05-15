@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_4caa6c71",
+        "filename": "tests/itc/ri/Makefile",
+        "patchSetId": 8
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-05-15T11:51:37Z",
+      "side": 1,
+      "message": "why tests are not run here ?",
+      "revId": "4df115f6adb38a361b260bd8c907772ceaf2a8dc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
