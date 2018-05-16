@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_071ddf0f",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 417,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-16T07:43:50Z",
+      "side": 1,
+      "message": "(void) change this also even thoug not your fix.\nThis will break the build in somme RTOSes.",
+      "range": {
+        "startLine": 417,
+        "startChar": 16,
+        "endLine": 417,
+        "endChar": 18
+      },
+      "revId": "96a4319e6bfdfa9b1e4242047c8e9ba420c15df8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c72bf72e",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 448,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-16T07:43:50Z",
+      "side": 1,
+      "message": "(void)",
+      "range": {
+        "startLine": 448,
+        "startChar": 18,
+        "endLine": 448,
+        "endChar": 20
+      },
+      "revId": "96a4319e6bfdfa9b1e4242047c8e9ba420c15df8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_2720e348",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 485,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-16T07:43:50Z",
+      "side": 1,
+      "message": "match name with initialize function for example deinitialize.",
+      "range": {
+        "startLine": 485,
+        "startChar": 16,
+        "endLine": 485,
+        "endChar": 24
+      },
+      "revId": "96a4319e6bfdfa9b1e4242047c8e9ba420c15df8",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
