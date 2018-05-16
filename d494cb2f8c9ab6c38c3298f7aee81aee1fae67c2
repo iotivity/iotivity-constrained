@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_e79f1b02",
+        "filename": "port/tizenrt/iotliteconfig/defconfig",
+        "patchSetId": 4
+      },
+      "lineNbr": 1219,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-05-16T12:15:48Z",
+      "side": 1,
+      "message": "can you generate that file using \nmake menuconfig\n?",
+      "revId": "d494cb2f8c9ab6c38c3298f7aee81aee1fae67c2",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
