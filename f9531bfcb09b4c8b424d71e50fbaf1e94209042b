@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_67aaeb1a",
+        "filename": "service/resource-directory/client/src/rd_client.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-16T12:47:38Z",
+      "side": 1,
+      "message": "This is different from previous line\noc_rep_object_array_start_item(links);\nBut these are same work, Author mentioned.",
+      "range": {
+        "startLine": 36,
+        "startChar": 2,
+        "endLine": 36,
+        "endChar": 38
+      },
+      "revId": "f9531bfcb09b4c8b424d71e50fbaf1e94209042b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
