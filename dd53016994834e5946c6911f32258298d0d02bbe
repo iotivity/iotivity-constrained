@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_a737d3af",
+        "filename": "apps/easysetup_linux.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 369,
+      "author": {
+        "id": 14167
+      },
+      "writtenOn": "2018-05-16T03:36:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_c7f817e8",
+      "range": {
+        "startLine": 369,
+        "startChar": 29,
+        "endLine": 369,
+        "endChar": 37
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_27dd8371",
         "filename": "apps/easysetup_linux.c",
         "patchSetId": 8
@@ -36,6 +60,30 @@
       "writtenOn": "2018-05-16T00:35:34Z",
       "side": 1,
       "message": "no need to use.",
+      "range": {
+        "startLine": 370,
+        "startChar": 33,
+        "endLine": 370,
+        "endChar": 41
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_873c4f95",
+        "filename": "apps/easysetup_linux.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 370,
+      "author": {
+        "id": 14167
+      },
+      "writtenOn": "2018-05-16T03:36:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_27dd8371",
       "range": {
         "startLine": 370,
         "startChar": 33,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_e741db0c",
+        "filename": "apps/sc_easysetup_linux.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 14167
+      },
+      "writtenOn": "2018-05-16T03:36:54Z",
+      "side": 1,
+      "message": "Changed it to oc_string_array_get_allocated_size.\nThis will return proper array size",
+      "parentUuid": "da33351e_07daff77",
+      "range": {
+        "startLine": 249,
+        "startChar": 36,
+        "endLine": 249,
+        "endChar": 47
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_67e78b41",
         "filename": "apps/sc_easysetup_linux.c",
         "patchSetId": 8
@@ -82,6 +154,30 @@
       "writtenOn": "2018-05-16T00:35:34Z",
       "side": 1,
       "message": "it can remove.",
+      "range": {
+        "startLine": 334,
+        "startChar": 89,
+        "endLine": 334,
+        "endChar": 90
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c7465723",
+        "filename": "apps/sc_easysetup_linux.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 334,
+      "author": {
+        "id": 14167
+      },
+      "writtenOn": "2018-05-16T03:36:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_67e78b41",
       "range": {
         "startLine": 334,
         "startChar": 89,
@@ -140,6 +236,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_274bc32c",
+        "filename": "service/easy-setup/enrollee/include/samsung/sc_easysetup.h",
+        "patchSetId": 8
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 14167
+      },
+      "writtenOn": "2018-05-16T03:36:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_a7d07354",
+      "range": {
+        "startLine": 93,
+        "startChar": 6,
+        "endLine": 93,
+        "endChar": 17
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_e7ca7ba0",
         "filename": "service/easy-setup/enrollee/resourcehandler.c",
         "patchSetId": 8
@@ -151,6 +271,30 @@
       "writtenOn": "2018-05-16T00:35:34Z",
       "side": 1,
       "message": "abnormal indent.",
+      "range": {
+        "startLine": 142,
+        "startChar": 2,
+        "endLine": 142,
+        "endChar": 4
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_07483f2c",
+        "filename": "service/easy-setup/enrollee/resourcehandler.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 14167
+      },
+      "writtenOn": "2018-05-16T03:36:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_e7ca7ba0",
       "range": {
         "startLine": 142,
         "startChar": 2,
@@ -180,6 +324,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_6755cbc5",
+        "filename": "service/easy-setup/enrollee/resourcehandler.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 737,
+      "author": {
+        "id": 14167
+      },
+      "writtenOn": "2018-05-16T03:36:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_c7cf77af",
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_87d56f45",
         "filename": "service/easy-setup/enrollee/resourcehandler.h",
         "patchSetId": 8
@@ -197,6 +359,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_c75db7eb",
+        "filename": "service/easy-setup/enrollee/resourcehandler.h",
+        "patchSetId": 8
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 14167
+      },
+      "writtenOn": "2018-05-16T03:36:54Z",
+      "side": 1,
+      "message": "Many other function and variable names need to be modified.\nWill do it all together.",
+      "parentUuid": "da33351e_87d56f45",
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_27c46391",
         "filename": "service/easy-setup/enrollee/samsung/sc_easysetup.c",
         "patchSetId": 8
@@ -208,6 +388,24 @@
       "writtenOn": "2018-05-16T00:35:34Z",
       "side": 1,
       "message": "Why \"if (value)\" is removed? this may hanpped crash.",
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_475247de",
+        "filename": "service/easy-setup/enrollee/samsung/sc_easysetup.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 14167
+      },
+      "writtenOn": "2018-05-16T03:36:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_27c46391",
       "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
