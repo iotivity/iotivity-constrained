@@ -1,0 +1,216 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_c7f817e8",
+        "filename": "apps/easysetup_linux.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 369,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-16T00:35:34Z",
+      "side": 1,
+      "message": "no need to use.",
+      "range": {
+        "startLine": 369,
+        "startChar": 29,
+        "endLine": 369,
+        "endChar": 37
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_27dd8371",
+        "filename": "apps/easysetup_linux.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 370,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-16T00:35:34Z",
+      "side": 1,
+      "message": "no need to use.",
+      "range": {
+        "startLine": 370,
+        "startChar": 33,
+        "endLine": 370,
+        "endChar": 41
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_07daff77",
+        "filename": "apps/sc_easysetup_linux.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-16T00:35:34Z",
+      "side": 1,
+      "message": "location.size will handle that.",
+      "range": {
+        "startLine": 249,
+        "startChar": 36,
+        "endLine": 249,
+        "endChar": 47
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_67e78b41",
+        "filename": "apps/sc_easysetup_linux.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 334,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-16T00:35:34Z",
+      "side": 1,
+      "message": "it can remove.",
+      "range": {
+        "startLine": 334,
+        "startChar": 89,
+        "endLine": 334,
+        "endChar": 90
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_47e4073b",
+        "filename": "apps/st_app/linux/st_easy_setup.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-16T00:35:34Z",
+      "side": 1,
+      "message": "If we change structure member variables to oc_string_t memcpy is working correctly?\nIf not, how about making copy api for every conf data?",
+      "range": {
+        "startLine": 222,
+        "startChar": 2,
+        "endLine": 222,
+        "endChar": 67
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a7d07354",
+        "filename": "service/easy-setup/enrollee/include/samsung/sc_easysetup.h",
+        "patchSetId": 8
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-16T00:35:34Z",
+      "side": 1,
+      "message": "I think that oc_string_array_t have size varialble to check array size. should we need numLocation variable also? (below also)",
+      "range": {
+        "startLine": 93,
+        "startChar": 6,
+        "endLine": 93,
+        "endChar": 17
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e7ca7ba0",
+        "filename": "service/easy-setup/enrollee/resourcehandler.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-16T00:35:34Z",
+      "side": 1,
+      "message": "abnormal indent.",
+      "range": {
+        "startLine": 142,
+        "startChar": 2,
+        "endLine": 142,
+        "endChar": 4
+      },
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c7cf77af",
+        "filename": "service/easy-setup/enrollee/resourcehandler.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 737,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-16T00:35:34Z",
+      "side": 1,
+      "message": "What this means?",
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_87d56f45",
+        "filename": "service/easy-setup/enrollee/resourcehandler.h",
+        "patchSetId": 8
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-16T00:35:34Z",
+      "side": 1,
+      "message": "I think resourcehandler.h / resourcehandler.c naming is weired.\nHow about change like es_resource_handler or some specific name?",
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_27c46391",
+        "filename": "service/easy-setup/enrollee/samsung/sc_easysetup.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1225
+      },
+      "writtenOn": "2018-05-16T00:35:34Z",
+      "side": 1,
+      "message": "Why \"if (value)\" is removed? this may hanpped crash.",
+      "revId": "dd53016994834e5946c6911f32258298d0d02bbe",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
