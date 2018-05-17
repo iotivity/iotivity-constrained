@@ -1,0 +1,257 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_a2d34137",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-17T05:48:12Z",
+      "side": 1,
+      "message": "move default mutex, cv into os port file.",
+      "range": {
+        "startLine": 73,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 20
+      },
+      "revId": "32c0f77cecb9b214799a14591c0df813e3fa084a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_4217d5ed",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 336,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-17T05:48:12Z",
+      "side": 1,
+      "message": "Move this function into port adaptor.",
+      "range": {
+        "startLine": 336,
+        "startChar": 0,
+        "endLine": 336,
+        "endChar": 17
+      },
+      "revId": "32c0f77cecb9b214799a14591c0df813e3fa084a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_62c81975",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 361,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-17T05:48:12Z",
+      "side": 1,
+      "message": "change into st_stack_lock()",
+      "range": {
+        "startLine": 361,
+        "startChar": 4,
+        "endLine": 361,
+        "endChar": 17
+      },
+      "revId": "32c0f77cecb9b214799a14591c0df813e3fa084a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c2b925eb",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 363,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-17T05:48:12Z",
+      "side": 1,
+      "message": "change into st_stack_wait()",
+      "range": {
+        "startLine": 363,
+        "startChar": 6,
+        "endLine": 363,
+        "endChar": 18
+      },
+      "revId": "32c0f77cecb9b214799a14591c0df813e3fa084a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_22ce1184",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 365,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-17T05:48:12Z",
+      "side": 1,
+      "message": "change into st_stack_timedwait(next_event)",
+      "range": {
+        "startLine": 365,
+        "startChar": 6,
+        "endLine": 365,
+        "endChar": 46
+      },
+      "revId": "32c0f77cecb9b214799a14591c0df813e3fa084a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_02cb0d73",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 367,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-17T05:48:12Z",
+      "side": 1,
+      "message": "st_stack_unlock()",
+      "range": {
+        "startLine": 367,
+        "startChar": 4,
+        "endLine": 367,
+        "endChar": 19
+      },
+      "revId": "32c0f77cecb9b214799a14591c0df813e3fa084a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e2dd4944",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 597,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-17T05:48:12Z",
+      "side": 1,
+      "message": "change st_lock_t \u003d st_stack_lock_init( )",
+      "range": {
+        "startLine": 597,
+        "startChar": 6,
+        "endLine": 597,
+        "endChar": 19
+      },
+      "revId": "32c0f77cecb9b214799a14591c0df813e3fa084a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a2a181ab",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 608,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-17T05:48:12Z",
+      "side": 1,
+      "message": "move it into st_stack_lock_init( )",
+      "range": {
+        "startLine": 608,
+        "startChar": 6,
+        "endLine": 608,
+        "endChar": 22
+      },
+      "revId": "32c0f77cecb9b214799a14591c0df813e3fa084a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_82a6fdbf",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 715,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-17T05:48:12Z",
+      "side": 1,
+      "message": "move it into st_stack_lock_destroy()",
+      "range": {
+        "startLine": 715,
+        "startChar": 2,
+        "endLine": 715,
+        "endChar": 21
+      },
+      "revId": "32c0f77cecb9b214799a14591c0df813e3fa084a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_42c5155a",
+        "filename": "apps/st_app/linux/st_main.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 717,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-17T05:48:12Z",
+      "side": 1,
+      "message": "change into st_stack_lock_destroy();",
+      "range": {
+        "startLine": 717,
+        "startChar": 2,
+        "endLine": 717,
+        "endChar": 25
+      },
+      "revId": "32c0f77cecb9b214799a14591c0df813e3fa084a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_621ad918",
+        "filename": "apps/st_app/linux/st_port.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-17T05:48:12Z",
+      "side": 1,
+      "message": "mutex is also linux specific language.\nHow about use st_lock_init?",
+      "range": {
+        "startLine": 39,
+        "startChar": 7,
+        "endLine": 39,
+        "endChar": 12
+      },
+      "revId": "32c0f77cecb9b214799a14591c0df813e3fa084a",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
