@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_1dc41091",
+        "filename": "api/oc_buffer.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-18T15:12:33Z",
+      "side": 1,
+      "message": "use OC_MAX_NUM_CONCURRENT_REQUESTS",
+      "range": {
+        "startLine": 39,
+        "startChar": 8,
+        "endLine": 39,
+        "endChar": 30
+      },
+      "revId": "0774ac4194e590df5f39f8c70331c39a3a49e834",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
