@@ -16,6 +16,98 @@
       "revId": "b9a3e3733653683ff90b7628c1bafe460d1945a9",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7d79dc92",
+        "filename": "security/oc_tls.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 1053,
+      "author": {
+        "id": 13971
+      },
+      "writtenOn": "2018-05-18T09:19:16Z",
+      "side": 1,
+      "message": "use only lowercase naming",
+      "range": {
+        "startLine": 1053,
+        "startChar": 33,
+        "endLine": 1053,
+        "endChar": 41
+      },
+      "revId": "b9a3e3733653683ff90b7628c1bafe460d1945a9",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_dd6e28c9",
+        "filename": "security/oc_tls.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 1072,
+      "author": {
+        "id": 13971
+      },
+      "writtenOn": "2018-05-18T09:19:16Z",
+      "side": 1,
+      "message": "use only lowercase naming",
+      "range": {
+        "startLine": 1072,
+        "startChar": 23,
+        "endLine": 1072,
+        "endChar": 33
+      },
+      "revId": "b9a3e3733653683ff90b7628c1bafe460d1945a9",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_bd7364b0",
+        "filename": "security/oc_tls.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 1074,
+      "author": {
+        "id": 13971
+      },
+      "writtenOn": "2018-05-18T09:19:16Z",
+      "side": 1,
+      "message": "use only lowercase naming",
+      "range": {
+        "startLine": 1074,
+        "startChar": 32,
+        "endLine": 1074,
+        "endChar": 39
+      },
+      "revId": "b9a3e3733653683ff90b7628c1bafe460d1945a9",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_9d74a09d",
+        "filename": "security/oc_tls.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 1075,
+      "author": {
+        "id": 13971
+      },
+      "writtenOn": "2018-05-18T09:19:16Z",
+      "side": 1,
+      "message": "use strstr() instead",
+      "range": {
+        "startLine": 1075,
+        "startChar": 42,
+        "endLine": 1075,
+        "endChar": 48
+      },
+      "revId": "b9a3e3733653683ff90b7628c1bafe460d1945a9",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
