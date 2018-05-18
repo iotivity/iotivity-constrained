@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_e23b89e9",
+        "filename": "apps/st_app/linux/st_cloud_access.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 540,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-18T04:10:33Z",
+      "side": 1,
+      "message": "use define to explain the meaning of \"1\"",
+      "range": {
+        "startLine": 540,
+        "startChar": 48,
+        "endLine": 540,
+        "endChar": 49
+      },
+      "revId": "63d41a307dfe9daed17992cebf89ebc0fb9c78d5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_c2400559",
+        "filename": "apps/st_app/linux/st_cloud_access.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 564,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-18T04:10:33Z",
+      "side": 1,
+      "message": "use define to explain the meaning of \"58\"",
+      "range": {
+        "startLine": 564,
+        "startChar": 64,
+        "endLine": 564,
+        "endChar": 66
+      },
+      "revId": "63d41a307dfe9daed17992cebf89ebc0fb9c78d5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
