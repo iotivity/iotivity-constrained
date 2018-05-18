@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_427eb5af",
+        "filename": "security/oc_tls.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 970,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2018-05-18T01:25:21Z",
+      "side": 1,
+      "message": "if this patch works then see if you can use already existing API \"oc_str_to_uuid\" from oc_uuid.h.",
+      "revId": "b9a3e3733653683ff90b7628c1bafe460d1945a9",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
