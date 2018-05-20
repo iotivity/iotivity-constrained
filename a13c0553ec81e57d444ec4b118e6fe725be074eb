@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_9dbae0df",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-05-20T01:14:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_ce5cb428",
+      "range": {
+        "startLine": 364,
+        "startChar": 0,
+        "endLine": 366,
+        "endChar": 16
+      },
+      "revId": "a13c0553ec81e57d444ec4b118e6fe725be074eb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_ee57f800",
         "filename": "api/oc_rep.c",
         "patchSetId": 5
@@ -36,6 +60,30 @@
       "writtenOn": "2018-05-09T20:56:14Z",
       "side": 1,
       "message": "OBJECT_ARRAY needs to be handled differently from OBJECT. So, it is incorrect to conflate the two.",
+      "range": {
+        "startLine": 368,
+        "startChar": 0,
+        "endLine": 369,
+        "endChar": 16
+      },
+      "revId": "a13c0553ec81e57d444ec4b118e6fe725be074eb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7dbf1cd1",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 369,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-05-20T01:14:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_ee57f800",
       "range": {
         "startLine": 368,
         "startChar": 0,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_ddb468f4",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 373,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-05-20T01:14:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_2e41e039",
+      "range": {
+        "startLine": 355,
+        "startChar": 0,
+        "endLine": 373,
+        "endChar": 1
+      },
+      "revId": "a13c0553ec81e57d444ec4b118e6fe725be074eb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_ae74d09c",
         "filename": "api/oc_rep.c",
         "patchSetId": 5
@@ -82,6 +154,30 @@
       "writtenOn": "2018-05-09T20:56:14Z",
       "side": 1,
       "message": "With this overall strategy described in comments, you may have to pass a void **value into this function so it can store and return a pointer to arrrays and also to the other scalar types.",
+      "range": {
+        "startLine": 375,
+        "startChar": 0,
+        "endLine": 377,
+        "endChar": 29
+      },
+      "revId": "a13c0553ec81e57d444ec4b118e6fe725be074eb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_bdb9a4eb",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 377,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-05-20T01:14:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_ae74d09c",
       "range": {
         "startLine": 375,
         "startChar": 0,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_1dced083",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 408,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-05-20T01:14:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_6e4be859",
+      "range": {
+        "startLine": 406,
+        "startChar": 0,
+        "endLine": 408,
+        "endChar": 29
+      },
+      "revId": "a13c0553ec81e57d444ec4b118e6fe725be074eb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_4e48a45b",
         "filename": "api/oc_rep.c",
         "patchSetId": 5
@@ -140,6 +260,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_9da140ac",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 453,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-05-20T01:14:48Z",
+      "side": 1,
+      "message": "Done with char **value",
+      "parentUuid": "da33351e_4e48a45b",
+      "range": {
+        "startLine": 449,
+        "startChar": 0,
+        "endLine": 453,
+        "endChar": 1
+      },
+      "revId": "a13c0553ec81e57d444ec4b118e6fe725be074eb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_0e3e9cb8",
         "filename": "api/oc_rep.c",
         "patchSetId": 5
@@ -151,6 +295,30 @@
       "writtenOn": "2018-05-09T20:56:14Z",
       "side": 1,
       "message": "For int, double, and bool arrays, you could do both these things:\n1) return a direct handle to the respective native type instead of an oc_array_t.\n2) add an int* parameter to return the array size to the caller. \n\nSo, for eg. with ints you would have:\n\nbool oc_rep_get_int_array(oc_rep_t *rep, const char *key, int *array, int* size)\n...\nlikewise for bool and double.\n\nFor String Arrays, you would set oc_string_array_t*.\nFor Object Arrays, of course, it would be oc_rep_t*.",
+      "range": {
+        "startLine": 455,
+        "startChar": 0,
+        "endLine": 459,
+        "endChar": 1
+      },
+      "revId": "a13c0553ec81e57d444ec4b118e6fe725be074eb",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_fdca0c6d",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 5
+      },
+      "lineNbr": 459,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-05-20T01:14:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_0e3e9cb8",
       "range": {
         "startLine": 455,
         "startChar": 0,
