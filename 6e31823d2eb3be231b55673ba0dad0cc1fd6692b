@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_fdd7acbd",
+        "filename": "security/oc_acl.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 940,
+      "author": {
+        "id": 287
+      },
+      "writtenOn": "2018-05-21T13:02:00Z",
+      "side": 1,
+      "message": "Please add break for case OC_REP_OBJECT:",
+      "revId": "6e31823d2eb3be231b55673ba0dad0cc1fd6692b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
