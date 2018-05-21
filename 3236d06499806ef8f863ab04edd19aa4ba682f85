@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_dd83c8ca",
+        "filename": "port/tizenrt/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 1290,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2018-05-21T12:45:59Z",
+      "side": 1,
+      "message": "it returns static buffer. I don\u0027t think it will ever return NULL. One more thing \"inet_ntoa\" handles only IPv4 addresses.",
+      "range": {
+        "startLine": 1290,
+        "startChar": 18,
+        "endLine": 1290,
+        "endChar": 27
+      },
+      "revId": "3236d06499806ef8f863ab04edd19aa4ba682f85",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
