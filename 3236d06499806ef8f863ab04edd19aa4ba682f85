@@ -22,6 +22,30 @@
       "revId": "3236d06499806ef8f863ab04edd19aa4ba682f85",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_fd504c60",
+        "filename": "port/tizenrt/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 1290,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-21T12:52:05Z",
+      "side": 1,
+      "message": "1. Just double safety. So no harm in future if API is changed.\n\n2. Actually I have taken this code from Linux Port: https://gerrit.iotivity.org/gerrit/#/c/25287/2. It could be the decision to use only IPv4 handling as cloud may be only IPv4 based currently but I am not so sure..",
+      "parentUuid": "da33351e_dd83c8ca",
+      "range": {
+        "startLine": 1290,
+        "startChar": 18,
+        "endLine": 1290,
+        "endChar": 27
+      },
+      "revId": "3236d06499806ef8f863ab04edd19aa4ba682f85",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
