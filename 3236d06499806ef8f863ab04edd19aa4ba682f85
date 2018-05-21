@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "da33351e_9dee608a",
+        "filename": "port/tizenrt/ipadapter.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 1286,
+      "author": {
+        "id": 245
+      },
+      "writtenOn": "2018-05-21T13:16:52Z",
+      "side": 1,
+      "message": "Is it sure this API will not return IPv6 address because inet_ntoa will not work if this return hostent of IPv6 address.",
+      "range": {
+        "startLine": 1286,
+        "startChar": 26,
+        "endLine": 1286,
+        "endChar": 39
+      },
+      "revId": "3236d06499806ef8f863ab04edd19aa4ba682f85",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_dd83c8ca",
         "filename": "port/tizenrt/ipadapter.c",
         "patchSetId": 2
