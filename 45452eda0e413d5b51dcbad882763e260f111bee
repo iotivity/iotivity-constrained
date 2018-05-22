@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_bd940338",
+        "filename": "api/oc_uuid.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-22T13:47:34Z",
+      "side": 0,
+      "message": "Let\u0027s keep it for non OIC case without deleting Kishen logic.",
+      "range": {
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 123,
+        "endChar": 22
+      },
+      "revId": "45452eda0e413d5b51dcbad882763e260f111bee",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_5da3379e",
+        "filename": "api/oc_main.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-22T13:47:34Z",
+      "side": 1,
+      "message": "do oc_core_regen_unique() need to be called in OIC macro case? Otherwise, uuid is not generated anywhere for out of box case, I suspect.\nEven though oc_core_regen_unique() or device uuid is generated in initialization case, uuid should not be changed by regen function for OTMed case.",
+      "range": {
+        "startLine": 178,
+        "startChar": 0,
+        "endLine": 184,
+        "endChar": 37
+      },
+      "revId": "4606fbe91840458aa134660ed9c5793a49796b7b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_fd9e8b55",
+        "filename": "api/oc_main.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-22T13:47:34Z",
+      "side": 1,
+      "message": "is it right place? No need to move before line 178:oc_sec_load_pstat(device);",
+      "range": {
+        "startLine": 184,
+        "startChar": 0,
+        "endLine": 184,
+        "endChar": 37
+      },
+      "revId": "4606fbe91840458aa134660ed9c5793a49796b7b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1d9a4f63",
+        "filename": "api/oc_uuid.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-22T13:47:34Z",
+      "side": 1,
+      "message": "Place these into port/linux/ipadaptor.c file with new function as get_mac_addr(\u0026mac) in port/oc_connectivity.h.",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 118,
+        "endChar": 22
+      },
+      "revId": "4606fbe91840458aa134660ed9c5793a49796b7b",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
