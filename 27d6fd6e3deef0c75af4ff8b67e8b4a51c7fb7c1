@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_5d13375c",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 389,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-05-22T05:07:04Z",
+      "side": 1,
+      "message": "Can get rid of this.",
+      "range": {
+        "startLine": 386,
+        "startChar": 0,
+        "endLine": 389,
+        "endChar": 14
+      },
+      "revId": "27d6fd6e3deef0c75af4ff8b67e8b4a51c7fb7c1",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1d0a4f21",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 405,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-05-22T05:07:04Z",
+      "side": 1,
+      "message": "I believe this needs to be:\n*size \u003d (int)oc_string_array_get_allocated_size(rep_value-\u003evalue.array);\nor \n*size  \u003d (int)rep_value-\u003evalue.array.size / STRING_ARRAY_ITEM_MAX_LEN\n\nFor string arrays, it actually allocates a huge block of memory and splits it up evenly.",
+      "range": {
+        "startLine": 405,
+        "startChar": 0,
+        "endLine": 405,
+        "endChar": 49
+      },
+      "revId": "27d6fd6e3deef0c75af4ff8b67e8b4a51c7fb7c1",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_fd0e8b33",
+        "filename": "api/oc_rep.c",
+        "patchSetId": 8
+      },
+      "lineNbr": 465,
+      "author": {
+        "id": 21
+      },
+      "writtenOn": "2018-05-22T05:07:04Z",
+      "side": 1,
+      "message": "This you probably don\u0027t need. We have OC_REP_ARRAY mostly to make it so OC_REP_INT_ARRAY \u003d OC_REP_INT | OC_REP_ARRAY. It doesn\u0027t serve any other purpose.",
+      "range": {
+        "startLine": 459,
+        "startChar": 0,
+        "endLine": 465,
+        "endChar": 1
+      },
+      "revId": "27d6fd6e3deef0c75af4ff8b67e8b4a51c7fb7c1",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
