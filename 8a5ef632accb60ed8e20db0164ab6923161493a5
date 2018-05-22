@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "da33351e_5d6df731",
+        "filename": "api/oc_uuid.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 13971
+      },
+      "writtenOn": "2018-05-22T15:51:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_9d493fd3",
+      "range": {
+        "startLine": 135,
+        "startChar": 16,
+        "endLine": 135,
+        "endChar": 20
+      },
+      "revId": "8a5ef632accb60ed8e20db0164ab6923161493a5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_3d3c732f",
         "filename": "port/oc_connectivity.h",
         "patchSetId": 4
@@ -36,6 +60,30 @@
       "writtenOn": "2018-05-22T15:01:21Z",
       "side": 1,
       "message": "bool is better. I cannot expect other than success and fail case.",
+      "range": {
+        "startLine": 109,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 3
+      },
+      "revId": "8a5ef632accb60ed8e20db0164ab6923161493a5",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_3d6ab31a",
+        "filename": "port/oc_connectivity.h",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 13971
+      },
+      "writtenOn": "2018-05-22T15:51:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_3d3c732f",
       "range": {
         "startLine": 109,
         "startChar": 0,
