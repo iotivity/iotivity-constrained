@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_7dc1db2d",
+        "filename": "port/tizenrt/How_To_Build.txt",
+        "patchSetId": 8
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-22T13:53:14Z",
+      "side": 1,
+      "message": "I tried adding in defconfig. It enabled the macro in header  but I got linking error while using DHCP functions (undefined reference for dhcps_start(), dhcps_stop () ..). Yet to find a proper solution for it.",
+      "parentUuid": "da33351e_bdbb63c3",
+      "revId": "af93081ac8ec3225352ba6fb95add4b2975e071f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_fdb5ebcd",
         "filename": "port/tizenrt/iotliteconfig/defconfig",
         "patchSetId": 8
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "da33351e_bde243d3",
+        "filename": "port/tizenrt/iotliteconfig/defconfig",
+        "patchSetId": 8
+      },
+      "lineNbr": 1236,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-22T13:53:14Z",
+      "side": 1,
+      "message": "yes. Work needs to be done on generating it with menuconfig. Will do it separately.",
+      "parentUuid": "da33351e_fdb5ebcd",
+      "revId": "af93081ac8ec3225352ba6fb95add4b2975e071f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da33351e_1db1afe1",
         "filename": "port/tizenrt/scripts/Makefile",
         "patchSetId": 8
@@ -47,6 +83,24 @@
       "writtenOn": "2018-05-22T13:41:29Z",
       "side": 1,
       "message": "trailing space here",
+      "revId": "af93081ac8ec3225352ba6fb95add4b2975e071f",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_1de88fb3",
+        "filename": "port/tizenrt/scripts/Makefile",
+        "patchSetId": 8
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-22T13:53:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da33351e_1db1afe1",
       "revId": "af93081ac8ec3225352ba6fb95add4b2975e071f",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
