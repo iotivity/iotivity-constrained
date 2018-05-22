@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_9db93f31",
+        "filename": "service/resource-directory/client/include/rd_client.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-22T08:14:00Z",
+      "side": 1,
+      "message": "resources in links",
+      "range": {
+        "startLine": 34,
+        "startChar": 17,
+        "endLine": 34,
+        "endChar": 28
+      },
+      "revId": "1a5b4b2ae1c8cc6084a6622c88532a5634ef25cc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_7db6fb3e",
+        "filename": "service/resource-directory/client/include/rd_client.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-22T08:14:00Z",
+      "side": 1,
+      "message": "resources in links to Resource Directory with device id in case the device has multiple device ids.",
+      "range": {
+        "startLine": 48,
+        "startChar": 17,
+        "endLine": 48,
+        "endChar": 51
+      },
+      "revId": "1a5b4b2ae1c8cc6084a6622c88532a5634ef25cc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_3dac73ed",
+        "filename": "service/resource-directory/client/include/rd_client.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-22T08:14:00Z",
+      "side": 1,
+      "message": "resources",
+      "range": {
+        "startLine": 64,
+        "startChar": 21,
+        "endLine": 64,
+        "endChar": 29
+      },
+      "revId": "1a5b4b2ae1c8cc6084a6622c88532a5634ef25cc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_9d62dfd6",
+        "filename": "service/resource-directory/client/include/rd_client.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-22T08:14:00Z",
+      "side": 1,
+      "message": "rename to rd_publish_all_resources for more clear communication",
+      "range": {
+        "startLine": 72,
+        "startChar": 5,
+        "endLine": 72,
+        "endChar": 24
+      },
+      "revId": "1a5b4b2ae1c8cc6084a6622c88532a5634ef25cc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_5dafb7e3",
+        "filename": "service/resource-directory/client/include/rd_client.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-22T08:14:00Z",
+      "side": 1,
+      "message": "Register device profile into Account Server",
+      "range": {
+        "startLine": 77,
+        "startChar": 9,
+        "endLine": 77,
+        "endChar": 54
+      },
+      "revId": "1a5b4b2ae1c8cc6084a6622c88532a5634ef25cc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_fdaa0bd3",
+        "filename": "service/resource-directory/client/include/rd_client.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-22T08:14:00Z",
+      "side": 1,
+      "message": "rename account_set_dev_profile",
+      "range": {
+        "startLine": 84,
+        "startChar": 5,
+        "endLine": 84,
+        "endChar": 27
+      },
+      "revId": "1a5b4b2ae1c8cc6084a6622c88532a5634ef25cc",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
