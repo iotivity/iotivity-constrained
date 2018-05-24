@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_e34d4a74",
+        "filename": "port/tizenrt/How_To_Build.txt",
+        "patchSetId": 10
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-05-24T08:55:25Z",
+      "side": 1,
+      "message": "Please confirm this version is working",
+      "revId": "fd1887d257f686fe282225d70282507c9626bc40",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
