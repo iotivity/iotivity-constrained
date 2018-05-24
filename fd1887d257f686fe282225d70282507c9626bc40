@@ -16,6 +16,24 @@
       "revId": "fd1887d257f686fe282225d70282507c9626bc40",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e3370aaf",
+        "filename": "port/tizenrt/How_To_Build.txt",
+        "patchSetId": 10
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-24T11:45:33Z",
+      "side": 1,
+      "message": "yes.. I am working on same version. \n\nNot sure if its entirely stable .. but as we heard new release is going to happen soon .. until release we can use this.",
+      "parentUuid": "da33351e_e34d4a74",
+      "revId": "fd1887d257f686fe282225d70282507c9626bc40",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
