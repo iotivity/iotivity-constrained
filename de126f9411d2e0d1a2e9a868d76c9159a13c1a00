@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_267d806f",
+        "filename": "apps/st_app/st_main.c",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-26T03:37:49Z",
+      "side": 1,
+      "message": "place it st_easy_setup.h as separate patch",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 27
+      },
+      "revId": "de126f9411d2e0d1a2e9a868d76c9159a13c1a00",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
