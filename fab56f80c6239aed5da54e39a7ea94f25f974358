@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_065e7ce6",
+        "filename": "apps/st_app/linux/st_port.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-27T02:44:34Z",
+      "side": 1,
+      "message": "get the mutex/cv/thread variable from common code looks strange. please do not get them from param but define them here.",
+      "range": {
+        "startLine": 323,
+        "startChar": 0,
+        "endLine": 330,
+        "endChar": 31
+      },
+      "revId": "fab56f80c6239aed5da54e39a7ea94f25f974358",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_e65ef8e8",
+        "filename": "apps/st_app/st_manager.c",
+        "patchSetId": 3
+      },
+      "lineNbr": 389,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2018-05-27T02:44:34Z",
+      "side": 1,
+      "message": "st_main_init and st_manager_init are confused. please change the st_main_init name into appropriate one rather than main.",
+      "range": {
+        "startLine": 389,
+        "startChar": 7,
+        "endLine": 389,
+        "endChar": 25
+      },
+      "revId": "fab56f80c6239aed5da54e39a7ea94f25f974358",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
