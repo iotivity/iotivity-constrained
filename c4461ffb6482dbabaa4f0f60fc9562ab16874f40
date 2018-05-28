@@ -16,6 +16,24 @@
       "revId": "c4461ffb6482dbabaa4f0f60fc9562ab16874f40",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da33351e_a677d001",
+        "filename": "service/easy-setup/How_To_Build_And_Run.txt",
+        "patchSetId": 24
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2018-05-28T10:55:54Z",
+      "side": 1,
+      "message": "Public open source code (1.2-rel) should work too .. but I am yet to try it. Anyway, I updated the guide to removed company specific URL.",
+      "parentUuid": "da33351e_46a08490",
+      "revId": "c4461ffb6482dbabaa4f0f60fc9562ab16874f40",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
