@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da33351e_46a08490",
+        "filename": "service/easy-setup/How_To_Build_And_Run.txt",
+        "patchSetId": 24
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 429
+      },
+      "writtenOn": "2018-05-28T08:04:57Z",
+      "side": 1,
+      "message": "is this supposed to be public ?",
+      "revId": "c4461ffb6482dbabaa4f0f60fc9562ab16874f40",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    }
+  ]
+}
