@@ -413,6 +413,259 @@
       "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_3dcc8235",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 852,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T09:14:50Z",
+      "side": 1,
+      "message": "please modify accordingly",
+      "range": {
+        "startLine": 852,
+        "startChar": 40,
+        "endLine": 852,
+        "endChar": 42
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_9dd156d0",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 875,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T09:14:50Z",
+      "side": 1,
+      "message": "modify type--\u003ewhich is",
+      "range": {
+        "startLine": 875,
+        "startChar": 33,
+        "endLine": 875,
+        "endChar": 37
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_7dd60ac7",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 917,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T09:14:50Z",
+      "side": 1,
+      "message": "type...registered in the network...\n\n\nother cases need not be considered ?",
+      "range": {
+        "startLine": 916,
+        "startChar": 0,
+        "endLine": 917,
+        "endChar": 38
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_dddabee8",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 941,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T09:14:50Z",
+      "side": 1,
+      "message": "remove extra space",
+      "range": {
+        "startLine": 941,
+        "startChar": 47,
+        "endLine": 941,
+        "endChar": 49
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_bdd7f2be",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 967,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T09:14:50Z",
+      "side": 1,
+      "message": "DevMul  and ------\u003e   , if not needed remove",
+      "range": {
+        "startLine": 967,
+        "startChar": 55,
+        "endLine": 967,
+        "endChar": 68
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_1de546a8",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 1015,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T09:14:50Z",
+      "side": 1,
+      "message": "modify",
+      "range": {
+        "startLine": 1015,
+        "startChar": 55,
+        "endLine": 1015,
+        "endChar": 68
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_fde17a9b",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 1048,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T09:14:50Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 1048,
+        "startChar": 18,
+        "endLine": 1048,
+        "endChar": 21
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_3df3e274",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 1054,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T09:14:50Z",
+      "side": 1,
+      "message": "try to avoid writing same code....if possible add this check in discovery ...so we can avoid this routine...",
+      "range": {
+        "startLine": 1054,
+        "startChar": 27,
+        "endLine": 1054,
+        "endChar": 40
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_5deeae8c",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 1068,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T09:14:50Z",
+      "side": 1,
+      "message": "remove above one",
+      "range": {
+        "startLine": 1068,
+        "startChar": 39,
+        "endLine": 1068,
+        "endChar": 41
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_9de8367e",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 1075,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T09:14:50Z",
+      "side": 1,
+      "message": "reframe if needed",
+      "range": {
+        "startLine": 1075,
+        "startChar": 37,
+        "endLine": 1075,
+        "endChar": 54
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_7ded6a8b",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 1111,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T09:14:50Z",
+      "side": 1,
+      "message": "I think we need to make this variable true after creating 100 resources...making true for every resource being created ...please check...\nis these resources discoverable with discovery ?",
+      "range": {
+        "startLine": 1111,
+        "startChar": 43,
+        "endLine": 1111,
+        "endChar": 44
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
     }
   ]
 }
