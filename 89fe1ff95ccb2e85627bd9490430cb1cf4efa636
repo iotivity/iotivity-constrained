@@ -646,6 +646,29 @@
     },
     {
       "key": {
+        "uuid": "1a494da4_bdfed236",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 1108,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T10:08:24Z",
+      "side": 1,
+      "message": "delete empty line",
+      "range": {
+        "startLine": 1108,
+        "startChar": 43,
+        "endLine": 1108,
+        "endChar": 44
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a494da4_7ded6a8b",
         "filename": "apps/CertificationApp.c",
         "patchSetId": 50
@@ -662,6 +685,75 @@
         "startChar": 43,
         "endLine": 1111,
         "endChar": 44
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_1dfc263e",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 1184,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T10:08:24Z",
+      "side": 1,
+      "message": "Free the endpoints...after deleting resources, with option 25...we could see the created resources...",
+      "range": {
+        "startLine": 1184,
+        "startChar": 30,
+        "endLine": 1184,
+        "endChar": 35
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_fdf85a4b",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 1831,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T10:08:24Z",
+      "side": 1,
+      "message": "Let the printf as it is, un-comment it",
+      "range": {
+        "startLine": 1831,
+        "startChar": 32,
+        "endLine": 1831,
+        "endChar": 44
+      },
+      "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
+      "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a494da4_5d950ee3",
+        "filename": "apps/CertificationApp.c",
+        "patchSetId": 50
+      },
+      "lineNbr": 1860,
+      "author": {
+        "id": 14257
+      },
+      "writtenOn": "2019-02-25T10:08:24Z",
+      "side": 1,
+      "message": "remove above line",
+      "range": {
+        "startLine": 1860,
+        "startChar": 63,
+        "endLine": 1860,
+        "endChar": 81
       },
       "revId": "89fe1ff95ccb2e85627bd9490430cb1cf4efa636",
       "serverId": "c6509b8a-a471-4ec1-8e5f-9aed2654acb5",
